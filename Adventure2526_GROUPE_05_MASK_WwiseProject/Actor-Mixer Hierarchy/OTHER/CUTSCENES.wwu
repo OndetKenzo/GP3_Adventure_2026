@@ -1,0 +1,950 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{0193838D-1C72-4808-803A-A1808EC138BE}" SchemaVersion="123">
+	<AudioObjects>
+		<WorkUnit Name="CUTSCENES" ID="{0193838D-1C72-4808-803A-A1808EC138BE}" PersistMode="Standalone">
+			<ChildrenList>
+				<ActorMixer Name="CS_Boss" ID="{ADECB0F3-48BB-46D5-A0E1-A0305615D8FC}" ShortID="69319215">
+					<PropertyList>
+						<Property Name="OutputBusVolume" Type="Real64">
+							<ValueList>
+								<Value>-3</Value>
+							</ValueList>
+						</Property>
+						<Property Name="UserAuxSendVolume0" Type="Real64">
+							<ValueList>
+								<Value>-8</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="VOICES" ID="{3272F873-95FD-4792-8882-80CB154BDB51}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+						</Reference>
+						<Reference Name="UserAuxSend0">
+							<ObjectRef Name="REV_Glue" ID="{F806F83C-84C8-4DE1-A076-EB7A8B35B29E}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="CLEAN_VOX_everyone-on-stage" ID="{EAC8651E-FBF2-4F18-B36E-F288F5F629CB}" ShortID="103782451">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="CLEAN_VOX_everyone-on-stage" ID="{76E1D87B-4774-4D21-A580-CB3FEA32FD5F}">
+									<Language>SFX</Language>
+									<AudioFile>CLEAN_VOX_everyone-on-stage.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="254354993"/>
+									</MediaIDList>
+								</AudioFileSource>
+								<AudioFileSource Name="CLEAN_VOX_everyone-on-stage_v2" ID="{DD8CCD99-A501-418B-B89A-A6DBAB640B9E}">
+									<Language>SFX</Language>
+									<AudioFile>CLEAN_VOX_everyone-on-stage_v2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="72512574"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="CLEAN_VOX_everyone-on-stage_v2" ID="{DD8CCD99-A501-418B-B89A-A6DBAB640B9E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="CLEAN_VOX_show-on-the-road" ID="{62137E87-BD6B-4194-9D99-C15DD082CFCF}" ShortID="686633968">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="CLEAN_VOX_show-on-the-road" ID="{251F39CD-1903-4692-9283-D9160CA484BA}">
+									<Language>SFX</Language>
+									<AudioFile>CLEAN_VOX_show-on-the-road.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="72362206"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="CLEAN_VOX_show-on-the-road" ID="{251F39CD-1903-4692-9283-D9160CA484BA}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="CLEAN_VOX_well-done" ID="{C085E361-B669-466B-A412-BB6E7ADCEB58}" ShortID="103266407">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="CLEAN_VOX_well-done" ID="{A1196A49-3DFE-48FF-AA94-5CEA19272785}">
+									<Language>SFX</Language>
+									<AudioFile>CLEAN_VOX_well-done.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1058964425"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="CLEAN_VOX_well-done" ID="{A1196A49-3DFE-48FF-AA94-5CEA19272785}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="CLEAN_VOX_you-shoudnt-be-here" ID="{50085A53-12E6-4E4D-8F19-117033027B2E}" ShortID="811773210">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="CLEAN_VOX_you-shoudnt-be-here" ID="{AA2363E5-F6BD-4808-A22C-80BA43EBC2A7}">
+									<Language>SFX</Language>
+									<AudioFile>CLEAN_VOX_you-shoudnt-be-here.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="674302868"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="CLEAN_VOX_you-shoudnt-be-here" ID="{AA2363E5-F6BD-4808-A22C-80BA43EBC2A7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="CLEAN_VOX_seems-like-everyone" ID="{4F847106-A0A0-4F17-B5A0-1DD7CE4C4821}" ShortID="452230219">
+							<PropertyList>
+								<Property Name="OutputBusVolume" Type="Real64">
+									<ValueList>
+										<Value>-2</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UserAuxSendVolume0" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="VOICES" ID="{3272F873-95FD-4792-8882-80CB154BDB51}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="REV_Glue" ID="{F806F83C-84C8-4DE1-A076-EB7A8B35B29E}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="CLEAN_VOX_seems-like-everyone" ID="{856550A9-BB67-452D-95CD-0126238557CD}">
+									<Language>SFX</Language>
+									<AudioFile>CLEAN_VOX_seems-like-everyone.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="566020353"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="CLEAN_VOX_seems-like-everyone" ID="{856550A9-BB67-452D-95CD-0126238557CD}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="CLEAN_VOX_third-act" ID="{839EFB7B-7511-4A34-9E37-5EA9A9109229}" ShortID="616992974">
+							<PropertyList>
+								<Property Name="OutputBusVolume" Type="Real64">
+									<ValueList>
+										<Value>-2</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UserAuxSendVolume0" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="VOICES" ID="{3272F873-95FD-4792-8882-80CB154BDB51}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="REV_Glue" ID="{F806F83C-84C8-4DE1-A076-EB7A8B35B29E}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="CLEAN_VOX_third-act" ID="{5773F676-7106-404A-9E6B-58D7420EC716}">
+									<Language>SFX</Language>
+									<AudioFile>CLEAN_VOX_third-act.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="585281684"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="CLEAN_VOX_third-act" ID="{5773F676-7106-404A-9E6B-58D7420EC716}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="CLEAN_VOX_you-will-serve" ID="{63268144-3F42-4B1D-B065-E8CA530F6E7F}" ShortID="483193071">
+							<PropertyList>
+								<Property Name="OutputBusVolume" Type="Real64">
+									<ValueList>
+										<Value>-2</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UserAuxSendVolume0" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="VOICES" ID="{3272F873-95FD-4792-8882-80CB154BDB51}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="REV_Glue" ID="{F806F83C-84C8-4DE1-A076-EB7A8B35B29E}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="CLEAN_VOX_you-will-serve" ID="{232F60C6-6EF6-4A8F-AE5B-3186F4BC2BCE}">
+									<Language>SFX</Language>
+									<AudioFile>CLEAN_VOX_you-will-serve.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="159214945"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="CLEAN_VOX_you-will-serve" ID="{232F60C6-6EF6-4A8F-AE5B-3186F4BC2BCE}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="CLEAN_VOX_my-delightful-puppet" ID="{DA929DE4-37D3-4A27-9357-5D4C1F057D06}" ShortID="933215881">
+							<PropertyList>
+								<Property Name="OutputBusVolume" Type="Real64">
+									<ValueList>
+										<Value>-2</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UserAuxSendVolume0" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="VOICES" ID="{3272F873-95FD-4792-8882-80CB154BDB51}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="REV_Glue" ID="{F806F83C-84C8-4DE1-A076-EB7A8B35B29E}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="CLEAN_VOX_my-delightful-puppet" ID="{28CAC39E-FA15-4C68-9AD6-B30EFEF112CB}">
+									<Language>SFX</Language>
+									<AudioFile>CLEAN_VOX_my-delightful-puppet.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="436706543"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="CLEAN_VOX_my-delightful-puppet" ID="{28CAC39E-FA15-4C68-9AD6-B30EFEF112CB}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="CLEAN_VOX_as-for-you" ID="{2A54704C-D193-4A95-83A1-A251B437C788}" ShortID="33582279">
+							<PropertyList>
+								<Property Name="OutputBusVolume" Type="Real64">
+									<ValueList>
+										<Value>-2</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UserAuxSendVolume0" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="VOICES" ID="{3272F873-95FD-4792-8882-80CB154BDB51}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="REV_Glue" ID="{F806F83C-84C8-4DE1-A076-EB7A8B35B29E}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="CLEAN_VOX_as-for-you" ID="{200658E1-31FB-49FF-B110-14FD50ABC9B8}">
+									<Language>SFX</Language>
+									<AudioFile>CLEAN_VOX_as-for-you.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="207468907"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="CLEAN_VOX_as-for-you" ID="{200658E1-31FB-49FF-B110-14FD50ABC9B8}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="Effects">
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{32E26327-D6E7-4EBD-88C3-6903598A9EBE}" ShortID="1022048885">
+										<ReferenceList>
+											<Reference Name="Effect" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
+												<ObjectRef Name="Dialog_Leveler_Soft" ID="{9C1D0FCF-896E-4739-A8E8-B1E908F51CE6}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{1540922B-D669-473A-8FCB-2743B510933F}" ShortID="856014056">
+										<ReferenceList>
+											<Reference Name="Effect" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+												<ObjectRef Name="High_Pass_60Hz" ID="{F9627628-0B10-4272-BC30-D4C20423CB38}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+				</ActorMixer>
+				<ActorMixer Name="BARK_Boss" ID="{95E2C2F8-C0B3-4D81-8C9A-A71FC9E2CEBD}" ShortID="663506185">
+					<PropertyList>
+						<Property Name="OutputBusVolume" Type="Real64">
+							<ValueList>
+								<Value>-2</Value>
+							</ValueList>
+						</Property>
+						<Property Name="UserAuxSendVolume0" Type="Real64">
+							<ValueList>
+								<Value>-6</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="VOICES" ID="{3272F873-95FD-4792-8882-80CB154BDB51}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+						</Reference>
+						<Reference Name="UserAuxSend0">
+							<ObjectRef Name="REV_Glue" ID="{F806F83C-84C8-4DE1-A076-EB7A8B35B29E}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="NarrativePickUp" ID="{CB500765-A46F-48C5-95D9-64A90DBF196D}" ShortID="1018140110">
+							<PropertyList>
+								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="CLEAN_VOX_mask" ID="{1C07770C-0673-43E0-9B66-3CCAEC647979}" ShortID="591766394">
+									<PropertyList>
+										<Property Name="OutputBusVolume" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
+										</Property>
+										<Property Name="UserAuxSendVolume0" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="VOICES" ID="{3272F873-95FD-4792-8882-80CB154BDB51}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+										<Reference Name="UserAuxSend0">
+											<ObjectRef Name="REV_Glue" ID="{F806F83C-84C8-4DE1-A076-EB7A8B35B29E}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="CLEAN_VOX_mask" ID="{F598717C-FB36-4598-B797-96A7236D7DC9}">
+											<Language>SFX</Language>
+											<AudioFile>CLEAN_VOX_mask.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="342192453"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="CLEAN_VOX_mask" ID="{F598717C-FB36-4598-B797-96A7236D7DC9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="CLEAN_VOX_thanks-to-alchemist" ID="{D6E7F26B-AFF3-4CA0-AFAC-3583A178D1EB}" ShortID="660590829">
+									<PropertyList>
+										<Property Name="OutputBusVolume" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
+										</Property>
+										<Property Name="UserAuxSendVolume0" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="VOICES" ID="{3272F873-95FD-4792-8882-80CB154BDB51}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+										<Reference Name="UserAuxSend0">
+											<ObjectRef Name="REV_Glue" ID="{F806F83C-84C8-4DE1-A076-EB7A8B35B29E}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="CLEAN_VOX_thanks-to-alchemist" ID="{FADF1D57-E6D8-480B-9224-C144DDF4B1B4}">
+											<Language>SFX</Language>
+											<AudioFile>CLEAN_VOX_thanks-to-alchemist.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="335376411"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="CLEAN_VOX_thanks-to-alchemist" ID="{FADF1D57-E6D8-480B-9224-C144DDF4B1B4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="CLEAN_VOX_mirror" ID="{63ED7C57-C657-4BBD-8DF4-0D6060940DBA}" ShortID="1581872">
+									<PropertyList>
+										<Property Name="OutputBusVolume" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
+										</Property>
+										<Property Name="UserAuxSendVolume0" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="VOICES" ID="{3272F873-95FD-4792-8882-80CB154BDB51}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+										<Reference Name="UserAuxSend0">
+											<ObjectRef Name="REV_Glue" ID="{F806F83C-84C8-4DE1-A076-EB7A8B35B29E}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="CLEAN_VOX_mirror" ID="{123DD60A-D709-419F-AD6F-474E2AE30C5A}">
+											<Language>SFX</Language>
+											<AudioFile>CLEAN_VOX_mirror.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="951273358"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="CLEAN_VOX_mirror" ID="{123DD60A-D709-419F-AD6F-474E2AE30C5A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="CLEAN_VOX_jewelry" ID="{1BE85CA4-9143-4427-9EEE-B1EAEBDA8132}" ShortID="912023021">
+									<PropertyList>
+										<Property Name="OutputBusVolume" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
+										</Property>
+										<Property Name="UserAuxSendVolume0" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="VOICES" ID="{3272F873-95FD-4792-8882-80CB154BDB51}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+										<Reference Name="UserAuxSend0">
+											<ObjectRef Name="REV_Glue" ID="{F806F83C-84C8-4DE1-A076-EB7A8B35B29E}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="CLEAN_VOX_jewelry" ID="{EE9C3D58-72F4-44F8-9AD2-5E5A61963B22}">
+											<Language>SFX</Language>
+											<AudioFile>CLEAN_VOX_jewelry.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="959097026"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="CLEAN_VOX_jewelry" ID="{EE9C3D58-72F4-44F8-9AD2-5E5A61963B22}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Playlist">
+									<Reference>
+										<ObjectRef Name="CLEAN_VOX_jewelry" ID="{1BE85CA4-9143-4427-9EEE-B1EAEBDA8132}" WorkUnitID="{0193838D-1C72-4808-803A-A1808EC138BE}"/>
+									</Reference>
+									<Reference>
+										<ObjectRef Name="CLEAN_VOX_mirror" ID="{63ED7C57-C657-4BBD-8DF4-0D6060940DBA}" WorkUnitID="{0193838D-1C72-4808-803A-A1808EC138BE}"/>
+									</Reference>
+									<Reference>
+										<ObjectRef Name="CLEAN_VOX_thanks-to-alchemist" ID="{D6E7F26B-AFF3-4CA0-AFAC-3583A178D1EB}" WorkUnitID="{0193838D-1C72-4808-803A-A1808EC138BE}"/>
+									</Reference>
+									<Reference>
+										<ObjectRef Name="CLEAN_VOX_mask" ID="{1C07770C-0673-43E0-9B66-3CCAEC647979}" WorkUnitID="{0193838D-1C72-4808-803A-A1808EC138BE}"/>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="ATK_BossVoiceLine" ID="{BC3170DF-6BB5-449E-9037-8986591ABE15}" ShortID="145443458">
+							<PropertyList>
+								<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
+								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="CLEAN_VOX-soon-this-city" ID="{9E17FDAB-98B6-4287-8EC8-6A301598336A}" ShortID="977270759">
+									<PropertyList>
+										<Property Name="OutputBusVolume" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
+										</Property>
+										<Property Name="UserAuxSendVolume0" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="VOICES" ID="{3272F873-95FD-4792-8882-80CB154BDB51}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+										<Reference Name="UserAuxSend0">
+											<ObjectRef Name="REV_Glue" ID="{F806F83C-84C8-4DE1-A076-EB7A8B35B29E}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="CLEAN_VOX-soon-this-city" ID="{B181F689-D355-4C84-8F3D-34F7BF17F90E}">
+											<Language>SFX</Language>
+											<AudioFile>CLEAN_VOX-soon-this-city.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="796103903"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="CLEAN_VOX-soon-this-city" ID="{B181F689-D355-4C84-8F3D-34F7BF17F90E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="CLEAN_VOX-you-have-no-place" ID="{289AD851-B455-439F-9064-E91B8F9C24D5}" ShortID="89303127">
+									<PropertyList>
+										<Property Name="OutputBusVolume" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
+										</Property>
+										<Property Name="UserAuxSendVolume0" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="VOICES" ID="{3272F873-95FD-4792-8882-80CB154BDB51}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+										<Reference Name="UserAuxSend0">
+											<ObjectRef Name="REV_Glue" ID="{F806F83C-84C8-4DE1-A076-EB7A8B35B29E}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="CLEAN_VOX-you-have-no-place" ID="{AE78C697-5985-4700-8584-8220754383D0}">
+											<Language>SFX</Language>
+											<AudioFile>CLEAN_VOX-you-have-no-place.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="972322030"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="CLEAN_VOX-you-have-no-place" ID="{AE78C697-5985-4700-8584-8220754383D0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="CLEAN_VOX_one-i-am-done" ID="{225A3CF1-FF11-4EBC-A998-A4A525638C72}" ShortID="138741573">
+									<PropertyList>
+										<Property Name="OutputBusVolume" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
+										</Property>
+										<Property Name="UserAuxSendVolume0" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="VOICES" ID="{3272F873-95FD-4792-8882-80CB154BDB51}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+										<Reference Name="UserAuxSend0">
+											<ObjectRef Name="REV_Glue" ID="{F806F83C-84C8-4DE1-A076-EB7A8B35B29E}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="CLEAN_VOX_one-i-am-done" ID="{91529D05-7D4E-4E6F-A30A-4D8AB400CED2}">
+											<Language>SFX</Language>
+											<AudioFile>CLEAN_VOX_one-i-am-done.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="624997835"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="CLEAN_VOX_one-i-am-done" ID="{91529D05-7D4E-4E6F-A30A-4D8AB400CED2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="CLEAN_VOX_this-is-just" ID="{CDFBC530-4BD8-4868-A207-7B2BB0DC27A8}" ShortID="555415124">
+									<PropertyList>
+										<Property Name="OutputBusVolume" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
+										</Property>
+										<Property Name="UserAuxSendVolume0" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="VOICES" ID="{3272F873-95FD-4792-8882-80CB154BDB51}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+										<Reference Name="UserAuxSend0">
+											<ObjectRef Name="REV_Glue" ID="{F806F83C-84C8-4DE1-A076-EB7A8B35B29E}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="CLEAN_VOX_this-is-just" ID="{8DEC849B-B80F-4A80-BB92-3B9A9E31C363}">
+											<Language>SFX</Language>
+											<AudioFile>CLEAN_VOX_this-is-just.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="588649186"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="CLEAN_VOX_this-is-just" ID="{8DEC849B-B80F-4A80-BB92-3B9A9E31C363}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="CLEAN_VOX_you-are-pathetic" ID="{DA79DE67-AED3-496C-AC75-7753D9F87472}" ShortID="420376473">
+									<PropertyList>
+										<Property Name="OutputBusVolume" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
+										</Property>
+										<Property Name="UserAuxSendVolume0" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="VOICES" ID="{3272F873-95FD-4792-8882-80CB154BDB51}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+										<Reference Name="UserAuxSend0">
+											<ObjectRef Name="REV_Glue" ID="{F806F83C-84C8-4DE1-A076-EB7A8B35B29E}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="CLEAN_VOX_you-are-pathetic" ID="{8A03DBAE-9474-48E8-AFD8-49418A8F3E4E}">
+											<Language>SFX</Language>
+											<AudioFile>CLEAN_VOX_you-are-pathetic.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1018662454"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="CLEAN_VOX_you-are-pathetic" ID="{8A03DBAE-9474-48E8-AFD8-49418A8F3E4E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="CLEAN_VOX_you-cant-leave" ID="{06F1C0F6-EEB1-442B-818F-319B2B422CDB}" ShortID="540332873">
+									<PropertyList>
+										<Property Name="OutputBusVolume" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
+										</Property>
+										<Property Name="UserAuxSendVolume0" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="VOICES" ID="{3272F873-95FD-4792-8882-80CB154BDB51}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+										<Reference Name="UserAuxSend0">
+											<ObjectRef Name="REV_Glue" ID="{F806F83C-84C8-4DE1-A076-EB7A8B35B29E}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="CLEAN_VOX_you-cant-leave" ID="{BF6895B8-511B-47D0-8716-48205014C053}">
+											<Language>SFX</Language>
+											<AudioFile>CLEAN_VOX_you-cant-leave.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="437582993"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="CLEAN_VOX_you-cant-leave" ID="{BF6895B8-511B-47D0-8716-48205014C053}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="ATK_BossVoiceLineLastPhase" ID="{C91AD990-2BFC-4A79-B705-B3175973007B}" ShortID="1653937">
+							<PropertyList>
+								<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
+								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="CLEAN_VOX_its-too-late" ID="{0FB419C1-38D4-4338-B6E7-F4AC753F4D34}" ShortID="41724684">
+									<PropertyList>
+										<Property Name="OutputBusVolume" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
+										</Property>
+										<Property Name="UserAuxSendVolume0" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="VOICES" ID="{3272F873-95FD-4792-8882-80CB154BDB51}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+										<Reference Name="UserAuxSend0">
+											<ObjectRef Name="REV_Glue" ID="{F806F83C-84C8-4DE1-A076-EB7A8B35B29E}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="CLEAN_VOX_its-too-late" ID="{EC351190-0062-477F-8B24-E8E6CA5C949D}">
+											<Language>SFX</Language>
+											<AudioFile>CLEAN_VOX_its-too-late.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="32251056"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="CLEAN_VOX_its-too-late" ID="{EC351190-0062-477F-8B24-E8E6CA5C949D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="CLEAN_VOX_look-around-you" ID="{04BE8A44-52D7-4B42-BFBF-DBEBEBF1436B}" ShortID="2864351">
+									<PropertyList>
+										<Property Name="OutputBusVolume" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
+										</Property>
+										<Property Name="UserAuxSendVolume0" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="VOICES" ID="{3272F873-95FD-4792-8882-80CB154BDB51}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+										<Reference Name="UserAuxSend0">
+											<ObjectRef Name="REV_Glue" ID="{F806F83C-84C8-4DE1-A076-EB7A8B35B29E}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="CLEAN_VOX_look-around-you" ID="{571597A8-16D3-4876-94C4-AF1ADC16E08D}">
+											<Language>SFX</Language>
+											<AudioFile>CLEAN_VOX_look-around-you.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="54030316"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="CLEAN_VOX_look-around-you" ID="{571597A8-16D3-4876-94C4-AF1ADC16E08D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="CLEAN_VOX_the-truth-is" ID="{0B2CC00A-4921-4C79-8C77-1E7B8A6BAF5A}" ShortID="95592936">
+									<PropertyList>
+										<Property Name="OutputBusVolume" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
+										</Property>
+										<Property Name="UserAuxSendVolume0" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="VOICES" ID="{3272F873-95FD-4792-8882-80CB154BDB51}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+										<Reference Name="UserAuxSend0">
+											<ObjectRef Name="REV_Glue" ID="{F806F83C-84C8-4DE1-A076-EB7A8B35B29E}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="CLEAN_VOX_the-truth-is" ID="{EEA3F145-4830-427E-897D-905CCC0C24D9}">
+											<Language>SFX</Language>
+											<AudioFile>CLEAN_VOX_the-truth-is.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="752315272"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="CLEAN_VOX_the-truth-is" ID="{EEA3F145-4830-427E-897D-905CCC0C24D9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="Effects">
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{1D25020F-B48A-46EE-9B3D-566E2CFA9DC6}" ShortID="590677984">
+										<ReferenceList>
+											<Reference Name="Effect" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
+												<ObjectRef Name="Dialog_Leveler_Soft" ID="{9C1D0FCF-896E-4739-A8E8-B1E908F51CE6}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

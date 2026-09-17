@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	505048372	Play_SFX_GUN_READY			\Default Work Unit\PLAYER\Play_SFX_GUN_READY	
+

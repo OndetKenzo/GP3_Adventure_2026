@@ -1,0 +1,50 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "2302045824",
+    "Type": "Event",
+    "GUID": "{F201A461-AA27-47FE-90DD-A75DF9066658}",
+    "Language": "SFX",
+    "Hash": "{F3DD9E9C-BC6F-40D9-7622-6904DCD2D83D}",
+    "ObjectPath": "Play_ATK_Ennemy_SpinLoop",
+    "ShortName": "Play_ATK_Ennemy_SpinLoop",
+    "Path": "Event/Play_ATK_Ennemy_SpinLoop.bnk",
+    "Media": [
+     {
+      "Id": "859663973",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "ATK_Ennemy_SpinLoop.wav",
+      "Path": "Media/859663973.wem",
+      "CachePath": "26/{26BA8927-F02F-7EFF-5DA5-2AC16AF465B3}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2302045824",
+      "Name": "Play_ATK_Ennemy_SpinLoop",
+      "ObjectPath": "\\Events\\Default Work Unit\\ENNEMIES\\Play_ATK_Ennemy_SpinLoop",
+      "GUID": "{F201A461-AA27-47FE-90DD-A75DF9066658}",
+      "Color": "10",
+      "MaxAttenuation": "3000",
+      "DurationType": "OneShot",
+      "DurationMin": "4.383871",
+      "DurationMax": "4.383871",
+      "MediaRefs": [
+       {
+        "Id": "859663973"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{65770E9E-1EC9-3FF2-3BBC-96BE9258878B}"
+ }
+}

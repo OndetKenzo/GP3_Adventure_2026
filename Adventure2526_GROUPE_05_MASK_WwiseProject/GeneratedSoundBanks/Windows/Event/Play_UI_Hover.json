@@ -1,0 +1,49 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "1339559671",
+    "Type": "Event",
+    "GUID": "{6FB1CAA7-63D2-4F02-B8F1-6D085A6B7980}",
+    "Language": "SFX",
+    "Hash": "{AADB16AA-3192-8DA4-3C18-25C5DB45DD12}",
+    "ObjectPath": "Play_UI_Hover",
+    "ShortName": "Play_UI_Hover",
+    "Path": "Event/Play_UI_Hover.bnk",
+    "Media": [
+     {
+      "Id": "594839154",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI_Hover.wav",
+      "Path": "Media/594839154.wem",
+      "CachePath": "94/{94FDC256-8D42-96EB-4833-0566A2272042}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1339559671",
+      "Name": "Play_UI_Hover",
+      "ObjectPath": "\\Events\\Default Work Unit\\UI\\Play_UI_Hover",
+      "GUID": "{6FB1CAA7-63D2-4F02-B8F1-6D085A6B7980}",
+      "Color": "17",
+      "DurationType": "OneShot",
+      "DurationMin": "0.1403576",
+      "DurationMax": "0.1403576",
+      "MediaRefs": [
+       {
+        "Id": "594839154"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{ED2C01C1-4040-FD93-E68F-89936E314C6A}"
+ }
+}

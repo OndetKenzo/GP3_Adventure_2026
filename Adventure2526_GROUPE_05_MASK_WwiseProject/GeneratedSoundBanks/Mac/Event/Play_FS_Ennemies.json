@@ -1,0 +1,86 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "900289942",
+    "Type": "Event",
+    "GUID": "{04843228-C307-475C-A30F-E94005FC5591}",
+    "Language": "SFX",
+    "Hash": "{6B7262F8-0D10-363F-9130-863D84802E0B}",
+    "ObjectPath": "Play_FS_Ennemies",
+    "ShortName": "Play_FS_Ennemies",
+    "Path": "Event/Play_FS_Ennemies.bnk",
+    "Media": [
+     {
+      "Id": "349748180",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "FS_Ennemies-004.wav",
+      "Path": "Media/349748180.wem",
+      "CachePath": "9B/{9BA62AB5-04CF-602B-77C0-131292863D29}.wem"
+     },
+     {
+      "Id": "437793531",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "FS_Ennemies-002.wav",
+      "Path": "Media/437793531.wem",
+      "CachePath": "EA/{EA3E2276-D93F-2C76-4E8C-C91B561C495B}.wem"
+     },
+     {
+      "Id": "643404266",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "FS_Ennemies-001.wav",
+      "Path": "Media/643404266.wem",
+      "CachePath": "04/{046B341A-2BCA-7C43-1626-094876667A4C}.wem"
+     },
+     {
+      "Id": "904030756",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "FS_Ennemies-003.wav",
+      "Path": "Media/904030756.wem",
+      "CachePath": "72/{725767DC-97D8-92EE-0F31-6ED5D857D15E}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "900289942",
+      "Name": "Play_FS_Ennemies",
+      "ObjectPath": "\\Events\\Default Work Unit\\ENNEMIES\\Play_FS_Ennemies",
+      "GUID": "{04843228-C307-475C-A30F-E94005FC5591}",
+      "Color": "10",
+      "MaxAttenuation": "3000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.80960995",
+      "DurationMax": "0.85775185",
+      "MediaRefs": [
+       {
+        "Id": "349748180"
+       },
+       {
+        "Id": "437793531"
+       },
+       {
+        "Id": "643404266"
+       },
+       {
+        "Id": "904030756"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{BDAFCA1E-3D55-4D1F-8028-C5A8ED748A07}"
+ }
+}

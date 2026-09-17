@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2289993726	Play_ATK_Ennemy_Charge			\Default Work Unit\ENNEMIES\Play_ATK_Ennemy_Charge	
+

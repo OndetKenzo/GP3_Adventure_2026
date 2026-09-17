@@ -1,0 +1,47 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "3960927127",
+    "Type": "Event",
+    "GUID": "{CB518B2D-5D89-4314-8156-621E8C9AF3D3}",
+    "Language": "SFX",
+    "Hash": "{BA4F4E47-B239-00CD-715C-66147AF59848}",
+    "ObjectPath": "Play_Adventure_Mask_Boss_Music",
+    "ShortName": "Play_Adventure_Mask_Boss_Music",
+    "Path": "Event/Play_Adventure_Mask_Boss_Music.bnk",
+    "Media": [
+     {
+      "Id": "324399452",
+      "Language": "SFX",
+      "Streaming": "true",
+      "Location": "Loose",
+      "ShortName": "Adventure_Mask_Boss_Music.wav",
+      "Path": "Media/324399452.wem",
+      "CachePath": "EC/{EC8649BB-FFA5-B89F-CECC-3E24719D2773}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3960927127",
+      "Name": "Play_Adventure_Mask_Boss_Music",
+      "ObjectPath": "\\Events\\Default Work Unit\\MUSIC\\Play_Adventure_Mask_Boss_Music",
+      "GUID": "{CB518B2D-5D89-4314-8156-621E8C9AF3D3}",
+      "Color": "2",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "324399452"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{0B46762F-0CF3-D87B-8B76-63784726B52D}"
+ }
+}

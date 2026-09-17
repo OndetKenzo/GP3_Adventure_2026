@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2302045824	Play_ATK_Ennemy_SpinLoop			\Default Work Unit\ENNEMIES\Play_ATK_Ennemy_SpinLoop	
+

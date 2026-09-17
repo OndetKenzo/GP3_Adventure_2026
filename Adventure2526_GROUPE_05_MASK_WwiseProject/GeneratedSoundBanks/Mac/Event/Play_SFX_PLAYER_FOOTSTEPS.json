@@ -1,0 +1,98 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "2002635633",
+    "Type": "Event",
+    "GUID": "{AA15B861-F669-44F6-961A-C7E5CC154015}",
+    "Language": "SFX",
+    "Hash": "{006B3993-0251-ABE4-FED3-5C97AE44E338}",
+    "ObjectPath": "Play_SFX_PLAYER_FOOTSTEPS",
+    "ShortName": "Play_SFX_PLAYER_FOOTSTEPS",
+    "Path": "Event/Play_SFX_PLAYER_FOOTSTEPS.bnk",
+    "Media": [
+     {
+      "Id": "302686955",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_PlayerStep_02.wav",
+      "Path": "Media/302686955.wem",
+      "CachePath": "32/{3270F4D1-01C6-4E5C-12E2-BCF6493E73C5}.wem"
+     },
+     {
+      "Id": "510160902",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_PlayerStep_04.wav",
+      "Path": "Media/510160902.wem",
+      "CachePath": "A9/{A96A3F49-E623-EE19-269C-013F0A820FDC}.wem"
+     },
+     {
+      "Id": "728742168",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_PlayerStep_05.wav",
+      "Path": "Media/728742168.wem",
+      "CachePath": "EA/{EA96696C-C4A5-4C80-0134-FEF23B2189AC}.wem"
+     },
+     {
+      "Id": "738319503",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_PlayerStep_01.wav",
+      "Path": "Media/738319503.wem",
+      "CachePath": "20/{202C6092-A271-2360-8B7A-5BE8AE181469}.wem"
+     },
+     {
+      "Id": "825429382",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_PlayerStep_03.wav",
+      "Path": "Media/825429382.wem",
+      "CachePath": "77/{772F0F4C-CFE5-9465-DCD1-381384D17A83}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2002635633",
+      "Name": "Play_SFX_PLAYER_FOOTSTEPS",
+      "ObjectPath": "\\Events\\Default Work Unit\\PLAYER\\Play_SFX_PLAYER_FOOTSTEPS",
+      "GUID": "{AA15B861-F669-44F6-961A-C7E5CC154015}",
+      "Color": "6",
+      "MaxAttenuation": "3000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.40108332",
+      "DurationMax": "0.40108332",
+      "MediaRefs": [
+       {
+        "Id": "302686955"
+       },
+       {
+        "Id": "510160902"
+       },
+       {
+        "Id": "728742168"
+       },
+       {
+        "Id": "738319503"
+       },
+       {
+        "Id": "825429382"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{4ED13766-E0D9-6F17-D36B-13C09F31C566}"
+ }
+}

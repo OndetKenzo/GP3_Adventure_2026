@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3668192280	Play_NarrativePickUp			\Default Work Unit\VOICES\Play_NarrativePickUp	
+
+Effect plug-ins	ID	Name	Type				Notes
+	2652646462	Dialog_Leveler_Soft	Wwise Compressor			
+

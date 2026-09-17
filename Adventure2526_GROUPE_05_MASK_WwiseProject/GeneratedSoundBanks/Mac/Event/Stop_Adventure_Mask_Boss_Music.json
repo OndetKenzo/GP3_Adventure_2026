@@ -1,0 +1,34 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "4254461857",
+    "Type": "Event",
+    "GUID": "{73F7716C-1A08-421E-A20D-CABEEEA1C2E7}",
+    "Language": "SFX",
+    "Hash": "{8852A047-CBF5-C228-C8FE-8968101C1411}",
+    "ObjectPath": "Stop_Adventure_Mask_Boss_Music",
+    "ShortName": "Stop_Adventure_Mask_Boss_Music",
+    "Path": "Event/Stop_Adventure_Mask_Boss_Music.bnk",
+    "Events": [
+     {
+      "Id": "4254461857",
+      "Name": "Stop_Adventure_Mask_Boss_Music",
+      "ObjectPath": "\\Events\\Default Work Unit\\MUSIC\\Stop_Adventure_Mask_Boss_Music",
+      "GUID": "{73F7716C-1A08-421E-A20D-CABEEEA1C2E7}",
+      "Color": "2",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{781BC2F0-8A9F-76BD-5B51-43CDFAF859F9}"
+ }
+}

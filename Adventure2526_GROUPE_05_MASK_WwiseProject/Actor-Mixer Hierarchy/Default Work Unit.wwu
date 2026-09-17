@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{3B43BF27-C2A6-437F-BDF3-F2DBD00A2866}" SchemaVersion="123">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{3B43BF27-C2A6-437F-BDF3-F2DBD00A2866}" PersistMode="Standalone">
+			<ChildrenList>
+				<ActorMixer Name="test" ID="{482E3AE6-1544-437B-9364-647E79103F21}" ShortID="873060763">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX" ID="{60C7E836-BD0A-4DED-AA7D-D071494A0ACB}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Wilhelm" ID="{80F310E8-6630-4637-9417-8AE3631D56D2}" ShortID="155683077">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Wilhelm" ID="{DBFDAB30-547D-40D6-8BBF-A23AE94D59CB}">
+									<Language>SFX</Language>
+									<AudioFile>Wilhelm.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1007915775"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Wilhelm" ID="{DBFDAB30-547D-40D6-8BBF-A23AE94D59CB}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</ActorMixer>
+				<ActorMixer Name="testmusic" ID="{7C9CC2FE-DF97-4143-BAE6-702DF4822DF0}" ShortID="345891284">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="MUSIC" ID="{7525EA30-8A60-4CB1-9564-376EE2792A61}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="03_Behind_The_Mask" ID="{9455B73E-F606-4889-93CC-5021733C9FBF}" ShortID="181663279">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="IsStreamingEnabled" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="03_Behind_The_Mask" ID="{CF6529C8-4330-474E-9AF2-944AC4D98D76}">
+									<Language>SFX</Language>
+									<AudioFile>03_Behind_The_Mask.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="59318327"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="03_Behind_The_Mask" ID="{CF6529C8-4330-474E-9AF2-944AC4D98D76}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

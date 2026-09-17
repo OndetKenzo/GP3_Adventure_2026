@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "3545654540",
+    "Type": "Event",
+    "GUID": "{A18817FA-4AA4-4477-B5DD-D6BDD7ED6739}",
+    "Language": "SFX",
+    "Hash": "{CD158DAC-20A9-1D64-D86E-053F5743C038}",
+    "ObjectPath": "Play_MUSIC_circus_loop",
+    "ShortName": "Play_MUSIC_circus_loop",
+    "Path": "Event/Play_MUSIC_circus_loop.bnk",
+    "Media": [
+     {
+      "Id": "87058970",
+      "Language": "SFX",
+      "Streaming": "true",
+      "Location": "Loose",
+      "ShortName": "MUSIC_circus_loop.wav",
+      "Path": "Media/87058970.wem",
+      "CachePath": "4E/{4E320D3D-E763-6DC4-61C5-B34625F08EAF}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3545654540",
+      "Name": "Play_MUSIC_circus_loop",
+      "ObjectPath": "\\Events\\Default Work Unit\\MUSIC\\Play_MUSIC_circus_loop",
+      "GUID": "{A18817FA-4AA4-4477-B5DD-D6BDD7ED6739}",
+      "Color": "2",
+      "MaxAttenuation": "3000",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "87058970"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{73A5F626-B085-AEC8-7621-8508375A51A3}"
+ }
+}

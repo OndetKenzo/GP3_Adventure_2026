@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2870827800	Play_Fx_GeneralCrowd			\Default Work Unit\VOICES\Play_Fx_GeneralCrowd	
+
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	65634601	Fx_GeneralCrowd	C:\Users\ugore\Perforce\u.reynaud_Ugo_Reynaud_8054\Adventure2526_GROUPE_05_MASK\Adventure2526_GROUPE_05_MASK_WwiseProject\.cache\7F\{7F41A6F3-555E-3D49-7440-3045C62FF29C}.wem	65634601.wem	\Actor-Mixer Hierarchy\OTHER\CROWED\Fx_GeneralCrowd	
+

@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	4055695767	Play_03_Behind_The_Mask			\Default Work Unit\PLACEHOLDERS\Play_03_Behind_The_Mask	
+
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	59318327	03_Behind_The_Mask	C:\Users\ugore\Perforce\u.reynaud_Ugo_Reynaud_8054\Adventure2526_GROUPE_05_MASK\Adventure2526_GROUPE_05_MASK_WwiseProject\.cache\C3\{C383ED90-4AA0-B91D-C25A-F7D11DC08042}.wem	59318327.wem	\Actor-Mixer Hierarchy\Default Work Unit\testmusic\03_Behind_The_Mask	
+

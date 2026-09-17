@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "2870827800",
+    "Type": "Event",
+    "GUID": "{205FE482-19EF-41AF-AFB1-B84AB45A8112}",
+    "Language": "SFX",
+    "Hash": "{3852B284-1173-6FFD-51EC-1110B92F0BFE}",
+    "ObjectPath": "Play_Fx_GeneralCrowd",
+    "ShortName": "Play_Fx_GeneralCrowd",
+    "Path": "Event/Play_Fx_GeneralCrowd.bnk",
+    "Media": [
+     {
+      "Id": "65634601",
+      "Language": "SFX",
+      "Streaming": "true",
+      "Location": "Loose",
+      "ShortName": "Fx_GeneralCrowd.wav",
+      "Path": "Media/65634601.wem",
+      "CachePath": "7F/{7F41A6F3-555E-3D49-7440-3045C62FF29C}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2870827800",
+      "Name": "Play_Fx_GeneralCrowd",
+      "ObjectPath": "\\Events\\Default Work Unit\\VOICES\\Play_Fx_GeneralCrowd",
+      "GUID": "{205FE482-19EF-41AF-AFB1-B84AB45A8112}",
+      "Color": "11",
+      "MaxAttenuation": "3000",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "65634601"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{FF094948-02E8-DC18-9255-1CC8F2CBD224}"
+ }
+}

@@ -1,0 +1,124 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "1874693015",
+    "Type": "Event",
+    "GUID": "{0893D35A-2B9F-4D19-8CA2-B315A6F52897}",
+    "Language": "SFX",
+    "Hash": "{E496FC34-969F-BAF4-EA89-F4CCC9D1C3E2}",
+    "ObjectPath": "Play_Barks_Chocked",
+    "ShortName": "Play_Barks_Chocked",
+    "Path": "Event/Play_Barks_Chocked.bnk",
+    "Media": [
+     {
+      "Id": "33228550",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "BarksCrowd_ONOM_Chocked-004.wav",
+      "Path": "Media/33228550.wem",
+      "CachePath": "2B/{2B154DEC-2E9B-B322-CF6B-01668880F455}.wem"
+     },
+     {
+      "Id": "302522326",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "BarksCrowd_ONOM_Chocked-003.wav",
+      "Path": "Media/302522326.wem",
+      "CachePath": "12/{124BF364-ADCF-0B6B-F5BA-3E5883B549A1}.wem"
+     },
+     {
+      "Id": "609571778",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "BarksCrowd_ONOM_Chocked-002.wav",
+      "Path": "Media/609571778.wem",
+      "CachePath": "99/{99878D9B-101C-2867-0EB1-C6E6ABB3924E}.wem"
+     },
+     {
+      "Id": "691470793",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "BarksCrowd_ONOM_Chocked-005.wav",
+      "Path": "Media/691470793.wem",
+      "CachePath": "05/{05760085-64CC-148C-A619-6ABE21A50897}.wem"
+     },
+     {
+      "Id": "841233861",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "BarksCrowd_ONOM_Chocked-001.wav",
+      "Path": "Media/841233861.wem",
+      "CachePath": "AA/{AAD8ED7C-9065-9985-042A-CF7C67255047}.wem"
+     }
+    ],
+    "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "48620415",
+       "Name": "Have_U_Ever_Been_Outside",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Exteriors\\Have_U_Ever_Been_Outside",
+       "GUID": "{FE29AE8D-FD86-4652-A95D-68D32F5760EC}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      }
+     ]
+    },
+    "Events": [
+     {
+      "Id": "1874693015",
+      "Name": "Play_Barks_Chocked",
+      "ObjectPath": "\\Events\\Default Work Unit\\VOICES\\Play_Barks_Chocked",
+      "GUID": "{0893D35A-2B9F-4D19-8CA2-B315A6F52897}",
+      "Color": "11",
+      "DurationType": "OneShot",
+      "DurationMin": "1.8",
+      "DurationMax": "2.5501041",
+      "MediaRefs": [
+       {
+        "Id": "33228550"
+       },
+       {
+        "Id": "302522326"
+       },
+       {
+        "Id": "609571778"
+       },
+       {
+        "Id": "691470793"
+       },
+       {
+        "Id": "841233861"
+       }
+      ],
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "48620415"
+        }
+       ]
+      },
+      "AuxBusRefs": [
+       {
+        "Id": "3458558748",
+        "Name": "REV_Glue",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\REV_Glue",
+        "GUID": "{F806F83C-84C8-4DE1-A076-EB7A8B35B29E}"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{8D7912B1-6E2D-BCDD-6256-A8DBE2B663D4}"
+ }
+}

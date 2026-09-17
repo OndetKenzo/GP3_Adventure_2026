@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3545654540	Play_MUSIC_circus_loop			\Default Work Unit\MUSIC\Play_MUSIC_circus_loop	
+
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	87058970	MUSIC_circus_loop	C:\Users\ugore\Perforce\u.reynaud_Ugo_Reynaud_8054\Adventure2526_GROUPE_05_MASK\Adventure2526_GROUPE_05_MASK_WwiseProject\.cache\4E\{4E320D3D-E763-6DC4-61C5-B34625F08EAF}.wem	87058970.wem	\Actor-Mixer Hierarchy\MUSIC\NON-INTERACTIVE MUSIC\Sic\MUSIC_circus_loop	
+

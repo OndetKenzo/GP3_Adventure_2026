@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	4276137848	Play_PH_Amb1			\Default Work Unit\PLACEHOLDERS\Play_PH_Amb1	
+
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	685597891	PH_Amb1	C:\Users\ugore\Perforce\u.reynaud_Ugo_Reynaud_8054\Adventure2526_GROUPE_05_MASK\Adventure2526_GROUPE_05_MASK_WwiseProject\.cache\65\{65A3F853-86EA-C5B5-B817-C49115AC9E52}.wem	685597891.wem	\Actor-Mixer Hierarchy\PLACEHOLDERS\PLACEHOLDERS\PH_Amb1	
+

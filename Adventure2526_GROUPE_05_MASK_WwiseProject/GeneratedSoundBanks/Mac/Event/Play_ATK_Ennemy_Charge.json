@@ -1,0 +1,50 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "2289993726",
+    "Type": "Event",
+    "GUID": "{92DC4861-5261-4B87-B54D-EE5C64D85032}",
+    "Language": "SFX",
+    "Hash": "{104187D0-AEEE-6385-AAB7-5F4C2114E2D1}",
+    "ObjectPath": "Play_ATK_Ennemy_Charge",
+    "ShortName": "Play_ATK_Ennemy_Charge",
+    "Path": "Event/Play_ATK_Ennemy_Charge.bnk",
+    "Media": [
+     {
+      "Id": "955743850",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "ATK_Ennemy_Charge.wav",
+      "Path": "Media/955743850.wem",
+      "CachePath": "AC/{ACA6DFB7-7BD3-270D-B8D7-71D6AE3E66D8}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2289993726",
+      "Name": "Play_ATK_Ennemy_Charge",
+      "ObjectPath": "\\Events\\Default Work Unit\\ENNEMIES\\Play_ATK_Ennemy_Charge",
+      "GUID": "{92DC4861-5261-4B87-B54D-EE5C64D85032}",
+      "Color": "10",
+      "MaxAttenuation": "3000",
+      "DurationType": "OneShot",
+      "DurationMin": "3.9666667",
+      "DurationMax": "3.9666667",
+      "MediaRefs": [
+       {
+        "Id": "955743850"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{F7DBA433-0383-9941-1572-F5276DFDF40F}"
+ }
+}

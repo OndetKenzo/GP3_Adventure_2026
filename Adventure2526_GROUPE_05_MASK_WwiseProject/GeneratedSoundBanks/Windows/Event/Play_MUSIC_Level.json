@@ -1,0 +1,109 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "43731276",
+    "Type": "Event",
+    "GUID": "{065A71E9-C0B7-4C94-B51B-DE7177197B22}",
+    "Language": "SFX",
+    "Hash": "{F34C3C8C-C56D-91DF-4E6D-17F2AFAEBDDF}",
+    "ObjectPath": "Play_MUSIC_Level",
+    "ShortName": "Play_MUSIC_Level",
+    "Path": "Event/Play_MUSIC_Level.bnk",
+    "Media": [
+     {
+      "Id": "141938477",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "MaskAmbiance5(01_00_00 - 01_05_41).wav",
+      "Path": "Media/141938477.wem",
+      "CachePath": "04/{04FE2632-5329-1F6B-6953-6FF0771C8AD0}.wem"
+     },
+     {
+      "Id": "158057911",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "MaskAmbiance3(01_00_00 - 01_05_41).wav",
+      "Path": "Media/158057911.wem",
+      "CachePath": "A5/{A563415D-C550-BC86-192B-119855A78958}.wem"
+     },
+     {
+      "Id": "411097423",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "MaskAmbiance6(01_00_00 - 01_05_41).wav",
+      "Path": "Media/411097423.wem",
+      "CachePath": "06/{0655F37E-64F9-77B9-5C54-0C7E14E4AAF2}.wem"
+     },
+     {
+      "Id": "653484069",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "MaskAmbiance1(01_00_00 - 01_05_41).wav",
+      "Path": "Media/653484069.wem",
+      "CachePath": "E8/{E80B329D-A76C-3E9D-7DBA-BC526A66DBF3}.wem"
+     },
+     {
+      "Id": "929222347",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "MaskAmbiance2(01_00_00 - 01_05_41).wav",
+      "Path": "Media/929222347.wem",
+      "CachePath": "08/{087080C4-2AA5-483B-BDE5-63CABAA8F071}.wem"
+     },
+     {
+      "Id": "1032144360",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "MaskAmbiance4(01_00_00 - 01_05_41).wav",
+      "Path": "Media/1032144360.wem",
+      "CachePath": "06/{06C0FA15-442B-841A-7866-65FA1AE97437}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "43731276",
+      "Name": "Play_MUSIC_Level",
+      "ObjectPath": "\\Events\\Default Work Unit\\MUSIC\\Play_MUSIC_Level",
+      "GUID": "{065A71E9-C0B7-4C94-B51B-DE7177197B22}",
+      "Color": "2",
+      "DurationType": "OneShot",
+      "DurationMin": "148.73352",
+      "DurationMax": "148.73352",
+      "MediaRefs": [
+       {
+        "Id": "141938477"
+       },
+       {
+        "Id": "158057911"
+       },
+       {
+        "Id": "411097423"
+       },
+       {
+        "Id": "653484069"
+       },
+       {
+        "Id": "929222347"
+       },
+       {
+        "Id": "1032144360"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{319090A9-57BE-48F4-B9D3-C03827AC9F97}"
+ }
+}

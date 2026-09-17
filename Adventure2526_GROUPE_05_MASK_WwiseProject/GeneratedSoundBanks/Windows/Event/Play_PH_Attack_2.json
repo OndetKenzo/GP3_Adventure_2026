@@ -1,0 +1,49 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "1819680958",
+    "Type": "Event",
+    "GUID": "{0EB9AB09-3804-4458-9668-F941B64002CF}",
+    "Language": "SFX",
+    "Hash": "{1703F604-8E6E-89D8-2D50-02DDE8FD2C7A}",
+    "ObjectPath": "Play_PH_Attack_2",
+    "ShortName": "Play_PH_Attack_2",
+    "Path": "Event/Play_PH_Attack_2.bnk",
+    "Media": [
+     {
+      "Id": "1043407881",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "PH_Attack-003.wav",
+      "Path": "Media/1043407881.wem",
+      "CachePath": "9B/{9B5FFF95-6C5C-B3F5-7C44-CF61908EA189}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1819680958",
+      "Name": "Play_PH_Attack_2",
+      "ObjectPath": "\\Events\\Default Work Unit\\PLACEHOLDERS\\Play_PH_Attack_2",
+      "GUID": "{0EB9AB09-3804-4458-9668-F941B64002CF}",
+      "MaxAttenuation": "3000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.49570152",
+      "DurationMax": "0.49570152",
+      "MediaRefs": [
+       {
+        "Id": "1043407881"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{56E14BF3-BCF7-7CA9-28BE-484B9679A13A}"
+ }
+}

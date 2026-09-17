@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{7161DC2A-F957-4C53-ACB7-56CDECF88D41}" SchemaVersion="123">
+	<AudioObjects>
+		<WorkUnit Name="ENNEMIES" ID="{7161DC2A-F957-4C53-ACB7-56CDECF88D41}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="9"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<ActorMixer Name="Ennemies" ID="{F05EF18A-071D-467F-B6E6-984F1680E53A}" ShortID="784173779">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+						<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="95"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="AT_CHARA" ID="{E6F4D40D-624B-447C-B073-61986D964DC3}" WorkUnitID="{A34F677D-20B9-4317-B352-55BBA82FAA17}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="ENNEMIES" ID="{D1F75F12-1984-425D-954A-0A2623A01F90}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="SFX_ENEMY_SLASH" ID="{0EE766CA-70DC-41A2-AF1D-E7BBAB219DE6}" ShortID="348421529">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_ENEMY_SLASH" ID="{F386ED38-EF78-4026-A856-DFE3FAB13C3E}">
+									<Language>SFX</Language>
+									<AudioFile>SFX_ENEMY_SLASH.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="768902727"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_ENEMY_SLASH" ID="{F386ED38-EF78-4026-A856-DFE3FAB13C3E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX_ENEMY_KILLED" ID="{25E3D398-343D-4FAC-BD14-0F8EFE698D76}" ShortID="377199816">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_ENEMY_KILLED" ID="{9A2F03C1-FE64-4E36-BEB2-110029A0D1B8}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="1.18375"/>
+										<Property Name="LoopBegin" Type="Real64" Value="0"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>SFX_ENEMY_KILLED.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1009264521"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_ENEMY_KILLED" ID="{9A2F03C1-FE64-4E36-BEB2-110029A0D1B8}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<RandomSequenceContainer Name="SFX_ENEMYHIT" ID="{289F9E51-C339-43CA-A419-D9802C8CC0CB}" ShortID="208469301">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="GlobalOrPerObject" Type="int16" Value="0"/>
+								<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
+								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="AT_CHARA" ID="{E6F4D40D-624B-447C-B073-61986D964DC3}" WorkUnitID="{A34F677D-20B9-4317-B352-55BBA82FAA17}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="ENNEMIES" ID="{D1F75F12-1984-425D-954A-0A2623A01F90}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="SFX_ENEMY_HIT01" ID="{179BDE9F-74BD-4BE3-9586-D9988EB936E1}" ShortID="738372657">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_ENEMY_HIT01" ID="{3E69C48D-7841-4239-9398-BD7FE1208572}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.175142125240025"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.684500418300932"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>SFX_ENEMY_HIT01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="427181484"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_ENEMY_HIT01" ID="{3E69C48D-7841-4239-9398-BD7FE1208572}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_ENEMY_HIT02" ID="{F5B23FB6-EED5-4D8C-B834-399D1589D1A6}" ShortID="714941616">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_ENEMY_HIT02" ID="{67BBC77F-0CD7-4A9E-A588-D8242CA72DED}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.123724253609926"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.681286801324052"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>SFX_ENEMY_HIT02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="125894407"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_ENEMY_HIT02" ID="{67BBC77F-0CD7-4A9E-A588-D8242CA72DED}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="FS_Ennemies" ID="{8900DC37-CBDC-4A58-81EA-82576E3B20E3}" ShortID="258800711">
+							<PropertyList>
+								<Property Name="GlobalOrPerObject" Type="int16" Value="0"/>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{A209E4C2-654C-4A4D-BCD5-1E95967D9193}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="50"/>
+													<Property Name="Min" Type="Real64" Value="-50"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-16</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="FS_Ennemies-001" ID="{E210B591-2A73-42B0-AFA8-BA2A15F1BE5A}" ShortID="266620213">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="94"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="AT_CHARA" ID="{E6F4D40D-624B-447C-B073-61986D964DC3}" WorkUnitID="{A34F677D-20B9-4317-B352-55BBA82FAA17}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENNEMIES" ID="{D1F75F12-1984-425D-954A-0A2623A01F90}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FS_Ennemies-001" ID="{F1216D85-6E03-4562-91CC-88DBC388BF9A}">
+											<Language>SFX</Language>
+											<AudioFile>FS_Ennemies-001.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="643404266"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FS_Ennemies-001" ID="{F1216D85-6E03-4562-91CC-88DBC388BF9A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FS_Ennemies-002" ID="{9296BFC9-C21E-4669-A9F7-1577E8DC2D53}" ShortID="764006336">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="94"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="AT_CHARA" ID="{E6F4D40D-624B-447C-B073-61986D964DC3}" WorkUnitID="{A34F677D-20B9-4317-B352-55BBA82FAA17}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENNEMIES" ID="{D1F75F12-1984-425D-954A-0A2623A01F90}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FS_Ennemies-002" ID="{9E154CFA-D777-4D18-B883-BA613F31D4B6}">
+											<Language>SFX</Language>
+											<AudioFile>FS_Ennemies-002.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="437793531"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FS_Ennemies-002" ID="{9E154CFA-D777-4D18-B883-BA613F31D4B6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FS_Ennemies-003" ID="{318F5570-C516-46C1-B2B9-956D6112889E}" ShortID="341143128">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="94"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="AT_CHARA" ID="{E6F4D40D-624B-447C-B073-61986D964DC3}" WorkUnitID="{A34F677D-20B9-4317-B352-55BBA82FAA17}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENNEMIES" ID="{D1F75F12-1984-425D-954A-0A2623A01F90}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FS_Ennemies-003" ID="{5C43A29B-C3FE-48E1-9C58-C2D07F10F62C}">
+											<Language>SFX</Language>
+											<AudioFile>FS_Ennemies-003.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="904030756"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FS_Ennemies-003" ID="{5C43A29B-C3FE-48E1-9C58-C2D07F10F62C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FS_Ennemies-004" ID="{8FD57D28-EEC1-41BE-A076-EE131EC90047}" ShortID="498780783">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="94"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="AT_CHARA" ID="{E6F4D40D-624B-447C-B073-61986D964DC3}" WorkUnitID="{A34F677D-20B9-4317-B352-55BBA82FAA17}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENNEMIES" ID="{D1F75F12-1984-425D-954A-0A2623A01F90}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FS_Ennemies-004" ID="{B5FB895D-59EC-460A-BB5A-8B9B8C03E7D1}">
+											<Language>SFX</Language>
+											<AudioFile>FS_Ennemies-004.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="349748180"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FS_Ennemies-004" ID="{B5FB895D-59EC-460A-BB5A-8B9B8C03E7D1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<Sound Name="ATK_Ennemy_Charge" ID="{1A33EFD3-DD9F-48EB-8E87-F76BC1852A5E}" ShortID="775505626">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{2337C97B-7262-45B1-9137-26ECC08FA997}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ATK_Ennemy_Charge" ID="{42ECEA68-6F95-45E7-93BA-DF37990785E2}">
+									<Language>SFX</Language>
+									<AudioFile>ATK_Ennemy_Charge.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="955743850"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="ATK_Ennemy_Charge" ID="{42ECEA68-6F95-45E7-93BA-DF37990785E2}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="ATK_Ennemy_DoubleSlash" ID="{390124B2-8E0C-4703-AF53-603CD18864A1}" ShortID="202565268">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{062BCD2D-7365-4323-B281-2BAC84AC3D83}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ATK_Ennemy_DoubleSlash" ID="{295CBA66-F069-4EF2-989D-CE4F1286CF14}">
+									<Language>SFX</Language>
+									<AudioFile>ATK_Ennemy_DoubleSlash.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="476119994"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="ATK_Ennemy_DoubleSlash" ID="{295CBA66-F069-4EF2-989D-CE4F1286CF14}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="ATK_Ennemy_Ground" ID="{5D2E73C6-EED2-42C2-BD7D-38FE20B28395}" ShortID="503690592">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{025A32F9-C5DC-4052-BC75-E93808C430DB}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ATK_Ennemy_Ground" ID="{2E237C74-8D9C-4F0A-ACFA-0C9AE27C567F}">
+									<Language>SFX</Language>
+									<AudioFile>ATK_Ennemy_Ground.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="112147763"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="ATK_Ennemy_Ground" ID="{2E237C74-8D9C-4F0A-ACFA-0C9AE27C567F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="ATK_Ennemy_Slash" ID="{C37DA7B3-E99A-4874-AD8C-EDBB9EA8B872}" ShortID="219148745">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{458FA6B2-DBC0-4016-810E-E5C45C077F32}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ATK_Ennemy_Slash" ID="{7FE19451-3DAA-4167-B395-33F17AA28D03}">
+									<Language>SFX</Language>
+									<AudioFile>ATK_Ennemy_Slash.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="769428270"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="ATK_Ennemy_Slash" ID="{7FE19451-3DAA-4167-B395-33F17AA28D03}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="ATK_Ennemy_Spin" ID="{FFE99D06-5798-4D7A-A7F1-ED5872B85180}" ShortID="58964237">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{85835CA1-345E-4D09-B0FA-9196F8BAD919}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ATK_Ennemy_Spin" ID="{AC1F822F-F5D1-4F75-B4D6-8665E7D92760}">
+									<Language>SFX</Language>
+									<AudioFile>ATK_Ennemy_Spin.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="463444294"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="ATK_Ennemy_Spin" ID="{AC1F822F-F5D1-4F75-B4D6-8665E7D92760}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="ATK_Ennemy_SpinLoop" ID="{2BCC433C-5E93-4A9C-9BEE-A4F3AFE0B9EF}" ShortID="568377041">
+							<PropertyList>
+								<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
+								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{6BD5633A-782B-4B24-B845-9E827FA8EF66}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ATK_Ennemy_SpinLoop" ID="{309E6A40-5849-4ED7-AF37-CF6EE2232224}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.918205407623189"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.649462361489569"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>ATK_Ennemy_SpinLoop.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="859663973"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="ATK_Ennemy_SpinLoop" ID="{309E6A40-5849-4ED7-AF37-CF6EE2232224}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

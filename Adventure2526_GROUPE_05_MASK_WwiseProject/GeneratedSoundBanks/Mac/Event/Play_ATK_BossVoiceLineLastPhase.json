@@ -1,0 +1,100 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "1769887361",
+    "Type": "Event",
+    "GUID": "{859A217E-CE35-44A8-8C5F-1B2AE7D5EA05}",
+    "Language": "SFX",
+    "Hash": "{5C9363A2-E80C-E766-CD76-D7FE104F9AED}",
+    "ObjectPath": "Play_ATK_BossVoiceLineLastPhase",
+    "ShortName": "Play_ATK_BossVoiceLineLastPhase",
+    "Path": "Event/Play_ATK_BossVoiceLineLastPhase.bnk",
+    "Media": [
+     {
+      "Id": "32251056",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "CLEAN_VOX_its-too-late.wav",
+      "Path": "Media/32251056.wem",
+      "CachePath": "9B/{9B63DA44-1A93-C555-3283-A13E03FA344A}.wem"
+     },
+     {
+      "Id": "54030316",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "CLEAN_VOX_look-around-you.wav",
+      "Path": "Media/54030316.wem",
+      "CachePath": "EA/{EA885385-B87E-BAC8-EA2A-AB4C311DA72D}.wem"
+     },
+     {
+      "Id": "752315272",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "CLEAN_VOX_the-truth-is.wav",
+      "Path": "Media/752315272.wem",
+      "CachePath": "F8/{F877AD44-BE4A-02A8-5015-5138113A0945}.wem"
+     }
+    ],
+    "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "2652646462",
+       "Name": "Dialog_Leveler_Soft",
+       "ObjectPath": "\\Effects\\Factory Effects\\Compressor\\Dialog_Leveler_Soft",
+       "GUID": "{9C1D0FCF-896E-4739-A8E8-B1E908F51CE6}",
+       "LibName": "Wwise Compressor",
+       "LibId": "7077891"
+      }
+     ]
+    },
+    "Events": [
+     {
+      "Id": "1769887361",
+      "Name": "Play_ATK_BossVoiceLineLastPhase",
+      "ObjectPath": "\\Events\\Default Work Unit\\VOICES\\Play_ATK_BossVoiceLineLastPhase",
+      "GUID": "{859A217E-CE35-44A8-8C5F-1B2AE7D5EA05}",
+      "Color": "11",
+      "DurationType": "OneShot",
+      "DurationMin": "2.1325",
+      "DurationMax": "4.211125",
+      "MediaRefs": [
+       {
+        "Id": "32251056"
+       },
+       {
+        "Id": "54030316"
+       },
+       {
+        "Id": "752315272"
+       }
+      ],
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "2652646462"
+        }
+       ]
+      },
+      "AuxBusRefs": [
+       {
+        "Id": "3458558748",
+        "Name": "REV_Glue",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\REV_Glue",
+        "GUID": "{F806F83C-84C8-4DE1-A076-EB7A8B35B29E}"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{B6FB2779-2004-2ADD-4B71-A90C841F05D0}"
+ }
+}

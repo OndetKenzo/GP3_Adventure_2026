@@ -1,0 +1,50 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "2267671498",
+    "Type": "Event",
+    "GUID": "{E072EC3B-CD5B-46C4-B0A4-CA9DD23FE45C}",
+    "Language": "SFX",
+    "Hash": "{8AE07BAD-AE3F-A03B-C54E-5D80B7EB41A6}",
+    "ObjectPath": "Play_SFX_PLAYER_ATTACK2",
+    "ShortName": "Play_SFX_PLAYER_ATTACK2",
+    "Path": "Event/Play_SFX_PLAYER_ATTACK2.bnk",
+    "Media": [
+     {
+      "Id": "441182364",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_PLAYER_ATTACK2.wav",
+      "Path": "Media/441182364.wem",
+      "CachePath": "E3/{E38706F2-B8D9-01DC-32AB-F7DAA38FD61D}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2267671498",
+      "Name": "Play_SFX_PLAYER_ATTACK2",
+      "ObjectPath": "\\Events\\Default Work Unit\\PLAYER\\Play_SFX_PLAYER_ATTACK2",
+      "GUID": "{E072EC3B-CD5B-46C4-B0A4-CA9DD23FE45C}",
+      "Color": "6",
+      "MaxAttenuation": "3000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.77579165",
+      "DurationMax": "0.77579165",
+      "MediaRefs": [
+       {
+        "Id": "441182364"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{76F95F1C-789D-C413-658F-44FF6AA8C1C4}"
+ }
+}

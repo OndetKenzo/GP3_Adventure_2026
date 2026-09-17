@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "528566414",
+    "Type": "Event",
+    "GUID": "{FA7BF067-16A8-4A6F-AF61-B9C21983B2D2}",
+    "Language": "SFX",
+    "Hash": "{9AD8AA59-A035-7B7B-D52F-DB3938C142C6}",
+    "ObjectPath": "Play_Wilhelm",
+    "ShortName": "Play_Wilhelm",
+    "Path": "Event/Play_Wilhelm.bnk",
+    "Media": [
+     {
+      "Id": "1007915775",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Wilhelm.wav",
+      "Path": "Media/1007915775.wem",
+      "CachePath": "71/{713AB89A-5165-C5BE-9DCC-063487603C5C}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "528566414",
+      "Name": "Play_Wilhelm",
+      "ObjectPath": "\\Events\\Default Work Unit\\PLACEHOLDERS\\Play_Wilhelm",
+      "GUID": "{FA7BF067-16A8-4A6F-AF61-B9C21983B2D2}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.1168481",
+      "DurationMax": "1.1168481",
+      "MediaRefs": [
+       {
+        "Id": "1007915775"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{3899E106-E77D-119C-831C-84D67AE8070F}"
+ }
+}

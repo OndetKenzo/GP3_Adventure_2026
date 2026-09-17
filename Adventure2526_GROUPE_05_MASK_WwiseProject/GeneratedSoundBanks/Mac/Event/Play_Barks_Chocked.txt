@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1874693015	Play_Barks_Chocked			\Default Work Unit\VOICES\Play_Barks_Chocked	
+
+Effect plug-ins	ID	Name	Type				Notes
+	48620415	Have_U_Ever_Been_Outside	Wwise RoomVerb			
+

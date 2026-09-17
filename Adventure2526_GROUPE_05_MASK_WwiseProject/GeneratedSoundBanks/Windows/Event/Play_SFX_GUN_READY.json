@@ -1,0 +1,50 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "505048372",
+    "Type": "Event",
+    "GUID": "{8ADC3080-D23D-4F74-BC64-D83EAC77F5B4}",
+    "Language": "SFX",
+    "Hash": "{F85384FD-EC84-4C32-3C10-85B8B3C3BAEF}",
+    "ObjectPath": "Play_SFX_GUN_READY",
+    "ShortName": "Play_SFX_GUN_READY",
+    "Path": "Event/Play_SFX_GUN_READY.bnk",
+    "Media": [
+     {
+      "Id": "998900252",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Guns, Mechanism, Revolver, Cock, Click, Drag SND6016 1.wav",
+      "Path": "Media/998900252.wem",
+      "CachePath": "0D/{0D27AEBF-A7DA-8956-1415-C2C8A27171DB}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "505048372",
+      "Name": "Play_SFX_GUN_READY",
+      "ObjectPath": "\\Events\\Default Work Unit\\PLAYER\\Play_SFX_GUN_READY",
+      "GUID": "{8ADC3080-D23D-4F74-BC64-D83EAC77F5B4}",
+      "Color": "6",
+      "MaxAttenuation": "3000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.4563883",
+      "DurationMax": "0.4563883",
+      "MediaRefs": [
+       {
+        "Id": "998900252"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{AA4A3C7A-9400-C454-76F4-D1CEC7F8EAE0}"
+ }
+}

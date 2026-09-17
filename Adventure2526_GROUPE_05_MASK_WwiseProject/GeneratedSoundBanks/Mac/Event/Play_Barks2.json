@@ -1,0 +1,353 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "1975264831",
+    "Type": "Event",
+    "GUID": "{7A665605-F271-46EE-B05D-62FAAC9ED0FD}",
+    "Language": "SFX",
+    "Hash": "{9CE8D15A-781F-AF94-0CCB-85DBEEBC4432}",
+    "ObjectPath": "Play_Barks2",
+    "ShortName": "Play_Barks2",
+    "Path": "Event/Play_Barks2.bnk",
+    "Media": [
+     {
+      "Id": "45474545",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "BarksCrowd_Bad_feeling-002.wav",
+      "Path": "Media/45474545.wem",
+      "CachePath": "A4/{A4E5AC77-F977-81BE-3AFB-B3C43CE7F6F0}.wem"
+     },
+     {
+      "Id": "82849676",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "BarksCrowd_Will_you_come-008.wav",
+      "Path": "Media/82849676.wem",
+      "CachePath": "50/{50C38BC5-B674-AB62-12A9-287DDA36EF1F}.wem"
+     },
+     {
+      "Id": "135530466",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "BarksCrowd_Bad_feeling-009.wav",
+      "Path": "Media/135530466.wem",
+      "CachePath": "8E/{8E054DB1-4F4C-3109-6E95-3691A1BEBB04}.wem"
+     },
+     {
+      "Id": "232968322",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "BarksCrowd_Bad_feeling-007.wav",
+      "Path": "Media/232968322.wem",
+      "CachePath": "6E/{6E9D6139-4E40-941B-2A09-5E5855269DB7}.wem"
+     },
+     {
+      "Id": "280046236",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "BarksCrowd_This_carnival-004.wav",
+      "Path": "Media/280046236.wem",
+      "CachePath": "29/{293D8196-B42F-E13B-C56B-E5CCDD4CF088}.wem"
+     },
+     {
+      "Id": "287358821",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "BarksCrowd_Will_you_come-005.wav",
+      "Path": "Media/287358821.wem",
+      "CachePath": "B2/{B25753AF-DEF7-793B-E9B1-362E2631FB16}.wem"
+     },
+     {
+      "Id": "360840642",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "BarksCrowd_Bad_feeling-005.wav",
+      "Path": "Media/360840642.wem",
+      "CachePath": "69/{69848CEC-2963-529D-5523-82D6A1F98674}.wem"
+     },
+     {
+      "Id": "393440709",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "BarksCrowd_Will_you_come-004.wav",
+      "Path": "Media/393440709.wem",
+      "CachePath": "79/{79845ABF-453B-9729-B742-E7FE591C7A7A}.wem"
+     },
+     {
+      "Id": "432456140",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "BarksCrowd_This_carnival-001.wav",
+      "Path": "Media/432456140.wem",
+      "CachePath": "EE/{EEC2D13C-0588-1871-F14C-56518ACF8C71}.wem"
+     },
+     {
+      "Id": "449172985",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "BarksCrowd_Bad_feeling-001.wav",
+      "Path": "Media/449172985.wem",
+      "CachePath": "42/{42CEF818-5739-1B43-533C-417567C15251}.wem"
+     },
+     {
+      "Id": "450601312",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "BarksCrowd_Will_you_come-006.wav",
+      "Path": "Media/450601312.wem",
+      "CachePath": "80/{802146F6-01DA-2903-CE04-6B015EB759DB}.wem"
+     },
+     {
+      "Id": "504968180",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "BarksCrowd_Will_you_come-009.wav",
+      "Path": "Media/504968180.wem",
+      "CachePath": "D9/{D98D1160-D069-AB59-3D5E-6616F2EF4DBD}.wem"
+     },
+     {
+      "Id": "537751462",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "BarksCrowd_Bad_feeling-004.wav",
+      "Path": "Media/537751462.wem",
+      "CachePath": "24/{247603C9-DDF6-5505-C0AC-196C1BE88E9A}.wem"
+     },
+     {
+      "Id": "547971457",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "BarksCrowd_Will_you_come-007.wav",
+      "Path": "Media/547971457.wem",
+      "CachePath": "3B/{3B80F9F0-9FF7-1614-4347-5FF1A0B82A59}.wem"
+     },
+     {
+      "Id": "626846795",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "BarksCrowd_Will_you_come-003.wav",
+      "Path": "Media/626846795.wem",
+      "CachePath": "3F/{3F52DE0F-317C-6498-6AEC-96134A10531E}.wem"
+     },
+     {
+      "Id": "691569210",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "BarksCrowd_Bad_feeling-008.wav",
+      "Path": "Media/691569210.wem",
+      "CachePath": "08/{08FDD4A9-46D1-D942-14DD-6C263AD6F15D}.wem"
+     },
+     {
+      "Id": "791042364",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "BarksCrowd_Bad_feeling-003.wav",
+      "Path": "Media/791042364.wem",
+      "CachePath": "A8/{A8E6EBC2-508C-59E0-9F60-5CE22AD95348}.wem"
+     },
+     {
+      "Id": "791561030",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "BarksCrowd_Will_you_come-001.wav",
+      "Path": "Media/791561030.wem",
+      "CachePath": "A3/{A3EA2881-0D7E-57CC-D03F-5B6E60F4A926}.wem"
+     },
+     {
+      "Id": "816797893",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "BarksCrowd_Bad_feeling-010.wav",
+      "Path": "Media/816797893.wem",
+      "CachePath": "2F/{2F070DDB-7C13-2001-AA85-AA778C69A939}.wem"
+     },
+     {
+      "Id": "848181454",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "BarksCrowd_Will_you_come-002.wav",
+      "Path": "Media/848181454.wem",
+      "CachePath": "3A/{3A3B9242-4EAB-7BE8-6DCE-EFA1AA6A68C9}.wem"
+     },
+     {
+      "Id": "851194265",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "BarksCrowd_This_carnival-005.wav",
+      "Path": "Media/851194265.wem",
+      "CachePath": "C1/{C1DC3B3E-F6D8-4372-F9A1-AC0312D3508E}.wem"
+     },
+     {
+      "Id": "979696630",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "BarksCrowd_Bad_feeling-006.wav",
+      "Path": "Media/979696630.wem",
+      "CachePath": "12/{12AD872B-8491-4D91-1AF6-50A2CF72075F}.wem"
+     },
+     {
+      "Id": "1000441624",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "BarksCrowd_This_carnival-002.wav",
+      "Path": "Media/1000441624.wem",
+      "CachePath": "BB/{BBA3E57E-1A3D-E9D6-A807-939EE4908997}.wem"
+     },
+     {
+      "Id": "1032818114",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "BarksCrowd_This_carnival-003.wav",
+      "Path": "Media/1032818114.wem",
+      "CachePath": "0A/{0AEB9661-5499-5AC9-46DD-9F9097B645BE}.wem"
+     }
+    ],
+    "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "48620415",
+       "Name": "Have_U_Ever_Been_Outside",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Exteriors\\Have_U_Ever_Been_Outside",
+       "GUID": "{FE29AE8D-FD86-4652-A95D-68D32F5760EC}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      }
+     ]
+    },
+    "Events": [
+     {
+      "Id": "1975264831",
+      "Name": "Play_Barks2",
+      "ObjectPath": "\\Events\\Default Work Unit\\VOICES\\Play_Barks2",
+      "GUID": "{7A665605-F271-46EE-B05D-62FAAC9ED0FD}",
+      "Color": "11",
+      "MaxAttenuation": "3000",
+      "DurationType": "OneShot",
+      "DurationMin": "2",
+      "DurationMax": "4",
+      "MediaRefs": [
+       {
+        "Id": "45474545"
+       },
+       {
+        "Id": "82849676"
+       },
+       {
+        "Id": "135530466"
+       },
+       {
+        "Id": "232968322"
+       },
+       {
+        "Id": "280046236"
+       },
+       {
+        "Id": "287358821"
+       },
+       {
+        "Id": "360840642"
+       },
+       {
+        "Id": "393440709"
+       },
+       {
+        "Id": "432456140"
+       },
+       {
+        "Id": "449172985"
+       },
+       {
+        "Id": "450601312"
+       },
+       {
+        "Id": "504968180"
+       },
+       {
+        "Id": "537751462"
+       },
+       {
+        "Id": "547971457"
+       },
+       {
+        "Id": "626846795"
+       },
+       {
+        "Id": "691569210"
+       },
+       {
+        "Id": "791042364"
+       },
+       {
+        "Id": "791561030"
+       },
+       {
+        "Id": "816797893"
+       },
+       {
+        "Id": "848181454"
+       },
+       {
+        "Id": "851194265"
+       },
+       {
+        "Id": "979696630"
+       },
+       {
+        "Id": "1000441624"
+       },
+       {
+        "Id": "1032818114"
+       }
+      ],
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "48620415"
+        }
+       ]
+      },
+      "AuxBusRefs": [
+       {
+        "Id": "3458558748",
+        "Name": "REV_Glue",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\REV_Glue",
+        "GUID": "{F806F83C-84C8-4DE1-A076-EB7A8B35B29E}"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{D09CAAC1-79F2-2BBF-F794-314E591A5572}"
+ }
+}

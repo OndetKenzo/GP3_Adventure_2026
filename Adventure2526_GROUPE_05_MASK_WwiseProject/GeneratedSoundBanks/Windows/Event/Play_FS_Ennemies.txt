@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	900289942	Play_FS_Ennemies			\Default Work Unit\ENNEMIES\Play_FS_Ennemies	
+

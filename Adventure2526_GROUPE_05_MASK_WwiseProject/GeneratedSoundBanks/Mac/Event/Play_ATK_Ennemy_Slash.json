@@ -1,0 +1,50 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "1301934949",
+    "Type": "Event",
+    "GUID": "{45DACE0F-A649-4965-B896-5653799B8582}",
+    "Language": "SFX",
+    "Hash": "{58D806F7-9FEC-44B2-2DE2-1692F55EB7B3}",
+    "ObjectPath": "Play_ATK_Ennemy_Slash",
+    "ShortName": "Play_ATK_Ennemy_Slash",
+    "Path": "Event/Play_ATK_Ennemy_Slash.bnk",
+    "Media": [
+     {
+      "Id": "769428270",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "ATK_Ennemy_Slash.wav",
+      "Path": "Media/769428270.wem",
+      "CachePath": "99/{9979357F-AA22-8E85-C5C3-5BD8BF8D98E8}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1301934949",
+      "Name": "Play_ATK_Ennemy_Slash",
+      "ObjectPath": "\\Events\\Default Work Unit\\ENNEMIES\\Play_ATK_Ennemy_Slash",
+      "GUID": "{45DACE0F-A649-4965-B896-5653799B8582}",
+      "Color": "10",
+      "MaxAttenuation": "3000",
+      "DurationType": "OneShot",
+      "DurationMin": "3.2",
+      "DurationMax": "3.2",
+      "MediaRefs": [
+       {
+        "Id": "769428270"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{61E50679-B4F9-29B2-44BE-E996C72B8C5D}"
+ }
+}

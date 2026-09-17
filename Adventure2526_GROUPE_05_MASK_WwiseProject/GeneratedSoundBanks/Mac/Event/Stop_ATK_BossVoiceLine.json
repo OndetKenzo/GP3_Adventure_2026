@@ -1,0 +1,34 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "77234878",
+    "Type": "Event",
+    "GUID": "{D80336DC-3EFF-4E06-9ECE-3ECD8FE6F4BE}",
+    "Language": "SFX",
+    "Hash": "{8746B9F6-0E74-44DE-D596-BF0A1B174CBA}",
+    "ObjectPath": "Stop_ATK_BossVoiceLine",
+    "ShortName": "Stop_ATK_BossVoiceLine",
+    "Path": "Event/Stop_ATK_BossVoiceLine.bnk",
+    "Events": [
+     {
+      "Id": "77234878",
+      "Name": "Stop_ATK_BossVoiceLine",
+      "ObjectPath": "\\Events\\Default Work Unit\\VOICES\\Stop_ATK_BossVoiceLine",
+      "GUID": "{D80336DC-3EFF-4E06-9ECE-3ECD8FE6F4BE}",
+      "Color": "11",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{B5BF2838-3506-5B81-0493-5B21AB2C032E}"
+ }
+}

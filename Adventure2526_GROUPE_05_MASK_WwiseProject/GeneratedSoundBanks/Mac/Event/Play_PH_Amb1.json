@@ -1,0 +1,46 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "4276137848",
+    "Type": "Event",
+    "GUID": "{7A78112C-2B7F-4124-9F50-43FD177B4D2E}",
+    "Language": "SFX",
+    "Hash": "{D64AB1F4-3ADA-CA76-A7D2-071E70F624F8}",
+    "ObjectPath": "Play_PH_Amb1",
+    "ShortName": "Play_PH_Amb1",
+    "Path": "Event/Play_PH_Amb1.bnk",
+    "Media": [
+     {
+      "Id": "685597891",
+      "Language": "SFX",
+      "Streaming": "true",
+      "Location": "Loose",
+      "ShortName": "PH_Amb1.wav",
+      "Path": "Media/685597891.wem",
+      "CachePath": "65/{65A3F853-86EA-C5B5-B817-C49115AC9E52}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "4276137848",
+      "Name": "Play_PH_Amb1",
+      "ObjectPath": "\\Events\\Default Work Unit\\PLACEHOLDERS\\Play_PH_Amb1",
+      "GUID": "{7A78112C-2B7F-4124-9F50-43FD177B4D2E}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "685597891"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{5BA1A89D-E98A-0712-9C47-285925102257}"
+ }
+}

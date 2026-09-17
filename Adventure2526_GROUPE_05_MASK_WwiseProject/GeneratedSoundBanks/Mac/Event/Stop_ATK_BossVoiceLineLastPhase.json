@@ -1,0 +1,34 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "2207462183",
+    "Type": "Event",
+    "GUID": "{A9F3B9D2-02EB-4041-B95D-FC06830010C2}",
+    "Language": "SFX",
+    "Hash": "{0C855836-ADEB-AAEE-BA95-AF5F54D9BEE2}",
+    "ObjectPath": "Stop_ATK_BossVoiceLineLastPhase",
+    "ShortName": "Stop_ATK_BossVoiceLineLastPhase",
+    "Path": "Event/Stop_ATK_BossVoiceLineLastPhase.bnk",
+    "Events": [
+     {
+      "Id": "2207462183",
+      "Name": "Stop_ATK_BossVoiceLineLastPhase",
+      "ObjectPath": "\\Events\\Default Work Unit\\VOICES\\Stop_ATK_BossVoiceLineLastPhase",
+      "GUID": "{A9F3B9D2-02EB-4041-B95D-FC06830010C2}",
+      "Color": "11",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{62AE67CA-25FB-01AD-95C3-DCC88530A88E}"
+ }
+}

@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3303856128	Play_MUSIC_menu_loop			\Default Work Unit\MUSIC\Play_MUSIC_menu_loop	
+
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	633549176	MUSIC_menu_loop	C:\Users\ugore\Perforce\u.reynaud_Ugo_Reynaud_8054\Adventure2526_GROUPE_05_MASK\Adventure2526_GROUPE_05_MASK_WwiseProject\.cache\90\{90E55DF8-E89F-CD53-5646-ADB897356370}.wem	633549176.wem	\Actor-Mixer Hierarchy\MUSIC\NON-INTERACTIVE MUSIC\Sic\MUSIC_menu_loop	
+

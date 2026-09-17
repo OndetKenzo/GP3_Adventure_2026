@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{26B6BBC4-592D-4ED8-A539-78C684CD023F}" SchemaVersion="123">
+	<AudioObjects>
+		<WorkUnit Name="NON-INTERACTIVE MUSIC" ID="{26B6BBC4-592D-4ED8-A539-78C684CD023F}" PersistMode="Standalone">
+			<ChildrenList>
+				<ActorMixer Name="Sic" ID="{896ECC75-3507-4660-AC8F-762D9A6BDF55}" ShortID="18987118">
+					<PropertyList>
+						<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
+						<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+						<Property Name="MaxSoundPerInstance" Type="int16">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="UseMaxSoundPerInstance" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="MUSIC" ID="{7525EA30-8A60-4CB1-9564-376EE2792A61}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="MUSIC_menu_loop" ID="{A68B940D-36FE-4F8F-8A2E-E15AA1F9905B}" ShortID="1034376739">
+							<PropertyList>
+								<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="IsStreamingEnabled" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="MUSIC_menu_loop" ID="{49FCFB06-2157-44FA-9CCE-81657E7D7782}">
+									<Language>SFX</Language>
+									<AudioFile>MUSIC_menu_loop.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="633549176"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="MUSIC_menu_loop" ID="{49FCFB06-2157-44FA-9CCE-81657E7D7782}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<RandomSequenceContainer Name="MUSIC_Level" ID="{7EF63E8D-6394-4FB3-9402-513B72EECB27}" ShortID="683799107">
+							<PropertyList>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-2</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="MaskAmbiance1(01_00_00 - 01_05_41)" ID="{C0C6464C-6AB0-42C4-93EA-19DA0F283B4E}" ShortID="568681297">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>12</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="MUSIC" ID="{7525EA30-8A60-4CB1-9564-376EE2792A61}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MaskAmbiance1(01_00_00 - 01_05_41)" ID="{500681BC-85FC-4683-80CF-F9F79390633E}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.723684210526316"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="18.0263157894737"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="28.75"/>
+												<Property Name="VolumeOffset" Type="Real64">
+													<ValueList>
+														<Value>10</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>MaskAmbiance1(01_00_00 - 01_05_41).wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="653484069"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MaskAmbiance1(01_00_00 - 01_05_41)" ID="{500681BC-85FC-4683-80CF-F9F79390633E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MaskAmbiance2(01_00_00 - 01_05_41)" ID="{0D4ECD58-706A-4E8A-A832-DDA660F84835}" ShortID="559415054">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>12</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="MUSIC" ID="{7525EA30-8A60-4CB1-9564-376EE2792A61}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MaskAmbiance2(01_00_00 - 01_05_41)" ID="{EE7EA3FB-7AF3-4228-A447-74C1D667F494}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="1.34502923976608"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="13.4502923976606"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="21.6959064327484"/>
+												<Property Name="VolumeOffset" Type="Real64">
+													<ValueList>
+														<Value>9</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>MaskAmbiance2(01_00_00 - 01_05_41).wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="929222347"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MaskAmbiance2(01_00_00 - 01_05_41)" ID="{EE7EA3FB-7AF3-4228-A447-74C1D667F494}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MaskAmbiance3(01_00_00 - 01_05_41)" ID="{5C605109-9C34-442C-8106-F5FAE3F1C4C8}" ShortID="430310361">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>12</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="MUSIC" ID="{7525EA30-8A60-4CB1-9564-376EE2792A61}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MaskAmbiance3(01_00_00 - 01_05_41)" ID="{23E25754-FC36-42D5-A2EA-C1AC867D036C}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.723684210526315"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="15.7894736842106"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="33.0921052631579"/>
+												<Property Name="VolumeOffset" Type="Real64">
+													<ValueList>
+														<Value>8</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>MaskAmbiance3(01_00_00 - 01_05_41).wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="158057911"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MaskAmbiance3(01_00_00 - 01_05_41)" ID="{23E25754-FC36-42D5-A2EA-C1AC867D036C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MaskAmbiance4(01_00_00 - 01_05_41)" ID="{A55CDB46-9B47-4C5A-8081-834B8B4B9854}" ShortID="376606523">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>12</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="MUSIC" ID="{7525EA30-8A60-4CB1-9564-376EE2792A61}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MaskAmbiance4(01_00_00 - 01_05_41)" ID="{13EBF1E7-02BB-4E30-B0BE-4A95EEF9AE4B}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.789473684210527"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="15.3947368421053"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="32.3026315789473"/>
+												<Property Name="VolumeOffset" Type="Real64">
+													<ValueList>
+														<Value>9.4</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>MaskAmbiance4(01_00_00 - 01_05_41).wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1032144360"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MaskAmbiance4(01_00_00 - 01_05_41)" ID="{13EBF1E7-02BB-4E30-B0BE-4A95EEF9AE4B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MaskAmbiance5(01_00_00 - 01_05_41)" ID="{A4B31CD6-01C8-476B-9CFE-E7813C688E30}" ShortID="1042607046">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>12</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="MUSIC" ID="{7525EA30-8A60-4CB1-9564-376EE2792A61}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MaskAmbiance5(01_00_00 - 01_05_41)" ID="{A262297C-79A2-4094-BEB0-F019E0B3F8CC}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.64327485380117"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="15.0877192982457"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="25.906432748538"/>
+												<Property Name="VolumeOffset" Type="Real64">
+													<ValueList>
+														<Value>12.2</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>MaskAmbiance5(01_00_00 - 01_05_41).wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="141938477"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MaskAmbiance5(01_00_00 - 01_05_41)" ID="{A262297C-79A2-4094-BEB0-F019E0B3F8CC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MaskAmbiance6(01_00_00 - 01_05_41)" ID="{F21C17C3-4CA3-4736-9680-20423B43A9D8}" ShortID="597564593">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>12</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="MUSIC" ID="{7525EA30-8A60-4CB1-9564-376EE2792A61}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MaskAmbiance6(01_00_00 - 01_05_41)" ID="{FED631EF-5C70-45F9-9124-C76D63967304}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="1.50167004691582"/>
+												<Property Name="FadeInShape" Type="int16" Value="7"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="1.45779012281433"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="6.98645023950461"/>
+												<Property Name="VolumeOffset" Type="Real64">
+													<ValueList>
+														<Value>22</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>MaskAmbiance6(01_00_00 - 01_05_41).wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="411097423"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MaskAmbiance6(01_00_00 - 01_05_41)" ID="{FED631EF-5C70-45F9-9124-C76D63967304}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<Sound Name="Adventure_Mask_Boss_Music" ID="{12DB2EE6-0F68-47B2-96E2-110E412433E5}" ShortID="302282080">
+							<PropertyList>
+								<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="IsStreamingEnabled" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OutputBusVolume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-7</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="MUSIC_BOSS" ID="{74E8CB40-3DF0-4673-8E37-A5BE7E67CDB0}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Adventure_Mask_Boss_Music" ID="{2350DE9A-937A-4749-92C1-7AB1BC8C3DD6}">
+									<Language>SFX</Language>
+									<AudioFile>Adventure_Mask_Boss_Music.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="324399452"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Adventure_Mask_Boss_Music" ID="{2350DE9A-937A-4749-92C1-7AB1BC8C3DD6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="MUSIC_circus_loop" ID="{B28A2A33-D0D4-4BA1-B4C1-755BD8BEB986}" ShortID="847882820">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+								<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="IsStreamingEnabled" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="94"/>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="AT_CHARA" ID="{E6F4D40D-624B-447C-B073-61986D964DC3}" WorkUnitID="{A34F677D-20B9-4317-B352-55BBA82FAA17}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="MUSIC_circus_loop" ID="{C900C7AF-2A3C-4CFB-A2AC-E7F066C9481B}">
+									<Language>SFX</Language>
+									<AudioFile>MUSIC_circus_loop.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="87058970"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="MUSIC_circus_loop" ID="{C900C7AF-2A3C-4CFB-A2AC-E7F066C9481B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

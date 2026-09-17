@@ -1,0 +1,49 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "2970261468",
+    "Type": "Event",
+    "GUID": "{3733D791-6E6C-4A12-8C24-94DBB2968512}",
+    "Language": "SFX",
+    "Hash": "{91687237-BAE0-33EE-48AB-09BF44B6D046}",
+    "ObjectPath": "Play_UI_Forth",
+    "ShortName": "Play_UI_Forth",
+    "Path": "Event/Play_UI_Forth.bnk",
+    "Media": [
+     {
+      "Id": "799970630",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI_Forth.wav",
+      "Path": "Media/799970630.wem",
+      "CachePath": "6D/{6D993A6F-22B4-C310-A545-9A706772FD53}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2970261468",
+      "Name": "Play_UI_Forth",
+      "ObjectPath": "\\Events\\Default Work Unit\\UI\\Play_UI_Forth",
+      "GUID": "{3733D791-6E6C-4A12-8C24-94DBB2968512}",
+      "Color": "17",
+      "DurationType": "OneShot",
+      "DurationMin": "0.26666668",
+      "DurationMax": "0.26666668",
+      "MediaRefs": [
+       {
+        "Id": "799970630"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{DA8AF6F2-6536-9221-9D3D-740C5D198693}"
+ }
+}

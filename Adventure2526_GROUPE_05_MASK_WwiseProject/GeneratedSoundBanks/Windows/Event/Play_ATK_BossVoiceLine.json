@@ -1,0 +1,136 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "318090660",
+    "Type": "Event",
+    "GUID": "{2CD94062-A0B1-4071-B422-0998005443AC}",
+    "Language": "SFX",
+    "Hash": "{219234F2-68DB-60BF-6E4D-1BC8FBB66D53}",
+    "ObjectPath": "Play_ATK_BossVoiceLine",
+    "ShortName": "Play_ATK_BossVoiceLine",
+    "Path": "Event/Play_ATK_BossVoiceLine.bnk",
+    "Media": [
+     {
+      "Id": "437582993",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "CLEAN_VOX_you-cant-leave.wav",
+      "Path": "Media/437582993.wem",
+      "CachePath": "0D/{0D4BE308-5322-F9DB-A0A9-9872846EFD32}.wem"
+     },
+     {
+      "Id": "588649186",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "CLEAN_VOX_this-is-just.wav",
+      "Path": "Media/588649186.wem",
+      "CachePath": "BA/{BA3FCA72-3BA7-9390-8E70-92D3251DDCDD}.wem"
+     },
+     {
+      "Id": "624997835",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "CLEAN_VOX_one-i-am-done.wav",
+      "Path": "Media/624997835.wem",
+      "CachePath": "8B/{8BFFC744-1252-2A23-2240-A40117699DEB}.wem"
+     },
+     {
+      "Id": "796103903",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "CLEAN_VOX-soon-this-city.wav",
+      "Path": "Media/796103903.wem",
+      "CachePath": "0D/{0D7290DA-3759-C426-6CB9-FD0F09BACEE4}.wem"
+     },
+     {
+      "Id": "972322030",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "CLEAN_VOX-you-have-no-place.wav",
+      "Path": "Media/972322030.wem",
+      "CachePath": "79/{7985EACA-2093-A5A9-4E65-1C05DD5766E8}.wem"
+     },
+     {
+      "Id": "1018662454",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "CLEAN_VOX_you-are-pathetic.wav",
+      "Path": "Media/1018662454.wem",
+      "CachePath": "9F/{9F25FAEB-5CDD-61FC-E45B-60CD653C9C04}.wem"
+     }
+    ],
+    "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "2652646462",
+       "Name": "Dialog_Leveler_Soft",
+       "ObjectPath": "\\Effects\\Factory Effects\\Compressor\\Dialog_Leveler_Soft",
+       "GUID": "{9C1D0FCF-896E-4739-A8E8-B1E908F51CE6}",
+       "LibName": "Wwise Compressor",
+       "LibId": "7077891"
+      }
+     ]
+    },
+    "Events": [
+     {
+      "Id": "318090660",
+      "Name": "Play_ATK_BossVoiceLine",
+      "ObjectPath": "\\Events\\Default Work Unit\\VOICES\\Play_ATK_BossVoiceLine",
+      "GUID": "{2CD94062-A0B1-4071-B422-0998005443AC}",
+      "Color": "11",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "5.4018126",
+      "MediaRefs": [
+       {
+        "Id": "437582993"
+       },
+       {
+        "Id": "588649186"
+       },
+       {
+        "Id": "624997835"
+       },
+       {
+        "Id": "796103903"
+       },
+       {
+        "Id": "972322030"
+       },
+       {
+        "Id": "1018662454"
+       }
+      ],
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "2652646462"
+        }
+       ]
+      },
+      "AuxBusRefs": [
+       {
+        "Id": "3458558748",
+        "Name": "REV_Glue",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\REV_Glue",
+        "GUID": "{F806F83C-84C8-4DE1-A076-EB7A8B35B29E}"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{E7DBCE70-791B-B2EC-9D78-1276CD69EF3E}"
+ }
+}

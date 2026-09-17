@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2267671497	Play_SFX_PLAYER_ATTACK1			\Default Work Unit\PLAYER\Play_SFX_PLAYER_ATTACK1	
+

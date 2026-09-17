@@ -1,0 +1,87 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "3408041958",
+    "Type": "Event",
+    "GUID": "{4558B57E-55D8-499F-8B0D-4E6A4E78C869}",
+    "Language": "SFX",
+    "Hash": "{36327B5A-DFEF-EFDC-8BD7-CF1B920801D5}",
+    "ObjectPath": "Play_CLEAN_VOX_you_will_serve",
+    "ShortName": "Play_CLEAN_VOX_you_will_serve",
+    "Path": "Event/Play_CLEAN_VOX_you_will_serve.bnk",
+    "Media": [
+     {
+      "Id": "159214945",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "CLEAN_VOX_you-will-serve.wav",
+      "Path": "Media/159214945.wem",
+      "CachePath": "20/{200779A4-013B-D6B2-C5FC-2AA6E930A13E}.wem"
+     }
+    ],
+    "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "2652646462",
+       "Name": "Dialog_Leveler_Soft",
+       "ObjectPath": "\\Effects\\Factory Effects\\Compressor\\Dialog_Leveler_Soft",
+       "GUID": "{9C1D0FCF-896E-4739-A8E8-B1E908F51CE6}",
+       "LibName": "Wwise Compressor",
+       "LibId": "7077891"
+      },
+      {
+       "Id": "3604890626",
+       "Name": "High_Pass_60Hz",
+       "ObjectPath": "\\Effects\\Factory Effects\\Parametric EQ\\High Pass Filters\\High_Pass_60Hz",
+       "GUID": "{F9627628-0B10-4272-BC30-D4C20423CB38}",
+       "LibName": "Wwise Parametric EQ",
+       "LibId": "6881283"
+      }
+     ]
+    },
+    "Events": [
+     {
+      "Id": "3408041958",
+      "Name": "Play_CLEAN_VOX_you_will_serve",
+      "ObjectPath": "\\Events\\Default Work Unit\\VOICES\\Play_CLEAN_VOX_you_will_serve",
+      "GUID": "{4558B57E-55D8-499F-8B0D-4E6A4E78C869}",
+      "Color": "11",
+      "DurationType": "OneShot",
+      "DurationMin": "15.580229",
+      "DurationMax": "15.580229",
+      "MediaRefs": [
+       {
+        "Id": "159214945"
+       }
+      ],
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "2652646462"
+        },
+        {
+         "Id": "3604890626"
+        }
+       ]
+      },
+      "AuxBusRefs": [
+       {
+        "Id": "3458558748",
+        "Name": "REV_Glue",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\REV_Glue",
+        "GUID": "{F806F83C-84C8-4DE1-A076-EB7A8B35B29E}"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{E747C32F-1BE0-2D91-2ED6-4F4879D4A425}"
+ }
+}

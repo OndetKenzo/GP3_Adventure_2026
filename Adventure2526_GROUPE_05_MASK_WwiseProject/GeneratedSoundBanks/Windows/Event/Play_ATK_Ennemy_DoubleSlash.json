@@ -1,0 +1,50 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "3265680632",
+    "Type": "Event",
+    "GUID": "{81D67E72-13DE-4CC2-879C-ABB1B9DDCBEA}",
+    "Language": "SFX",
+    "Hash": "{ADBF01D4-0DF6-E7AB-F7D0-1329B78AE90F}",
+    "ObjectPath": "Play_ATK_Ennemy_DoubleSlash",
+    "ShortName": "Play_ATK_Ennemy_DoubleSlash",
+    "Path": "Event/Play_ATK_Ennemy_DoubleSlash.bnk",
+    "Media": [
+     {
+      "Id": "476119994",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "ATK_Ennemy_DoubleSlash.wav",
+      "Path": "Media/476119994.wem",
+      "CachePath": "46/{46D83D20-7AB7-F32D-0201-17318366E6A6}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3265680632",
+      "Name": "Play_ATK_Ennemy_DoubleSlash",
+      "ObjectPath": "\\Events\\Default Work Unit\\ENNEMIES\\Play_ATK_Ennemy_DoubleSlash",
+      "GUID": "{81D67E72-13DE-4CC2-879C-ABB1B9DDCBEA}",
+      "Color": "10",
+      "MaxAttenuation": "3000",
+      "DurationType": "OneShot",
+      "DurationMin": "2.8666666",
+      "DurationMax": "2.8666666",
+      "MediaRefs": [
+       {
+        "Id": "476119994"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{636E6BD7-E2A8-95B1-DCC2-939D2F6BA02E}"
+ }
+}

@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3960927127	Play_Adventure_Mask_Boss_Music			\Default Work Unit\MUSIC\Play_Adventure_Mask_Boss_Music	
+
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	324399452	Adventure_Mask_Boss_Music	C:\Users\ugore\Perforce\u.reynaud_Ugo_Reynaud_8054\Adventure2526_GROUPE_05_MASK\Adventure2526_GROUPE_05_MASK_WwiseProject\.cache\EC\{EC8649BB-FFA5-B89F-CECC-3E24719D2773}.wem	324399452.wem	\Actor-Mixer Hierarchy\MUSIC\NON-INTERACTIVE MUSIC\Sic\Adventure_Mask_Boss_Music	
+

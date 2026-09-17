@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	318090660	Play_ATK_BossVoiceLine			\Default Work Unit\VOICES\Play_ATK_BossVoiceLine	
+
+Effect plug-ins	ID	Name	Type				Notes
+	2652646462	Dialog_Leveler_Soft	Wwise Compressor			
+

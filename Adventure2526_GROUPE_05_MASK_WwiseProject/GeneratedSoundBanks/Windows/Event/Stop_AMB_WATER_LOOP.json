@@ -1,0 +1,34 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "2643634377",
+    "Type": "Event",
+    "GUID": "{BD147708-F67E-4AD3-B9E8-07E60589B6FF}",
+    "Language": "SFX",
+    "Hash": "{80EF6036-7C07-8A18-3BA1-3767AFC8D405}",
+    "ObjectPath": "Stop_AMB_WATER_LOOP",
+    "ShortName": "Stop_AMB_WATER_LOOP",
+    "Path": "Event/Stop_AMB_WATER_LOOP.bnk",
+    "Events": [
+     {
+      "Id": "2643634377",
+      "Name": "Stop_AMB_WATER_LOOP",
+      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Stop_AMB_WATER_LOOP",
+      "GUID": "{BD147708-F67E-4AD3-B9E8-07E60589B6FF}",
+      "Color": "4",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{BBF33569-3A9B-5BB3-664B-09E194868796}"
+ }
+}

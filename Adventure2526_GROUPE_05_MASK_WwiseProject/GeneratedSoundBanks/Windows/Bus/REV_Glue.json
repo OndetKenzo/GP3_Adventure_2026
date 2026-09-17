@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "3458558748",
+    "Type": "Bus",
+    "GUID": "{F806F83C-84C8-4DE1-A076-EB7A8B35B29E}",
+    "Language": "SFX",
+    "Hash": "{8592E1E6-17A4-88F6-57D7-CF7DD605DC74}",
+    "ObjectPath": "REV_Glue",
+    "ShortName": "REV_Glue",
+    "Path": "Bus/REV_Glue.bnk",
+    "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "2995775460",
+       "Name": "Room_Small",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Rooms\\Room_Small",
+       "GUID": "{577F1466-A63B-47F7-98BD-C56E433F8B5D}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      }
+     ]
+    },
+    "AuxBusses": [
+     {
+      "Id": "3458558748",
+      "Name": "REV_Glue",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\REV_Glue",
+      "GUID": "{F806F83C-84C8-4DE1-A076-EB7A8B35B29E}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "2995775460"
+        }
+       ]
+      }
+     }
+    ]
+   }
+  ],
+  "FileHash": "{30949F4F-306B-8F00-6A1A-286739888D71}"
+ }
+}

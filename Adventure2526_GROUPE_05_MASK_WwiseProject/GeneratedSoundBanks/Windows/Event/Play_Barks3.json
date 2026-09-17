@@ -1,0 +1,245 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "1975264830",
+    "Type": "Event",
+    "GUID": "{C69445AA-6F38-4037-A790-1BEEDB5117D8}",
+    "Language": "SFX",
+    "Hash": "{7EA8347B-D956-2BC7-7316-04A84885EB52}",
+    "ObjectPath": "Play_Barks3",
+    "ShortName": "Play_Barks3",
+    "Path": "Event/Play_Barks3.bnk",
+    "Media": [
+     {
+      "Id": "4813571",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "BarksCrowd_Grand_actress-003.wav",
+      "Path": "Media/4813571.wem",
+      "CachePath": "0E/{0EB39BDE-C58C-8B56-EB28-E998BB17485D}.wem"
+     },
+     {
+      "Id": "53349307",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "BarksCrowd_Grand_actress-006.wav",
+      "Path": "Media/53349307.wem",
+      "CachePath": "EB/{EB03814F-38A7-1996-2BBE-3007A3FAFE30}.wem"
+     },
+     {
+      "Id": "53802985",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "BarksCrowd_Grand_actress-005.wav",
+      "Path": "Media/53802985.wem",
+      "CachePath": "C0/{C0150084-4B7E-6521-A434-126A04595C5D}.wem"
+     },
+     {
+      "Id": "254569665",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "BarksCrowd_That_dress-002.wav",
+      "Path": "Media/254569665.wem",
+      "CachePath": "03/{03B17C2D-D27F-960B-E25B-EFEA90C0EF30}.wem"
+     },
+     {
+      "Id": "396188794",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "BarksCrowd_That_dress-006.wav",
+      "Path": "Media/396188794.wem",
+      "CachePath": "00/{00A4C7F2-798B-F8EB-68BB-9D8F913A9249}.wem"
+     },
+     {
+      "Id": "404888413",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "BarksCrowd_That_dress-004.wav",
+      "Path": "Media/404888413.wem",
+      "CachePath": "ED/{ED2C5382-CB8D-6FBB-8F98-31FF7CD7B0D8}.wem"
+     },
+     {
+      "Id": "507897549",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "BarksCrowd_That_dress-001.wav",
+      "Path": "Media/507897549.wem",
+      "CachePath": "15/{15C7EDE2-51BF-00EE-7052-B47A2EEF4328}.wem"
+     },
+     {
+      "Id": "589304481",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "BarksCrowd_That_dress-005.wav",
+      "Path": "Media/589304481.wem",
+      "CachePath": "C8/{C8CEB368-1FA0-8D54-A4DC-7C1099DF2030}.wem"
+     },
+     {
+      "Id": "627231915",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "BarksCrowd_That_dress-007.wav",
+      "Path": "Media/627231915.wem",
+      "CachePath": "B1/{B1E01981-6B3D-B66C-7C86-618E1AC1D93C}.wem"
+     },
+     {
+      "Id": "634982687",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "BarksCrowd_Grand_actress-004.wav",
+      "Path": "Media/634982687.wem",
+      "CachePath": "6D/{6DD8FC7E-9977-2FEC-155B-1781AC39F6B9}.wem"
+     },
+     {
+      "Id": "819895788",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "BarksCrowd_Grand_actress-002.wav",
+      "Path": "Media/819895788.wem",
+      "CachePath": "D8/{D89D5B06-A8D9-0C02-D858-A58CB9E2DE48}.wem"
+     },
+     {
+      "Id": "834681272",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "BarksCrowd_Grand_actress-008.wav",
+      "Path": "Media/834681272.wem",
+      "CachePath": "C8/{C8A92375-F15A-4C63-6C87-BA3639DA0BB5}.wem"
+     },
+     {
+      "Id": "874081349",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "BarksCrowd_Grand_actress-001.wav",
+      "Path": "Media/874081349.wem",
+      "CachePath": "B5/{B5C73669-B875-88B2-0D5B-40002D42883F}.wem"
+     },
+     {
+      "Id": "892596737",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "BarksCrowd_Grand_actress-007.wav",
+      "Path": "Media/892596737.wem",
+      "CachePath": "43/{43CC8961-77E0-B002-274F-7DB12B5FF871}.wem"
+     },
+     {
+      "Id": "1054503601",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "BarksCrowd_That_dress-003.wav",
+      "Path": "Media/1054503601.wem",
+      "CachePath": "86/{8654F56F-69DC-37C3-D219-3B3D974FC9A3}.wem"
+     }
+    ],
+    "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "48620415",
+       "Name": "Have_U_Ever_Been_Outside",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Exteriors\\Have_U_Ever_Been_Outside",
+       "GUID": "{FE29AE8D-FD86-4652-A95D-68D32F5760EC}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      }
+     ]
+    },
+    "Events": [
+     {
+      "Id": "1975264830",
+      "Name": "Play_Barks3",
+      "ObjectPath": "\\Events\\Default Work Unit\\VOICES\\Play_Barks3",
+      "GUID": "{C69445AA-6F38-4037-A790-1BEEDB5117D8}",
+      "Color": "11",
+      "MaxAttenuation": "3000",
+      "DurationType": "OneShot",
+      "DurationMin": "3",
+      "DurationMax": "5",
+      "MediaRefs": [
+       {
+        "Id": "4813571"
+       },
+       {
+        "Id": "53349307"
+       },
+       {
+        "Id": "53802985"
+       },
+       {
+        "Id": "254569665"
+       },
+       {
+        "Id": "396188794"
+       },
+       {
+        "Id": "404888413"
+       },
+       {
+        "Id": "507897549"
+       },
+       {
+        "Id": "589304481"
+       },
+       {
+        "Id": "627231915"
+       },
+       {
+        "Id": "634982687"
+       },
+       {
+        "Id": "819895788"
+       },
+       {
+        "Id": "834681272"
+       },
+       {
+        "Id": "874081349"
+       },
+       {
+        "Id": "892596737"
+       },
+       {
+        "Id": "1054503601"
+       }
+      ],
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "48620415"
+        }
+       ]
+      },
+      "AuxBusRefs": [
+       {
+        "Id": "3458558748",
+        "Name": "REV_Glue",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\REV_Glue",
+        "GUID": "{F806F83C-84C8-4DE1-A076-EB7A8B35B29E}"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{DA436570-B8AB-AADF-2A46-2EC57C064928}"
+ }
+}

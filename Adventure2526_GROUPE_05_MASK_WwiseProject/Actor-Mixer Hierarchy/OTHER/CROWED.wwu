@@ -1,0 +1,3127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{76EE331D-661B-4380-BF4F-0A20860152BF}" SchemaVersion="123">
+	<AudioObjects>
+		<WorkUnit Name="CROWED" ID="{76EE331D-661B-4380-BF4F-0A20860152BF}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Fx_GeneralCrowd" ID="{314E651D-6AA2-4823-9396-3013F48E33CB}" ShortID="324560418">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+						<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
+						<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="IsStreamingEnabled" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+						<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+						<Property Name="MaxSoundPerInstance" Type="int16">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="90"/>
+						<Property Name="UseMaxSoundPerInstance" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-14</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="AT_CHARA" ID="{E6F4D40D-624B-447C-B073-61986D964DC3}" WorkUnitID="{A34F677D-20B9-4317-B352-55BBA82FAA17}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Fx_GeneralCrowd" ID="{908D732B-D998-477C-BD1C-2C62E9F53931}">
+							<Language>SFX</Language>
+							<AudioFile>Fx_GeneralCrowd.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="65634601"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Fx_GeneralCrowd" ID="{908D732B-D998-477C-BD1C-2C62E9F53931}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<ActorMixer Name="Crowd" ID="{5ED2AF81-B46D-4355-9B99-130D35C277DD}" ShortID="349495983">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="AttenuationDistanceScaling" Type="Real32" Value="1.2"/>
+						<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+						<Property Name="OutputBusHighpass" Type="int16">
+							<ValueList>
+								<Value>15</Value>
+							</ValueList>
+						</Property>
+						<Property Name="OutputBusLowpass" Type="int16">
+							<ValueList>
+								<Value>34</Value>
+							</ValueList>
+						</Property>
+						<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="95"/>
+						<Property Name="UserAuxSendVolume0" Type="Real64">
+							<ValueList>
+								<Value>-18</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="AT_AMB" ID="{68C95B8B-3129-4E5A-9A33-4429AAF6C177}" WorkUnitID="{A34F677D-20B9-4317-B352-55BBA82FAA17}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+						</Reference>
+						<Reference Name="UserAuxSend0">
+							<ObjectRef Name="REV_Glue" ID="{F806F83C-84C8-4DE1-A076-EB7A8B35B29E}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="Barks1" ID="{EEBB00E2-0DEE-499B-AF28-6F4856512E37}" ShortID="383352780">
+							<PropertyList>
+								<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
+								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="BarksCrowd_Beautiful_evening-001" ID="{D66238A7-E529-43E1-81F3-3011FEA75AE4}" ShortID="785787022">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_Beautiful_evening-001" ID="{BE4CDC20-DFD3-483C-90A7-0BE89BBE1C1D}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_Beautiful_evening-001.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="553903471"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_Beautiful_evening-001" ID="{BE4CDC20-DFD3-483C-90A7-0BE89BBE1C1D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BarksCrowd_Beautiful_evening-002" ID="{F9A6D371-F328-4532-9631-255F6F47B272}" ShortID="241741581">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_Beautiful_evening-002" ID="{84ED75AA-6926-4E2D-A08A-B21AF06C73DF}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_Beautiful_evening-002.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="322214741"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_Beautiful_evening-002" ID="{84ED75AA-6926-4E2D-A08A-B21AF06C73DF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BarksCrowd_Beautiful_evening-003" ID="{BD259A9A-B579-4FEF-B062-E5A66E22A17A}" ShortID="1020605640">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_Beautiful_evening-003" ID="{8D407A2F-235C-494C-8E31-462AFFC36C97}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_Beautiful_evening-003.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1062592066"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_Beautiful_evening-003" ID="{8D407A2F-235C-494C-8E31-462AFFC36C97}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BarksCrowd_Beautiful_evening-004" ID="{91045B03-EBD5-43F6-90B7-CD082B88E61C}" ShortID="531063536">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_Beautiful_evening-004" ID="{A4D1545B-C8E2-4EE2-9906-C8561590CB28}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_Beautiful_evening-004.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="935807694"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_Beautiful_evening-004" ID="{A4D1545B-C8E2-4EE2-9906-C8561590CB28}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BarksCrowd_Beautiful_evening-005" ID="{8C930097-4102-46D2-8379-CF4A5F7E13B2}" ShortID="166965348">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_Beautiful_evening-005" ID="{104ECE23-8632-4278-87AC-FC73C664FF48}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_Beautiful_evening-005.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="308717958"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_Beautiful_evening-005" ID="{104ECE23-8632-4278-87AC-FC73C664FF48}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BarksCrowd_Beautiful_evening-006" ID="{645C7C8E-78F2-42B8-9AC2-9A319DE50920}" ShortID="811716520">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_Beautiful_evening-006" ID="{805E3A9D-D98F-4508-9B29-2A09783D4018}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_Beautiful_evening-006.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="90130657"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_Beautiful_evening-006" ID="{805E3A9D-D98F-4508-9B29-2A09783D4018}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BarksCrowd_Beautiful_evening-007" ID="{666F5606-26C4-429B-A8E3-0E57B919CF41}" ShortID="976328372">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_Beautiful_evening-007" ID="{BF06E34B-9404-48EF-9AB3-32C8A452D387}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_Beautiful_evening-007.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="443319615"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_Beautiful_evening-007" ID="{BF06E34B-9404-48EF-9AB3-32C8A452D387}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BarksCrowd_Beautifull_evening-001" ID="{79A5B277-DCCC-46A1-9190-C04EB72D7619}" ShortID="44760399">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_Beautifull_evening-001" ID="{53AC6C89-60F9-4DEE-8808-31BE9125BE6E}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_Beautifull_evening-001.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="675077320"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_Beautifull_evening-001" ID="{53AC6C89-60F9-4DEE-8808-31BE9125BE6E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BarksCrowd_Beautifull_evening-002" ID="{DAB4EEE4-1529-4977-9345-91A83849E689}" ShortID="351955012">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_Beautifull_evening-002" ID="{2AAE718C-EA25-47F6-9479-0C8EAA285689}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_Beautifull_evening-002.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="3938726"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_Beautifull_evening-002" ID="{2AAE718C-EA25-47F6-9479-0C8EAA285689}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BarksCrowd_Glowing-005" ID="{EE636592-AAE9-4A5F-BC22-2E9B338BD358}" ShortID="1043541413">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_Glowing-005" ID="{69584442-7150-423E-9CC6-549B002D2D07}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_Glowing-005.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="442030540"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_Glowing-005" ID="{69584442-7150-423E-9CC6-549B002D2D07}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BarksCrowd_Glowing-008" ID="{76652B62-567B-48D1-859C-BFD513412420}" ShortID="453908204">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_Glowing-008" ID="{29A64389-0747-40BF-91BB-7E741A534E00}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_Glowing-008.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="125139649"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_Glowing-008" ID="{29A64389-0747-40BF-91BB-7E741A534E00}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BarksCrowd_Glowing-007" ID="{E1F79816-ED92-425B-B813-E5324119708B}" ShortID="284928564">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_Glowing-007" ID="{96A21C0C-EF38-42B2-8CC6-0A7E41A34475}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_Glowing-007.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="186300713"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_Glowing-007" ID="{96A21C0C-EF38-42B2-8CC6-0A7E41A34475}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BarksCrowd_Glowing-006" ID="{7455047B-2A02-4D9F-A8ED-E722F1DB7012}" ShortID="790671132">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_Glowing-006" ID="{454FAE31-19C7-450F-9377-FC0014DB5A78}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_Glowing-006.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="23718374"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_Glowing-006" ID="{454FAE31-19C7-450F-9377-FC0014DB5A78}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BarksCrowd_Glowing-003" ID="{85C70339-562F-4CB7-96A6-E0A13A7E160E}" ShortID="438486450">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_Glowing-003" ID="{A23F448E-2494-4B64-9FE9-36D137C23B51}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_Glowing-003.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="270194484"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_Glowing-003" ID="{A23F448E-2494-4B64-9FE9-36D137C23B51}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BarksCrowd_Glowing-001" ID="{FECBE9A0-B1FC-4089-9DC3-C5B873769A97}" ShortID="608284774">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_Glowing-001" ID="{737E882D-6C85-4E59-A8F0-293E09807D57}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_Glowing-001.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="753376481"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_Glowing-001" ID="{737E882D-6C85-4E59-A8F0-293E09807D57}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BarksCrowd_Glowing-002" ID="{47BF67B9-5C1C-41DB-810A-FF3184B0AD02}" ShortID="297886444">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_Glowing-002" ID="{0D687839-543F-491A-A622-0B062AA9AAF1}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_Glowing-002.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="197661536"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_Glowing-002" ID="{0D687839-543F-491A-A622-0B062AA9AAF1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BarksCrowd_Glowing-004" ID="{DC046550-7B53-4D62-AF85-31ECB9ECF516}" ShortID="306357220">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_Glowing-004" ID="{80BDCF74-E480-4807-8AE6-FEEEC305F49D}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_Glowing-004.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="86091294"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_Glowing-004" ID="{80BDCF74-E480-4807-8AE6-FEEEC305F49D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BarksCrowd_Im_excited-001" ID="{046372FB-DF9C-45B5-83CD-C72E541B9B06}" ShortID="374974206">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_Im_excited-001" ID="{A41B9A9E-01BF-4F3C-98BB-40E196A08FB8}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_Im_excited-001.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="174189718"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_Im_excited-001" ID="{A41B9A9E-01BF-4F3C-98BB-40E196A08FB8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BarksCrowd_Im_excited-006" ID="{C651BE25-8AF8-4221-9A19-99440192075C}" ShortID="964730387">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_Im_excited-006" ID="{CC0CF8DE-41DC-499C-8F07-76355DC08D86}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_Im_excited-006.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="422365729"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_Im_excited-006" ID="{CC0CF8DE-41DC-499C-8F07-76355DC08D86}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BarksCrowd_Im_excited-004" ID="{6BDFE846-6A27-4B52-B567-649CE8A0BAA9}" ShortID="965998040">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_Im_excited-004" ID="{86CABEFB-B505-478E-97B9-D1B2FECD3379}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_Im_excited-004.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="499058442"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_Im_excited-004" ID="{86CABEFB-B505-478E-97B9-D1B2FECD3379}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BarksCrowd_Im_excited-007" ID="{318C7869-5B37-42B8-973A-17AC0AC0FD92}" ShortID="597331129">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_Im_excited-007" ID="{6FD3EA67-2126-49C1-869C-B4A715B5FFF2}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_Im_excited-007.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="976917922"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_Im_excited-007" ID="{6FD3EA67-2126-49C1-869C-B4A715B5FFF2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BarksCrowd_Im_excited-005" ID="{AB7E0AEA-B95B-4113-91DD-1356CE7D05EA}" ShortID="354994788">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_Im_excited-005" ID="{0F30CA65-B5C5-4C63-8243-878870984363}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_Im_excited-005.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="178624895"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_Im_excited-005" ID="{0F30CA65-B5C5-4C63-8243-878870984363}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BarksCrowd_Im_excited-002" ID="{8800F4DD-1222-4D85-89A2-2D0EF7C0DF13}" ShortID="1032616180">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_Im_excited-002" ID="{1810B918-DFC7-4F40-BAA0-ABB62D6095A8}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_Im_excited-002.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1029138081"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_Im_excited-002" ID="{1810B918-DFC7-4F40-BAA0-ABB62D6095A8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BarksCrowd_Im_excited-003" ID="{579197A9-A9E0-47FE-9C60-6A8C80A1243C}" ShortID="38138336">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_Im_excited-003" ID="{57EC5A7C-B1F0-413B-890C-EFC67193B858}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_Im_excited-003.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1035558762"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_Im_excited-003" ID="{57EC5A7C-B1F0-413B-890C-EFC67193B858}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BarksCrowd_These_posters-001" ID="{00386749-7DEE-46ED-B6E9-BC9CEB389F88}" ShortID="793949579">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_These_posters-001" ID="{10982E59-45BA-4E34-AFAD-15ADADC72620}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_These_posters-001.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="335020423"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_These_posters-001" ID="{10982E59-45BA-4E34-AFAD-15ADADC72620}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BarksCrowd_These_posters-003" ID="{85AF702D-0643-4B43-AE4D-1A32EF789938}" ShortID="240652262">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_These_posters-003" ID="{11E279FC-0B90-4E77-8F21-BD987B8FF8EF}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_These_posters-003.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="368451818"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_These_posters-003" ID="{11E279FC-0B90-4E77-8F21-BD987B8FF8EF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BarksCrowd_These_posters-005" ID="{36ADE2C8-08F5-47F9-94A0-8AD65127EC4E}" ShortID="530545604">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_These_posters-005" ID="{DF1C1D9A-D2C7-4A9C-A824-FB330518F49F}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_These_posters-005.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="571424647"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_These_posters-005" ID="{DF1C1D9A-D2C7-4A9C-A824-FB330518F49F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BarksCrowd_These_posters-002" ID="{2210CFDD-3FF9-4587-B5D5-EE2C36CF7AF6}" ShortID="212964579">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_These_posters-002" ID="{91235C17-6789-4232-A842-0287C2625946}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_These_posters-002.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="562844504"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_These_posters-002" ID="{91235C17-6789-4232-A842-0287C2625946}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BarksCrowd_These_posters-006" ID="{FB67A5A4-ACFA-4B4D-8AF2-C4223BDA6F20}" ShortID="505596660">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_These_posters-006" ID="{E20278F7-3476-47AE-8A63-9A076374C9AD}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_These_posters-006.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="603598796"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_These_posters-006" ID="{E20278F7-3476-47AE-8A63-9A076374C9AD}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BarksCrowd_These_posters-009" ID="{EBDA7D75-F203-4984-B396-68B3615E758C}" ShortID="53121005">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_These_posters-009" ID="{2E624789-010D-44C5-A842-D26685043C62}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_These_posters-009.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="495087408"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_These_posters-009" ID="{2E624789-010D-44C5-A842-D26685043C62}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BarksCrowd_These_posters-008" ID="{E9DC9B00-B9E1-4B1A-B181-EBD99DFB203B}" ShortID="866344903">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_These_posters-008" ID="{590D9167-7E51-48C0-BA22-518E11713D88}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_These_posters-008.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="128737081"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_These_posters-008" ID="{590D9167-7E51-48C0-BA22-518E11713D88}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BarksCrowd_These_posters-004" ID="{629F9F86-A8A4-4149-8B1C-6DBEB3DE5893}" ShortID="12423037">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_These_posters-004" ID="{E2935B8E-C0D6-42F7-A86B-4D79921D0FBA}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_These_posters-004.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="924905720"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_These_posters-004" ID="{E2935B8E-C0D6-42F7-A86B-4D79921D0FBA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BarksCrowd_These_posters-007" ID="{47D670CD-E051-44AF-B15B-D3979ADAAFDF}" ShortID="50470990">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_These_posters-007" ID="{A6936C64-916D-4305-8B78-653330B47501}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_These_posters-007.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="618928122"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_These_posters-007" ID="{A6936C64-916D-4305-8B78-653330B47501}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Barks2" ID="{A925AF57-EB73-48E5-875E-86963553E285}" ShortID="125549839">
+							<PropertyList>
+								<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
+								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="BarksCrowd_Bad_feeling-001" ID="{24C9C277-2978-409C-99CC-1F3E9E3A3F70}" ShortID="156713457">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_Bad_feeling-001" ID="{89AA4805-D521-4D8B-B530-009530B85F04}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_Bad_feeling-001.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="449172985"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_Bad_feeling-001" ID="{89AA4805-D521-4D8B-B530-009530B85F04}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BarksCrowd_Bad_feeling-002" ID="{328D75C0-6B30-4553-BDE6-354C29B61930}" ShortID="590124146">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_Bad_feeling-002" ID="{45667708-32FF-446F-8E02-804385E13844}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_Bad_feeling-002.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="45474545"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_Bad_feeling-002" ID="{45667708-32FF-446F-8E02-804385E13844}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BarksCrowd_Bad_feeling-003" ID="{6576C026-2A54-4B83-B01F-0A10FAC9C44D}" ShortID="254196532">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_Bad_feeling-003" ID="{833C52B9-130A-4573-BB53-2F8941754118}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_Bad_feeling-003.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="791042364"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_Bad_feeling-003" ID="{833C52B9-130A-4573-BB53-2F8941754118}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BarksCrowd_Bad_feeling-004" ID="{D1EDF589-74F9-4CCA-A6B6-840A8B907C43}" ShortID="828886867">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_Bad_feeling-004" ID="{F87F4A69-EB6D-4F3A-9384-09AB76019830}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_Bad_feeling-004.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="537751462"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_Bad_feeling-004" ID="{F87F4A69-EB6D-4F3A-9384-09AB76019830}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BarksCrowd_Bad_feeling-005" ID="{86BFF45C-4F40-4B64-B9BB-E6D4837CB609}" ShortID="260266148">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_Bad_feeling-005" ID="{0E3AFE7E-32F2-478C-B7D2-A7263BE68FAD}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_Bad_feeling-005.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="360840642"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_Bad_feeling-005" ID="{0E3AFE7E-32F2-478C-B7D2-A7263BE68FAD}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BarksCrowd_Bad_feeling-006" ID="{F51F9D9F-089E-478C-A302-F26C3DF9FF19}" ShortID="620211670">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_Bad_feeling-006" ID="{DE57B941-8AEE-40A9-B131-AB7988297FDD}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_Bad_feeling-006.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="979696630"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_Bad_feeling-006" ID="{DE57B941-8AEE-40A9-B131-AB7988297FDD}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BarksCrowd_Bad_feeling-007" ID="{581A9B88-9D3F-46A9-9CF2-132D196F4E5E}" ShortID="991113741">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_Bad_feeling-007" ID="{180FB1A2-58D0-4DA7-B708-56134B92AEE4}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_Bad_feeling-007.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="232968322"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_Bad_feeling-007" ID="{180FB1A2-58D0-4DA7-B708-56134B92AEE4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BarksCrowd_Bad_feeling-008" ID="{42A96EA8-C908-4FBF-8A02-CDF3BB1E585F}" ShortID="677873631">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_Bad_feeling-008" ID="{0FDF4E11-AC01-4DB0-A4E6-C6963C41249E}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_Bad_feeling-008.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="691569210"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_Bad_feeling-008" ID="{0FDF4E11-AC01-4DB0-A4E6-C6963C41249E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BarksCrowd_Bad_feeling-009" ID="{CCD55C58-5A15-43D1-A088-E8E94AACE60C}" ShortID="708089370">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_Bad_feeling-009" ID="{248AB5C3-66E0-4F70-8202-8D38CAE6B60B}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_Bad_feeling-009.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="135530466"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_Bad_feeling-009" ID="{248AB5C3-66E0-4F70-8202-8D38CAE6B60B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BarksCrowd_Bad_feeling-010" ID="{5177DBD0-D54A-48B6-B03C-64D1E8A1D47E}" ShortID="784712672">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_Bad_feeling-010" ID="{E4BAA627-FD5B-4C57-A84C-C502CF661FE1}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_Bad_feeling-010.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="816797893"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_Bad_feeling-010" ID="{E4BAA627-FD5B-4C57-A84C-C502CF661FE1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BarksCrowd_Will_you_come-006" ID="{F710EFAF-B7E0-4047-982B-BD9FB5C8DCBC}" ShortID="22707424">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_Will_you_come-006" ID="{2BCDAA65-AD06-474C-9845-A6F72834553A}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_Will_you_come-006.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="450601312"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_Will_you_come-006" ID="{2BCDAA65-AD06-474C-9845-A6F72834553A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BarksCrowd_Will_you_come-009" ID="{C43653D9-19EB-4935-9C81-E28F6FA73847}" ShortID="867512435">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_Will_you_come-009" ID="{C8A3F13C-F84F-4162-9E4D-C507BEE987D7}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_Will_you_come-009.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="504968180"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_Will_you_come-009" ID="{C8A3F13C-F84F-4162-9E4D-C507BEE987D7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BarksCrowd_Will_you_come-008" ID="{92D13588-C498-4B98-9D77-1BADE81C33DD}" ShortID="803248116">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_Will_you_come-008" ID="{95447FC0-400A-468D-AB02-2D2DEF376F91}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_Will_you_come-008.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="82849676"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_Will_you_come-008" ID="{95447FC0-400A-468D-AB02-2D2DEF376F91}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BarksCrowd_Will_you_come-003" ID="{624A8109-F92B-491E-A659-A79B5561B117}" ShortID="668484781">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_Will_you_come-003" ID="{98D20007-2028-4D95-B5B9-2710F330136C}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_Will_you_come-003.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="626846795"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_Will_you_come-003" ID="{98D20007-2028-4D95-B5B9-2710F330136C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BarksCrowd_Will_you_come-002" ID="{1DDE6EFE-6035-4821-A2A7-A57D9FD3365F}" ShortID="863604981">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_Will_you_come-002" ID="{2ECB5295-A949-426E-AF4E-847ED3BA9E55}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_Will_you_come-002.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="848181454"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_Will_you_come-002" ID="{2ECB5295-A949-426E-AF4E-847ED3BA9E55}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BarksCrowd_Will_you_come-004" ID="{3C5EC0EE-665D-4CB0-AAF7-E2AA05DF0C23}" ShortID="143478202">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_Will_you_come-004" ID="{CC24BF2E-69F9-43EC-A64E-1BE1CF7E7908}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_Will_you_come-004.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="393440709"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_Will_you_come-004" ID="{CC24BF2E-69F9-43EC-A64E-1BE1CF7E7908}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BarksCrowd_Will_you_come-005" ID="{816A7DF1-0F58-4214-8649-BE694DE203EF}" ShortID="435145893">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_Will_you_come-005" ID="{4D110928-08C8-47CF-95D4-5BF9A8FF64F4}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_Will_you_come-005.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="287358821"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_Will_you_come-005" ID="{4D110928-08C8-47CF-95D4-5BF9A8FF64F4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BarksCrowd_Will_you_come-001" ID="{466DB7AE-2C9A-45A9-BF2E-0EB9B502E5E8}" ShortID="191324986">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_Will_you_come-001" ID="{50FF05AD-740F-4498-B392-B4E34E884313}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_Will_you_come-001.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="791561030"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_Will_you_come-001" ID="{50FF05AD-740F-4498-B392-B4E34E884313}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BarksCrowd_Will_you_come-007" ID="{EA91AEE7-C697-49ED-B906-10D2A216107A}" ShortID="873166695">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_Will_you_come-007" ID="{5338859C-6D47-4DFA-BAE6-3F944BC8F067}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_Will_you_come-007.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="547971457"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_Will_you_come-007" ID="{5338859C-6D47-4DFA-BAE6-3F944BC8F067}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BarksCrowd_This_carnival-001" ID="{4906CD13-26B0-4A2E-B478-3015358E9F35}" ShortID="468011662">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_This_carnival-001" ID="{6F9EE8EA-CBB8-4826-A25B-A0EA60DEAAE4}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_This_carnival-001.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="432456140"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_This_carnival-001" ID="{6F9EE8EA-CBB8-4826-A25B-A0EA60DEAAE4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BarksCrowd_This_carnival-004" ID="{1C364694-4FB1-4040-89FD-2F52086E8667}" ShortID="707203148">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_This_carnival-004" ID="{538683F9-D40F-40E1-807F-3961BEC45B47}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_This_carnival-004.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="280046236"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_This_carnival-004" ID="{538683F9-D40F-40E1-807F-3961BEC45B47}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BarksCrowd_This_carnival-005" ID="{AEFB065E-E4A7-4A5F-B3EB-4B62C959E7B6}" ShortID="727741880">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_This_carnival-005" ID="{A37A8B97-C0CF-4D61-98CC-AA41BEA66BBA}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_This_carnival-005.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="851194265"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_This_carnival-005" ID="{A37A8B97-C0CF-4D61-98CC-AA41BEA66BBA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BarksCrowd_This_carnival-002" ID="{8A0ADF8D-7F82-4731-A55B-7B805AE557AD}" ShortID="932185061">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_This_carnival-002" ID="{EBB67ED6-7FAC-4109-ADE2-A33F4A203E7B}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_This_carnival-002.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1000441624"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_This_carnival-002" ID="{EBB67ED6-7FAC-4109-ADE2-A33F4A203E7B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BarksCrowd_This_carnival-003" ID="{A33D560C-1351-473C-8FA6-D179AD835BD6}" ShortID="674195324">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_This_carnival-003" ID="{BAFC9F41-4760-4B1E-B50C-42AC309B727B}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_This_carnival-003.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1032818114"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_This_carnival-003" ID="{BAFC9F41-4760-4B1E-B50C-42AC309B727B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Barks_Laughs" ID="{3BA2D479-DCA6-404A-B370-440EE4138476}" ShortID="59565384">
+							<PropertyList>
+								<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
+								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="BarksCrowd_ONOM_Laugh-001" ID="{1E8E5698-DEBB-4F61-9825-65DECF532A68}" ShortID="146299535">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_ONOM_Laugh-001" ID="{C1E6E5F3-7B52-4686-AB5C-CF99BFD952D5}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_ONOM_Laugh-001.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="727590874"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_ONOM_Laugh-001" ID="{C1E6E5F3-7B52-4686-AB5C-CF99BFD952D5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BarksCrowd_ONOM_Laugh-002" ID="{34EE502E-CEDD-4BAA-9F1A-BDFC1E29BE9B}" ShortID="928808116">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_ONOM_Laugh-002" ID="{25CC1640-2FF1-4CFC-9FA1-120573D853E4}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_ONOM_Laugh-002.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="869508062"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_ONOM_Laugh-002" ID="{25CC1640-2FF1-4CFC-9FA1-120573D853E4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BarksCrowd_ONOM_Laugh-003" ID="{3DBD3788-BA24-466D-B845-045F3000B99A}" ShortID="904895260">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_ONOM_Laugh-003" ID="{2171EBD9-E138-44C8-B3A3-144586CF2707}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_ONOM_Laugh-003.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="234095412"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_ONOM_Laugh-003" ID="{2171EBD9-E138-44C8-B3A3-144586CF2707}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BarksCrowd_ONOM_Laugh-004" ID="{10D5B290-43A9-4A00-911E-08D10312FE02}" ShortID="269688282">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_ONOM_Laugh-004" ID="{F66F8974-77AC-4D07-9FD5-3FF9ED18B1EE}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_ONOM_Laugh-004.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="871645862"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_ONOM_Laugh-004" ID="{F66F8974-77AC-4D07-9FD5-3FF9ED18B1EE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BarksCrowd_ONOM_Laugh-005" ID="{22BDD4CA-6520-4E4E-8744-77F0209E0566}" ShortID="241193804">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_ONOM_Laugh-005" ID="{82D781AB-40D1-4C3B-80C6-0F50DDE73059}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_ONOM_Laugh-005.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="863512957"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_ONOM_Laugh-005" ID="{82D781AB-40D1-4C3B-80C6-0F50DDE73059}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BarksCrowd_ONOM_Laugh-006" ID="{6C91EEDB-6442-46AC-8B67-93BA8866DFEF}" ShortID="162440646">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_ONOM_Laugh-006" ID="{081C83E0-124C-4AE3-BD86-DEE6D6DCAC44}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_ONOM_Laugh-006.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="485723463"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_ONOM_Laugh-006" ID="{081C83E0-124C-4AE3-BD86-DEE6D6DCAC44}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BarksCrowd_ONOM_Laugh-007" ID="{0CAB25B2-B2CE-4D16-9537-CC5A341FEE9D}" ShortID="640399418">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_ONOM_Laugh-007" ID="{AD8E41AA-7F6E-47F3-9E08-D0B887646A1E}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_ONOM_Laugh-007.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="537915298"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_ONOM_Laugh-007" ID="{AD8E41AA-7F6E-47F3-9E08-D0B887646A1E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BarksCrowd_ONOM_Laugh-008" ID="{EFA4B7ED-B7CD-4363-B6F6-B8C936581F3A}" ShortID="267059187">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_ONOM_Laugh-008" ID="{42DA78E0-5F67-4CCC-861D-ABD5DF4F6DDB}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_ONOM_Laugh-008.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="585041347"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_ONOM_Laugh-008" ID="{42DA78E0-5F67-4CCC-861D-ABD5DF4F6DDB}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Barks3" ID="{E30A20E4-F6EE-49DB-8B1B-CA032EF10BBA}" ShortID="124990596">
+							<PropertyList>
+								<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
+								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="BarksCrowd_Grand_actress-001" ID="{E1700BB7-CB38-40C2-BDA8-5699D864C398}" ShortID="55196926">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_Grand_actress-001" ID="{A093B161-A053-4269-B8BC-DE5885F194E2}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_Grand_actress-001.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="874081349"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_Grand_actress-001" ID="{A093B161-A053-4269-B8BC-DE5885F194E2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BarksCrowd_Grand_actress-002" ID="{04067635-A8B5-4396-8CF2-8699285F35CE}" ShortID="851105270">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_Grand_actress-002" ID="{B6D6C350-74C7-473F-ADA3-1CB005D4EC13}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_Grand_actress-002.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="819895788"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_Grand_actress-002" ID="{B6D6C350-74C7-473F-ADA3-1CB005D4EC13}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BarksCrowd_Grand_actress-003" ID="{53FBAC8B-BC7C-49AD-809E-D494B657EBA1}" ShortID="683764270">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_Grand_actress-003" ID="{C507507F-CAE3-4EDB-A04F-8239EEC9809F}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_Grand_actress-003.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="4813571"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_Grand_actress-003" ID="{C507507F-CAE3-4EDB-A04F-8239EEC9809F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BarksCrowd_Grand_actress-004" ID="{3B7FB449-80CE-4DF8-8882-3856FE773705}" ShortID="655066193">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_Grand_actress-004" ID="{DF0959D1-5F93-4437-950C-3A118148EF5A}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_Grand_actress-004.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="634982687"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_Grand_actress-004" ID="{DF0959D1-5F93-4437-950C-3A118148EF5A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BarksCrowd_Grand_actress-005" ID="{21909642-D598-41F8-9E85-FF6318692744}" ShortID="605937897">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_Grand_actress-005" ID="{5404B44C-5EF5-4271-B793-D086FB6C1CE2}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_Grand_actress-005.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="53802985"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_Grand_actress-005" ID="{5404B44C-5EF5-4271-B793-D086FB6C1CE2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BarksCrowd_Grand_actress-006" ID="{76FA3831-1AAC-4FF7-BAC3-AC7252181791}" ShortID="625719414">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_Grand_actress-006" ID="{FD5C5D14-0F7F-4BD6-83C6-B526D02F19E1}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_Grand_actress-006.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="53349307"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_Grand_actress-006" ID="{FD5C5D14-0F7F-4BD6-83C6-B526D02F19E1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BarksCrowd_Grand_actress-007" ID="{EB9784AF-F029-4305-BAD4-29DA5702FD64}" ShortID="1051443061">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_Grand_actress-007" ID="{0DB95A80-CD91-471D-B30C-2F4A96B67C8F}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_Grand_actress-007.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="892596737"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_Grand_actress-007" ID="{0DB95A80-CD91-471D-B30C-2F4A96B67C8F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BarksCrowd_Grand_actress-008" ID="{8A8CD3CD-997E-4F90-BDE4-25641F39D3C3}" ShortID="326626790">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_Grand_actress-008" ID="{4129A54B-B836-4615-86AD-84546C0BEF73}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_Grand_actress-008.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="834681272"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_Grand_actress-008" ID="{4129A54B-B836-4615-86AD-84546C0BEF73}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BarksCrowd_That_dress-001" ID="{AA3AAE50-B108-49E0-9975-6183C55BC2EE}" ShortID="793668725">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_That_dress-001" ID="{EA0A3413-B5AF-432E-B223-251B2E9C3D8B}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_That_dress-001.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="507897549"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_That_dress-001" ID="{EA0A3413-B5AF-432E-B223-251B2E9C3D8B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BarksCrowd_That_dress-002" ID="{23518B4A-2F16-47AC-A3A5-BE315DC22E68}" ShortID="967117170">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_That_dress-002" ID="{4A97E394-5739-4F9E-95D2-3BD17AA1764C}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_That_dress-002.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="254569665"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_That_dress-002" ID="{4A97E394-5739-4F9E-95D2-3BD17AA1764C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BarksCrowd_That_dress-003" ID="{91279EBC-84C7-44A2-8CCA-113DFAE2E104}" ShortID="130116631">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_That_dress-003" ID="{DE8F7918-0E3F-4E7E-9F79-4190A17BAF39}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_That_dress-003.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1054503601"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_That_dress-003" ID="{DE8F7918-0E3F-4E7E-9F79-4190A17BAF39}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BarksCrowd_That_dress-004" ID="{D70787DB-298D-4612-B7E0-D8DF7880841D}" ShortID="371693631">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_That_dress-004" ID="{3D74156D-6E5F-464A-B665-24095A2B6068}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_That_dress-004.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="404888413"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_That_dress-004" ID="{3D74156D-6E5F-464A-B665-24095A2B6068}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BarksCrowd_That_dress-005" ID="{C27458AE-F0AC-4813-BC32-B029F319A694}" ShortID="780146417">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_That_dress-005" ID="{B33234FA-047D-4944-A485-69B5D67313D8}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_That_dress-005.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="589304481"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_That_dress-005" ID="{B33234FA-047D-4944-A485-69B5D67313D8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BarksCrowd_That_dress-006" ID="{5BD7F443-1E4D-4C8D-9886-31C441692BDE}" ShortID="650385377">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_That_dress-006" ID="{4E5AFC24-8377-441F-96E9-76C84D73D565}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_That_dress-006.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="396188794"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_That_dress-006" ID="{4E5AFC24-8377-441F-96E9-76C84D73D565}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BarksCrowd_That_dress-007" ID="{B29312A2-31AF-4E5D-8AA1-C3486E02AF48}" ShortID="467594032">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_That_dress-007" ID="{FDACE479-82CC-4F45-9E10-274C00C4CE82}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_That_dress-007.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="627231915"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_That_dress-007" ID="{FDACE479-82CC-4F45-9E10-274C00C4CE82}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Barks_Chocked" ID="{C948900C-18E6-44F6-8375-86BF85EADC30}" ShortID="27886953">
+							<PropertyList>
+								<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
+								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="BarksCrowd_ONOM_Chocked-001" ID="{5D12D3F0-5DAE-41E2-9FA3-34F0DEB2D199}" ShortID="275154381">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_ONOM_Chocked-001" ID="{45336162-9087-4809-A3D0-9155BBE2BED6}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_ONOM_Chocked-001.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="841233861"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_ONOM_Chocked-001" ID="{45336162-9087-4809-A3D0-9155BBE2BED6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BarksCrowd_ONOM_Chocked-002" ID="{8BAB3F02-34C3-47F5-AF1B-E024F5B71F82}" ShortID="804812710">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_ONOM_Chocked-002" ID="{8DFC8807-1DB5-478F-8785-0D53F476FFD9}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_ONOM_Chocked-002.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="609571778"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_ONOM_Chocked-002" ID="{8DFC8807-1DB5-478F-8785-0D53F476FFD9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BarksCrowd_ONOM_Chocked-003" ID="{6CFA651E-6C9C-44BD-B2C9-0E26AEFACBF3}" ShortID="593375617">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_ONOM_Chocked-003" ID="{07A7F814-6482-49CB-9E75-F75BC790A71A}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_ONOM_Chocked-003.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="302522326"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_ONOM_Chocked-003" ID="{07A7F814-6482-49CB-9E75-F75BC790A71A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BarksCrowd_ONOM_Chocked-004" ID="{1090F278-F739-4671-94B6-049725328636}" ShortID="744331902">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_ONOM_Chocked-004" ID="{0933D830-CB14-4C08-BD38-708822E21BAA}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_ONOM_Chocked-004.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="33228550"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_ONOM_Chocked-004" ID="{0933D830-CB14-4C08-BD38-708822E21BAA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BarksCrowd_ONOM_Chocked-005" ID="{6844C410-958C-424B-B3A3-E290068E882C}" ShortID="1010309591">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_ONOM_Chocked-005" ID="{51C88482-8BEB-4154-A29E-CBEFF3D28D5A}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_ONOM_Chocked-005.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="691470793"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_ONOM_Chocked-005" ID="{51C88482-8BEB-4154-A29E-CBEFF3D28D5A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Barks_Waow" ID="{13A50286-83B4-4069-9954-0C578134FEAE}" ShortID="990895966">
+							<PropertyList>
+								<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
+								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="BarksCrowd_Marvellous-001" ID="{F97C8A83-820A-4A51-BC97-3F5504AE390A}" ShortID="229908474">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_Marvellous-001" ID="{DE248695-8DFD-4C2C-A19B-DDAD12EF0C49}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_Marvellous-001.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="128266752"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_Marvellous-001" ID="{DE248695-8DFD-4C2C-A19B-DDAD12EF0C49}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BarksCrowd_Marvellous-002" ID="{DFC41E0C-DD20-4B07-81D2-B7B61851AFC0}" ShortID="264573518">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_Marvellous-002" ID="{FFB65147-C54F-44A8-98D2-BCA6E926E1CA}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_Marvellous-002.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="307171983"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_Marvellous-002" ID="{FFB65147-C54F-44A8-98D2-BCA6E926E1CA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BarksCrowd_Marvellous-003" ID="{CF22708C-BDA6-4E8F-9E37-03926C9813C9}" ShortID="108631826">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_Marvellous-003" ID="{B5473FEB-3DDF-4682-81F7-2AA22690273C}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_Marvellous-003.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="827336581"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_Marvellous-003" ID="{B5473FEB-3DDF-4682-81F7-2AA22690273C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BarksCrowd_Marvellous-004" ID="{1238F4CC-5B27-49F5-86FE-319C7832919B}" ShortID="550022183">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_Marvellous-004" ID="{F29A6167-AFC9-4F77-B050-093FFE811B1C}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_Marvellous-004.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="35570444"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_Marvellous-004" ID="{F29A6167-AFC9-4F77-B050-093FFE811B1C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BarksCrowd_Marvellous-005" ID="{EF568872-6198-49E1-B3F2-A34400D9DAA0}" ShortID="935045562">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_Marvellous-005" ID="{5C095881-5D77-4D43-A101-1C3866D43D31}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_Marvellous-005.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="896299980"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_Marvellous-005" ID="{5C095881-5D77-4D43-A101-1C3866D43D31}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BarksCrowd_Marvellous-006" ID="{3FD18242-5EF1-4212-B750-11F29E2FCF29}" ShortID="151092856">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_Marvellous-006" ID="{54235F11-53D6-452B-8AC4-CDE8746199E0}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_Marvellous-006.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="547037861"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_Marvellous-006" ID="{54235F11-53D6-452B-8AC4-CDE8746199E0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BarksCrowd_Marvellous-007" ID="{F50B788F-40D0-4438-8322-D9D13B597411}" ShortID="210051037">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_Marvellous-007" ID="{64FA535E-33A1-4D85-950E-5DB3012CDB71}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_Marvellous-007.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="229939957"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_Marvellous-007" ID="{64FA535E-33A1-4D85-950E-5DB3012CDB71}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BarksCrowd_Marvellous-008" ID="{F7F59CCA-22C7-4638-9281-C00A64023381}" ShortID="476003319">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_Marvellous-008" ID="{6770DDFC-A3F2-496F-8710-34C800C3DEC5}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_Marvellous-008.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="834803043"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_Marvellous-008" ID="{6770DDFC-A3F2-496F-8710-34C800C3DEC5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BarksCrowd_Marvellous-009" ID="{C2987966-2055-41FD-8084-325E5102263C}" ShortID="480408168">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_Marvellous-009" ID="{D1B37B2C-6EF6-4761-9849-81963953CD0F}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_Marvellous-009.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="555356382"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_Marvellous-009" ID="{D1B37B2C-6EF6-4761-9849-81963953CD0F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BarksCrowd_Splendissimo-001" ID="{A3B37F1D-7E3A-4693-9CC5-FFE036D938A0}" ShortID="187399489">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_Splendissimo-001" ID="{7AA894C5-46BB-45D1-B13F-3D5ADF724BE9}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_Splendissimo-001.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="791091809"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_Splendissimo-001" ID="{7AA894C5-46BB-45D1-B13F-3D5ADF724BE9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BarksCrowd_Splendissimo-002" ID="{0039D08D-41EF-4275-88CC-7992AA73392D}" ShortID="574099087">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_Splendissimo-002" ID="{52DF81AC-3CE2-4963-A847-866E47253886}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_Splendissimo-002.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="23735691"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_Splendissimo-002" ID="{52DF81AC-3CE2-4963-A847-866E47253886}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BarksCrowd_Splendissimo-003" ID="{D8AD6186-E318-4833-B424-571035F69F50}" ShortID="701343393">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_Splendissimo-003" ID="{0729AB5C-137E-4383-9708-FE73C893BA47}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_Splendissimo-003.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="775381520"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_Splendissimo-003" ID="{0729AB5C-137E-4383-9708-FE73C893BA47}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BarksCrowd_Splendissimo-004" ID="{54AC462D-AEAA-4F8E-BF88-043DA14DC4B7}" ShortID="990515440">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_Splendissimo-004" ID="{AC5C35D2-0AC9-4432-BD9A-B7C5B5556C83}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_Splendissimo-004.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="875795430"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_Splendissimo-004" ID="{AC5C35D2-0AC9-4432-BD9A-B7C5B5556C83}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BarksCrowd_Splendissimo-005" ID="{4B8B88A7-1862-4300-8850-0AC33EE9FE45}" ShortID="448153469">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_Splendissimo-005" ID="{12684F9E-77F5-4883-8145-47D19E35BE9B}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_Splendissimo-005.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="88437421"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_Splendissimo-005" ID="{12684F9E-77F5-4883-8145-47D19E35BE9B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BarksCrowd_Splendissimo-006" ID="{5AE11761-25D2-444C-B2D7-ADA7406458F0}" ShortID="156675636">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_Splendissimo-006" ID="{1366DE98-9D81-4B6F-899A-3F4478D2178A}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_Splendissimo-006.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="856154061"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_Splendissimo-006" ID="{1366DE98-9D81-4B6F-899A-3F4478D2178A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BarksCrowd_Splendissimo-007" ID="{0D9C1B57-BCE7-4706-9D39-9DDC35B42C53}" ShortID="447557257">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_Splendissimo-007" ID="{9088A1D4-F5B0-457E-B523-EBD3BFFEFC35}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_Splendissimo-007.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="464455721"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_Splendissimo-007" ID="{9088A1D4-F5B0-457E-B523-EBD3BFFEFC35}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BarksCrowd_Splendissimo-008" ID="{E46D5C64-9CA1-44A8-9126-4FC99450618D}" ShortID="521538523">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_Splendissimo-008" ID="{FE6552DB-7094-468E-A429-C66DF3DC9722}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_Splendissimo-008.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="209140861"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_Splendissimo-008" ID="{FE6552DB-7094-468E-A429-C66DF3DC9722}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BarksCrowd_Splendissimo-009" ID="{99BA8273-949E-4EBF-BBFB-8F4AA91700E1}" ShortID="997744981">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_Splendissimo-009" ID="{2BE338A7-B268-4A66-B1D8-7E6C33C80588}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_Splendissimo-009.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="213745964"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_Splendissimo-009" ID="{2BE338A7-B268-4A66-B1D8-7E6C33C80588}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BarksCrowd_Splendissimo-010" ID="{450D97B1-2ADA-43D7-B530-80DE9F91B8A1}" ShortID="512830505">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_Splendissimo-010" ID="{7B7B0EF5-FB89-41E6-98B4-0E8142588549}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_Splendissimo-010.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="189328477"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_Splendissimo-010" ID="{7B7B0EF5-FB89-41E6-98B4-0E8142588549}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BarksCrowd_Splendissimo-011" ID="{D3E05482-ADA0-4B8D-ADB7-E2451FA7DEC2}" ShortID="487601506">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_Splendissimo-011" ID="{D3E66A5B-4985-4254-961D-60393B24CD2E}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_Splendissimo-011.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="296972249"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_Splendissimo-011" ID="{D3E66A5B-4985-4254-961D-60393B24CD2E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BarksCrowd_Splendissimo-012" ID="{B41462DD-7838-4903-9A6B-E9D3858156AF}" ShortID="812964357">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_Splendissimo-012" ID="{0726DD5B-CC02-412A-9812-B4C461E2A59B}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_Splendissimo-012.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="31797191"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_Splendissimo-012" ID="{0726DD5B-CC02-412A-9812-B4C461E2A59B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BarksCrowd_Wonderfull-004" ID="{DB1517D4-2010-41DE-97A0-0C64F4BB7269}" ShortID="530183231">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_Wonderfull-004" ID="{BEE92161-0EBC-4A9F-A500-69B62F2D29A1}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_Wonderfull-004.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="932217342"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_Wonderfull-004" ID="{BEE92161-0EBC-4A9F-A500-69B62F2D29A1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BarksCrowd_Wonderfull-002" ID="{4D6751DA-0571-4792-99AB-4A0621D03F34}" ShortID="252228803">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_Wonderfull-002" ID="{A243DFC4-6FB2-49BF-9029-480FAF7A1B7D}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_Wonderfull-002.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="302446345"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_Wonderfull-002" ID="{A243DFC4-6FB2-49BF-9029-480FAF7A1B7D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BarksCrowd_Wonderfull-003" ID="{15E7B676-065B-4512-A37A-515E8239F879}" ShortID="462335513">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_Wonderfull-003" ID="{2F18D53A-19CE-4FF9-BFC0-8E6EEB09AE58}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_Wonderfull-003.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="638580290"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_Wonderfull-003" ID="{2F18D53A-19CE-4FF9-BFC0-8E6EEB09AE58}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BarksCrowd_Wonderfull-001" ID="{52CD172D-C5FB-42C9-B760-A5BFA5E13BB5}" ShortID="397607293">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_Wonderfull-001" ID="{34BEF1BE-F3F8-4621-9416-734924FFA16C}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_Wonderfull-001.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="983321981"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_Wonderfull-001" ID="{34BEF1BE-F3F8-4621-9416-734924FFA16C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BarksCrowd_Wonderfull-008" ID="{591F93D6-3DD3-4B88-A849-0285856FF6D0}" ShortID="874789819">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_Wonderfull-008" ID="{AA3956AF-7D6E-4698-884C-F1432B84A1A3}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_Wonderfull-008.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="25323597"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_Wonderfull-008" ID="{AA3956AF-7D6E-4698-884C-F1432B84A1A3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BarksCrowd_Wonderfull-005" ID="{56017896-E3F6-4478-ACCC-EB02D505D03C}" ShortID="7355587">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_Wonderfull-005" ID="{7F9EE7F2-ECB8-4D8E-BB6A-79AA357378E3}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_Wonderfull-005.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1033747526"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_Wonderfull-005" ID="{7F9EE7F2-ECB8-4D8E-BB6A-79AA357378E3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BarksCrowd_Wonderfull-006" ID="{8965446A-6E6A-4B82-9D38-572E1E58FB5E}" ShortID="292520512">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_Wonderfull-006" ID="{5303563A-9FCD-45B6-80ED-C94DC0C8C15C}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_Wonderfull-006.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="731997297"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_Wonderfull-006" ID="{5303563A-9FCD-45B6-80ED-C94DC0C8C15C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BarksCrowd_Wonderfull-007" ID="{48D2F7C3-35F9-440E-971D-B5B3954CDA1A}" ShortID="987259370">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_Wonderfull-007" ID="{14408EA4-8BF7-47BA-9993-4FD42613D3A9}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_Wonderfull-007.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="421932531"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_Wonderfull-007" ID="{14408EA4-8BF7-47BA-9993-4FD42613D3A9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Barks_Bhoo" ID="{4F67E68D-2F07-491D-AEFE-80E2D4AB436C}" ShortID="820075067">
+							<PropertyList>
+								<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
+								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="BarksCrowd_ONOM_Bhoo-001" ID="{0348D879-CF13-4349-839E-6683620FF322}" ShortID="758249387">
+									<PropertyList>
+										<Property Name="OutputBusHighpass" Type="int16">
+											<ValueList>
+												<Value>15</Value>
+											</ValueList>
+										</Property>
+										<Property Name="OutputBusLowpass" Type="int16">
+											<ValueList>
+												<Value>34</Value>
+											</ValueList>
+										</Property>
+										<Property Name="UserAuxSendVolume0" Type="Real64">
+											<ValueList>
+												<Value>-18</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+										<Reference Name="UserAuxSend0">
+											<ObjectRef Name="REV_Glue" ID="{F806F83C-84C8-4DE1-A076-EB7A8B35B29E}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_ONOM_Bhoo-001" ID="{4B44F428-5992-4FE2-A4A7-D0DF7B3FE3A8}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_ONOM_Bhoo-001.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="973057441"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_ONOM_Bhoo-001" ID="{4B44F428-5992-4FE2-A4A7-D0DF7B3FE3A8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BarksCrowd_ONOM_Bhoo-002" ID="{ACECF573-C1F2-4235-97BD-3433A011CF59}" ShortID="122295445">
+									<PropertyList>
+										<Property Name="OutputBusHighpass" Type="int16">
+											<ValueList>
+												<Value>15</Value>
+											</ValueList>
+										</Property>
+										<Property Name="OutputBusLowpass" Type="int16">
+											<ValueList>
+												<Value>34</Value>
+											</ValueList>
+										</Property>
+										<Property Name="UserAuxSendVolume0" Type="Real64">
+											<ValueList>
+												<Value>-18</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+										<Reference Name="UserAuxSend0">
+											<ObjectRef Name="REV_Glue" ID="{F806F83C-84C8-4DE1-A076-EB7A8B35B29E}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_ONOM_Bhoo-002" ID="{BEB6E084-FBD2-402A-92FF-2CB628C3BCC2}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_ONOM_Bhoo-002.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="622417949"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_ONOM_Bhoo-002" ID="{BEB6E084-FBD2-402A-92FF-2CB628C3BCC2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BarksCrowd_ONOM_Bhoo-003" ID="{C0B2CD02-D5AF-4F09-95EC-6628E732DDFC}" ShortID="87684396">
+									<PropertyList>
+										<Property Name="OutputBusHighpass" Type="int16">
+											<ValueList>
+												<Value>15</Value>
+											</ValueList>
+										</Property>
+										<Property Name="OutputBusLowpass" Type="int16">
+											<ValueList>
+												<Value>34</Value>
+											</ValueList>
+										</Property>
+										<Property Name="UserAuxSendVolume0" Type="Real64">
+											<ValueList>
+												<Value>-18</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+										<Reference Name="UserAuxSend0">
+											<ObjectRef Name="REV_Glue" ID="{F806F83C-84C8-4DE1-A076-EB7A8B35B29E}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_ONOM_Bhoo-003" ID="{F124EDB1-9D5D-4359-B886-5CA4A8CE1B0A}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_ONOM_Bhoo-003.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="569614771"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_ONOM_Bhoo-003" ID="{F124EDB1-9D5D-4359-B886-5CA4A8CE1B0A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BarksCrowd_ONOM_Bhoo-004" ID="{0BAFB070-0F0E-4042-8DF4-08AF3AA5228B}" ShortID="848345915">
+									<PropertyList>
+										<Property Name="OutputBusHighpass" Type="int16">
+											<ValueList>
+												<Value>15</Value>
+											</ValueList>
+										</Property>
+										<Property Name="OutputBusLowpass" Type="int16">
+											<ValueList>
+												<Value>34</Value>
+											</ValueList>
+										</Property>
+										<Property Name="UserAuxSendVolume0" Type="Real64">
+											<ValueList>
+												<Value>-18</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+										<Reference Name="UserAuxSend0">
+											<ObjectRef Name="REV_Glue" ID="{F806F83C-84C8-4DE1-A076-EB7A8B35B29E}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_ONOM_Bhoo-004" ID="{FC7B8994-30D0-49C0-BDE6-625214C167F7}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_ONOM_Bhoo-004.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="97793594"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_ONOM_Bhoo-004" ID="{FC7B8994-30D0-49C0-BDE6-625214C167F7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BarksCrowd_ONOM_Bhoo-005" ID="{A33E71FF-B388-4661-AFD0-D87953ACBF4C}" ShortID="319458236">
+									<PropertyList>
+										<Property Name="OutputBusHighpass" Type="int16">
+											<ValueList>
+												<Value>15</Value>
+											</ValueList>
+										</Property>
+										<Property Name="OutputBusLowpass" Type="int16">
+											<ValueList>
+												<Value>34</Value>
+											</ValueList>
+										</Property>
+										<Property Name="UserAuxSendVolume0" Type="Real64">
+											<ValueList>
+												<Value>-18</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+										<Reference Name="UserAuxSend0">
+											<ObjectRef Name="REV_Glue" ID="{F806F83C-84C8-4DE1-A076-EB7A8B35B29E}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_ONOM_Bhoo-005" ID="{C83CA9B7-EB89-47A8-ACE0-DEDE098CFB4A}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_ONOM_Bhoo-005.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1018257801"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_ONOM_Bhoo-005" ID="{C83CA9B7-EB89-47A8-ACE0-DEDE098CFB4A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BarksCrowd_ONOM_Bhoo-006" ID="{B5DA8C25-52C0-463B-86AD-B6BD60923BFE}" ShortID="55068741">
+									<PropertyList>
+										<Property Name="OutputBusHighpass" Type="int16">
+											<ValueList>
+												<Value>15</Value>
+											</ValueList>
+										</Property>
+										<Property Name="OutputBusLowpass" Type="int16">
+											<ValueList>
+												<Value>34</Value>
+											</ValueList>
+										</Property>
+										<Property Name="UserAuxSendVolume0" Type="Real64">
+											<ValueList>
+												<Value>-18</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+										<Reference Name="UserAuxSend0">
+											<ObjectRef Name="REV_Glue" ID="{F806F83C-84C8-4DE1-A076-EB7A8B35B29E}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_ONOM_Bhoo-006" ID="{5D5B735D-C65C-4DC5-9754-735DBF17577E}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_ONOM_Bhoo-006.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="318426632"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_ONOM_Bhoo-006" ID="{5D5B735D-C65C-4DC5-9754-735DBF17577E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BarksCrowd_ONOM_Bhoo-007" ID="{4A0FCD0C-7236-44B0-ADBA-1D203D3C88B9}" ShortID="651473826">
+									<PropertyList>
+										<Property Name="OutputBusHighpass" Type="int16">
+											<ValueList>
+												<Value>15</Value>
+											</ValueList>
+										</Property>
+										<Property Name="OutputBusLowpass" Type="int16">
+											<ValueList>
+												<Value>34</Value>
+											</ValueList>
+										</Property>
+										<Property Name="UserAuxSendVolume0" Type="Real64">
+											<ValueList>
+												<Value>-18</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENVIRO" ID="{0DAF7CB5-9A83-4DD5-88F8-3D1001544BB3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+										<Reference Name="UserAuxSend0">
+											<ObjectRef Name="REV_Glue" ID="{F806F83C-84C8-4DE1-A076-EB7A8B35B29E}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BarksCrowd_ONOM_Bhoo-007" ID="{464A196A-2880-49A9-B94D-95BAA27576D8}">
+											<Language>SFX</Language>
+											<AudioFile>BarksCrowd_ONOM_Bhoo-007.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="523013760"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BarksCrowd_ONOM_Bhoo-007" ID="{464A196A-2880-49A9-B94D-95BAA27576D8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="Effects">
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{E1A0FD90-484C-4A1E-B9CF-1411F765344B}" ShortID="756058507">
+										<ReferenceList>
+											<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+												<ObjectRef Name="Have_U_Ever_Been_Outside" ID="{FE29AE8D-FD86-4652-A95D-68D32F5760EC}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

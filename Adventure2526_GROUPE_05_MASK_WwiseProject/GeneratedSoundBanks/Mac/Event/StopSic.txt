@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3105584236	StopSic			\Default Work Unit\MUSIC\StopSic	
+

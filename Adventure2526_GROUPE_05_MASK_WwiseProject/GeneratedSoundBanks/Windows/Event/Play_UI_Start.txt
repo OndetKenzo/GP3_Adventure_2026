@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	643450781	Play_UI_Start			\Default Work Unit\UI\Play_UI_Start	
+

@@ -1,0 +1,43 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	1296641681	NarrativePickUp			\Default Work Unit\NarrativePickUp	
+
+State	ID	Name	State Group			Notes
+	247232883	Alchemist	NarrativePickUp			
+	748895195	None	NarrativePickUp			
+	2039020852	Mirror	NarrativePickUp			
+	2792801369	Mask	NarrativePickUp			
+	4035250652	Jewelery	NarrativePickUp			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	409437772	Slid_MASTER			\Default Work Unit\SLIDERS_SETTINGS\Slid_MASTER	
+	569802944	SC_VoiceOnMusic			\Default Work Unit\SC_VoiceOnMusic	
+	1517177355	Slid_SFX			\Default Work Unit\SLIDERS_SETTINGS\Slid_SFX	
+	2814994792	SC_DoubleSic			\Default Work Unit\SC_DoubleSic	
+	3920655191	Slid_MUSIC			\Default Work Unit\SLIDERS_SETTINGS\Slid_MUSIC	
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	393239870	SFX			\Default Work Unit\Master Audio Bus\SFX	
+	1069431850	PLAYER			\Default Work Unit\Master Audio Bus\SFX\PLAYER	
+	1090969866	MUSIC_BOSS			\Default Work Unit\Master Audio Bus\MUSIC_BOSS	
+	1117531639	AMB			\Default Work Unit\Master Audio Bus\AMB	
+	1551306167	UI			\Default Work Unit\Master Audio Bus\SFX\UI	
+	1995189622	ENVIRO			\Default Work Unit\Master Audio Bus\SFX\ENVIRO	
+	3313685232	VOICES			\Default Work Unit\Master Audio Bus\VOICES	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+	3991942870	MUSIC			\Default Work Unit\Master Audio Bus\MUSIC	
+	4166191657	ENNEMIES			\Default Work Unit\Master Audio Bus\SFX\ENNEMIES	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	666746137	REV_Exterior			\Default Work Unit\Master Audio Bus\REV_Exterior	
+	3458558748	REV_Glue			\Default Work Unit\Master Audio Bus\REV_Glue	
+
+Effect plug-ins	ID	Name	Type				Notes
+	48620415	Have_U_Ever_Been_Outside	Wwise RoomVerb			
+	383302824	Meter (Custom)	Wwise Meter			
+	1035115223	Meter (Custom)	Wwise Meter			
+	2995775460	Room_Small	Wwise RoomVerb			
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+

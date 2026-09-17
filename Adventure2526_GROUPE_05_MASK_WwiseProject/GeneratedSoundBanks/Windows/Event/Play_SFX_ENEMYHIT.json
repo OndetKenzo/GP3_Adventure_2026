@@ -1,0 +1,62 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "1667705573",
+    "Type": "Event",
+    "GUID": "{82E8D9E9-E0CD-4E6E-B34A-D6FDA1C57CCF}",
+    "Language": "SFX",
+    "Hash": "{90ABB31A-8F34-8D3C-495E-0690B1320DF6}",
+    "ObjectPath": "Play_SFX_ENEMYHIT",
+    "ShortName": "Play_SFX_ENEMYHIT",
+    "Path": "Event/Play_SFX_ENEMYHIT.bnk",
+    "Media": [
+     {
+      "Id": "125894407",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_ENEMY_HIT02.wav",
+      "Path": "Media/125894407.wem",
+      "CachePath": "B1/{B1D803F4-AB2D-A527-F29C-814A3A400703}.wem"
+     },
+     {
+      "Id": "427181484",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_ENEMY_HIT01.wav",
+      "Path": "Media/427181484.wem",
+      "CachePath": "D6/{D67892C2-61F8-C2EE-A1EC-96DC7A9DA485}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1667705573",
+      "Name": "Play_SFX_ENEMYHIT",
+      "ObjectPath": "\\Events\\Default Work Unit\\ENNEMIES\\Play_SFX_ENEMYHIT",
+      "GUID": "{82E8D9E9-E0CD-4E6E-B34A-D6FDA1C57CCF}",
+      "Color": "10",
+      "MaxAttenuation": "3000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.6812868",
+      "DurationMax": "0.6845004",
+      "MediaRefs": [
+       {
+        "Id": "125894407"
+       },
+       {
+        "Id": "427181484"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{93C72491-3249-9BDB-D87B-671B18C2F800}"
+ }
+}

@@ -1,0 +1,112 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "3668192280",
+    "Type": "Event",
+    "GUID": "{2FA5F3A2-0331-4D43-9888-0E943EB1CDAD}",
+    "Language": "SFX",
+    "Hash": "{B7B97956-9BFA-3531-EFD4-F7BB9EE95968}",
+    "ObjectPath": "Play_NarrativePickUp",
+    "ShortName": "Play_NarrativePickUp",
+    "Path": "Event/Play_NarrativePickUp.bnk",
+    "Media": [
+     {
+      "Id": "335376411",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "CLEAN_VOX_thanks-to-alchemist.wav",
+      "Path": "Media/335376411.wem",
+      "CachePath": "8D/{8D5CF0F1-363B-086F-5FFB-11153D408E4B}.wem"
+     },
+     {
+      "Id": "342192453",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "CLEAN_VOX_mask.wav",
+      "Path": "Media/342192453.wem",
+      "CachePath": "71/{714E5B6C-D0F0-93EF-A6FE-27CE49824B6B}.wem"
+     },
+     {
+      "Id": "951273358",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "CLEAN_VOX_mirror.wav",
+      "Path": "Media/951273358.wem",
+      "CachePath": "93/{93D37697-3647-220E-529E-F0927EC83738}.wem"
+     },
+     {
+      "Id": "959097026",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "CLEAN_VOX_jewelry.wav",
+      "Path": "Media/959097026.wem",
+      "CachePath": "F2/{F21D7F53-0FC5-699D-3DA5-FC9A21BC7926}.wem"
+     }
+    ],
+    "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "2652646462",
+       "Name": "Dialog_Leveler_Soft",
+       "ObjectPath": "\\Effects\\Factory Effects\\Compressor\\Dialog_Leveler_Soft",
+       "GUID": "{9C1D0FCF-896E-4739-A8E8-B1E908F51CE6}",
+       "LibName": "Wwise Compressor",
+       "LibId": "7077891"
+      }
+     ]
+    },
+    "Events": [
+     {
+      "Id": "3668192280",
+      "Name": "Play_NarrativePickUp",
+      "ObjectPath": "\\Events\\Default Work Unit\\VOICES\\Play_NarrativePickUp",
+      "GUID": "{2FA5F3A2-0331-4D43-9888-0E943EB1CDAD}",
+      "Color": "11",
+      "DurationType": "OneShot",
+      "DurationMin": "13.389605",
+      "DurationMax": "18.712584",
+      "MediaRefs": [
+       {
+        "Id": "335376411"
+       },
+       {
+        "Id": "342192453"
+       },
+       {
+        "Id": "951273358"
+       },
+       {
+        "Id": "959097026"
+       }
+      ],
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "2652646462"
+        }
+       ]
+      },
+      "AuxBusRefs": [
+       {
+        "Id": "3458558748",
+        "Name": "REV_Glue",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\REV_Glue",
+        "GUID": "{F806F83C-84C8-4DE1-A076-EB7A8B35B29E}"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{1C729DDA-D3BF-FFE0-06B3-E8E9BBA3D7F3}"
+ }
+}

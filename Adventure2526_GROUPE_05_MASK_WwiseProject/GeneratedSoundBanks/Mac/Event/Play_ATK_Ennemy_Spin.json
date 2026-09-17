@@ -1,0 +1,50 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "2917349654",
+    "Type": "Event",
+    "GUID": "{42851B4F-A934-4448-8533-7E38F3107A74}",
+    "Language": "SFX",
+    "Hash": "{BC4C0F00-C7D3-4AFF-3414-5E2325B78C1F}",
+    "ObjectPath": "Play_ATK_Ennemy_Spin",
+    "ShortName": "Play_ATK_Ennemy_Spin",
+    "Path": "Event/Play_ATK_Ennemy_Spin.bnk",
+    "Media": [
+     {
+      "Id": "463444294",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "ATK_Ennemy_Spin.wav",
+      "Path": "Media/463444294.wem",
+      "CachePath": "11/{11A8529B-136E-4C2B-FBCE-06CBB415F9D4}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2917349654",
+      "Name": "Play_ATK_Ennemy_Spin",
+      "ObjectPath": "\\Events\\Default Work Unit\\ENNEMIES\\Play_ATK_Ennemy_Spin",
+      "GUID": "{42851B4F-A934-4448-8533-7E38F3107A74}",
+      "Color": "10",
+      "MaxAttenuation": "3000",
+      "DurationType": "OneShot",
+      "DurationMin": "2.2333333",
+      "DurationMax": "2.2333333",
+      "MediaRefs": [
+       {
+        "Id": "463444294"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{D4190929-12F8-C3BD-2C06-0F808AE5BFEC}"
+ }
+}

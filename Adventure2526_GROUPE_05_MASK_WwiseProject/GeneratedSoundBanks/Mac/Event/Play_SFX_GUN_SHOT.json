@@ -1,0 +1,50 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "1554298991",
+    "Type": "Event",
+    "GUID": "{E71FF311-E713-4036-AD78-412787A4DDFE}",
+    "Language": "SFX",
+    "Hash": "{1A527ACA-A770-6143-E92E-B816B4B2455D}",
+    "ObjectPath": "Play_SFX_GUN_SHOT",
+    "ShortName": "Play_SFX_GUN_SHOT",
+    "Path": "Event/Play_SFX_GUN_SHOT.bnk",
+    "Media": [
+     {
+      "Id": "870870766",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_PLAYER_GUNSHOT.wav",
+      "Path": "Media/870870766.wem",
+      "CachePath": "AE/{AE6F17BD-FAF3-5863-5AB6-74BF360C2C9F}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1554298991",
+      "Name": "Play_SFX_GUN_SHOT",
+      "ObjectPath": "\\Events\\Default Work Unit\\PLAYER\\Play_SFX_GUN_SHOT",
+      "GUID": "{E71FF311-E713-4036-AD78-412787A4DDFE}",
+      "Color": "6",
+      "MaxAttenuation": "3000",
+      "DurationType": "OneShot",
+      "DurationMin": "2.3124166",
+      "DurationMax": "2.3124166",
+      "MediaRefs": [
+       {
+        "Id": "870870766"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{7E7F79BC-F550-E0F4-6941-8CDCD22A49DE}"
+ }
+}

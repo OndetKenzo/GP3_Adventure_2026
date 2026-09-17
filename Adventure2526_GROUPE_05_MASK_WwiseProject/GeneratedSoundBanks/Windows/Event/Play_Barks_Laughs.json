@@ -1,0 +1,160 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "2382116716",
+    "Type": "Event",
+    "GUID": "{0049DC1E-FEE1-4EE8-BC8E-B91E7FB36F80}",
+    "Language": "SFX",
+    "Hash": "{F3291CE6-D570-EFCC-2EBF-355CBE6DD477}",
+    "ObjectPath": "Play_Barks_Laughs",
+    "ShortName": "Play_Barks_Laughs",
+    "Path": "Event/Play_Barks_Laughs.bnk",
+    "Media": [
+     {
+      "Id": "234095412",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "BarksCrowd_ONOM_Laugh-003.wav",
+      "Path": "Media/234095412.wem",
+      "CachePath": "C1/{C1C7986E-B354-1F1F-B26F-3255CA5DA206}.wem"
+     },
+     {
+      "Id": "485723463",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "BarksCrowd_ONOM_Laugh-006.wav",
+      "Path": "Media/485723463.wem",
+      "CachePath": "96/{963D68FB-7F8B-73FE-D075-335E2B744831}.wem"
+     },
+     {
+      "Id": "537915298",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "BarksCrowd_ONOM_Laugh-007.wav",
+      "Path": "Media/537915298.wem",
+      "CachePath": "59/{590507D2-9000-6545-F15B-E085AB293E4A}.wem"
+     },
+     {
+      "Id": "585041347",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "BarksCrowd_ONOM_Laugh-008.wav",
+      "Path": "Media/585041347.wem",
+      "CachePath": "02/{020AE4D2-3074-09AC-382E-63CA760371E0}.wem"
+     },
+     {
+      "Id": "727590874",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "BarksCrowd_ONOM_Laugh-001.wav",
+      "Path": "Media/727590874.wem",
+      "CachePath": "7E/{7E2CA3EB-86F2-C49B-B62C-3F1F63C9A0A4}.wem"
+     },
+     {
+      "Id": "863512957",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "BarksCrowd_ONOM_Laugh-005.wav",
+      "Path": "Media/863512957.wem",
+      "CachePath": "34/{345C270F-D064-3FFF-F52A-6AD7BAC7C4E8}.wem"
+     },
+     {
+      "Id": "869508062",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "BarksCrowd_ONOM_Laugh-002.wav",
+      "Path": "Media/869508062.wem",
+      "CachePath": "76/{76ACB7A1-625E-666F-AFAB-E8DAD1CE21A1}.wem"
+     },
+     {
+      "Id": "871645862",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "BarksCrowd_ONOM_Laugh-004.wav",
+      "Path": "Media/871645862.wem",
+      "CachePath": "CB/{CB77341D-127B-9C19-9315-8DCEBD2C2AFE}.wem"
+     }
+    ],
+    "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "48620415",
+       "Name": "Have_U_Ever_Been_Outside",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Exteriors\\Have_U_Ever_Been_Outside",
+       "GUID": "{FE29AE8D-FD86-4652-A95D-68D32F5760EC}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      }
+     ]
+    },
+    "Events": [
+     {
+      "Id": "2382116716",
+      "Name": "Play_Barks_Laughs",
+      "ObjectPath": "\\Events\\Default Work Unit\\VOICES\\Play_Barks_Laughs",
+      "GUID": "{0049DC1E-FEE1-4EE8-BC8E-B91E7FB36F80}",
+      "Color": "11",
+      "DurationType": "OneShot",
+      "DurationMin": "2.5136251",
+      "DurationMax": "4.1427083",
+      "MediaRefs": [
+       {
+        "Id": "234095412"
+       },
+       {
+        "Id": "485723463"
+       },
+       {
+        "Id": "537915298"
+       },
+       {
+        "Id": "585041347"
+       },
+       {
+        "Id": "727590874"
+       },
+       {
+        "Id": "863512957"
+       },
+       {
+        "Id": "869508062"
+       },
+       {
+        "Id": "871645862"
+       }
+      ],
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "48620415"
+        }
+       ]
+      },
+      "AuxBusRefs": [
+       {
+        "Id": "3458558748",
+        "Name": "REV_Glue",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\REV_Glue",
+        "GUID": "{F806F83C-84C8-4DE1-A076-EB7A8B35B29E}"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{26BF97D8-B203-73E4-A620-06500C981E26}"
+ }
+}

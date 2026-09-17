@@ -1,0 +1,34 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "3716242838",
+    "Type": "Event",
+    "GUID": "{3DA2AEC7-A938-4C59-90CB-8E0301D1C491}",
+    "Language": "SFX",
+    "Hash": "{A49F8D32-83D9-C354-2B6C-6BC8B480B2A1}",
+    "ObjectPath": "Stop_MUSIC_circus_loop",
+    "ShortName": "Stop_MUSIC_circus_loop",
+    "Path": "Event/Stop_MUSIC_circus_loop.bnk",
+    "Events": [
+     {
+      "Id": "3716242838",
+      "Name": "Stop_MUSIC_circus_loop",
+      "ObjectPath": "\\Events\\Default Work Unit\\MUSIC\\Stop_MUSIC_circus_loop",
+      "GUID": "{3DA2AEC7-A938-4C59-90CB-8E0301D1C491}",
+      "Color": "2",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{4368F9A1-D0F4-BD07-830D-2CA5ECDBAA39}"
+ }
+}

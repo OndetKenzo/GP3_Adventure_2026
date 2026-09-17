@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F987C409-BD73-4D87-BEA1-779BC33E7A3B}" SchemaVersion="123">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{F987C409-BD73-4D87-BEA1-779BC33E7A3B}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="SLIDERS_SETTINGS" ID="{FC0CC1FC-EA4A-4474-BB91-A9B7AF8CF429}" ShortID="319314572">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="9"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<GameParameter Name="Slid_MASTER" ID="{5FD0F003-BB00-43E7-AD62-2EE92E815E9F}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="100"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="Slid_SFX" ID="{787A840D-C7AD-42D4-B68B-019080BEE5F7}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="8"/>
+								<Property Name="InitialValue" Type="Real64" Value="100"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="Slid_MUSIC" ID="{CF6A0BE1-055C-443A-8136-D07C1F8485ED}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="8"/>
+								<Property Name="InitialValue" Type="Real64" Value="100"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+						</GameParameter>
+					</ChildrenList>
+				</Folder>
+				<GameParameter Name="SC_VoiceOnMusic" ID="{52122D29-8C7B-4353-9D96-2AE6612AF028}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="-48"/>
+						<Property Name="Max" Type="Real64" Value="0"/>
+						<Property Name="Min" Type="Real64" Value="-48"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="SC_DoubleSic" ID="{A2F756B7-C553-4424-9C3A-6810527542BA}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

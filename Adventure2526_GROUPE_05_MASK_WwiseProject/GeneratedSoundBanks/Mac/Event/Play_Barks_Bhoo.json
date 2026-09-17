@@ -1,0 +1,148 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "3583323238",
+    "Type": "Event",
+    "GUID": "{72056044-73B2-4FE6-A83B-21F2FC3C5703}",
+    "Language": "SFX",
+    "Hash": "{242DB044-FED1-0FBA-60DA-35C9A5FBCE53}",
+    "ObjectPath": "Play_Barks_Bhoo",
+    "ShortName": "Play_Barks_Bhoo",
+    "Path": "Event/Play_Barks_Bhoo.bnk",
+    "Media": [
+     {
+      "Id": "97793594",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "BarksCrowd_ONOM_Bhoo-004.wav",
+      "Path": "Media/97793594.wem",
+      "CachePath": "56/{568DD205-3189-C847-5EBE-B45DE3A13D00}.wem"
+     },
+     {
+      "Id": "318426632",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "BarksCrowd_ONOM_Bhoo-006.wav",
+      "Path": "Media/318426632.wem",
+      "CachePath": "56/{5655C61D-323F-B90E-7DF5-73B6DC4C50FF}.wem"
+     },
+     {
+      "Id": "523013760",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "BarksCrowd_ONOM_Bhoo-007.wav",
+      "Path": "Media/523013760.wem",
+      "CachePath": "9C/{9CEC3D55-A6F7-C09C-C19F-77EC2F8F0BC7}.wem"
+     },
+     {
+      "Id": "569614771",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "BarksCrowd_ONOM_Bhoo-003.wav",
+      "Path": "Media/569614771.wem",
+      "CachePath": "35/{3584E570-00F1-E6FB-8A48-C759F5980030}.wem"
+     },
+     {
+      "Id": "622417949",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "BarksCrowd_ONOM_Bhoo-002.wav",
+      "Path": "Media/622417949.wem",
+      "CachePath": "CC/{CCEDC1F9-13A7-C600-977A-A1B6D60A4914}.wem"
+     },
+     {
+      "Id": "973057441",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "BarksCrowd_ONOM_Bhoo-001.wav",
+      "Path": "Media/973057441.wem",
+      "CachePath": "A1/{A11D84A1-E045-E103-6394-FC76EB533A85}.wem"
+     },
+     {
+      "Id": "1018257801",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "BarksCrowd_ONOM_Bhoo-005.wav",
+      "Path": "Media/1018257801.wem",
+      "CachePath": "42/{425633A5-38E1-9F60-29DB-D27F0B0F8141}.wem"
+     }
+    ],
+    "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "48620415",
+       "Name": "Have_U_Ever_Been_Outside",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Exteriors\\Have_U_Ever_Been_Outside",
+       "GUID": "{FE29AE8D-FD86-4652-A95D-68D32F5760EC}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      }
+     ]
+    },
+    "Events": [
+     {
+      "Id": "3583323238",
+      "Name": "Play_Barks_Bhoo",
+      "ObjectPath": "\\Events\\Default Work Unit\\VOICES\\Play_Barks_Bhoo",
+      "GUID": "{72056044-73B2-4FE6-A83B-21F2FC3C5703}",
+      "Color": "11",
+      "DurationType": "OneShot",
+      "DurationMin": "3",
+      "DurationMax": "4",
+      "MediaRefs": [
+       {
+        "Id": "97793594"
+       },
+       {
+        "Id": "318426632"
+       },
+       {
+        "Id": "523013760"
+       },
+       {
+        "Id": "569614771"
+       },
+       {
+        "Id": "622417949"
+       },
+       {
+        "Id": "973057441"
+       },
+       {
+        "Id": "1018257801"
+       }
+      ],
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "48620415"
+        }
+       ]
+      },
+      "AuxBusRefs": [
+       {
+        "Id": "3458558748",
+        "Name": "REV_Glue",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\REV_Glue",
+        "GUID": "{F806F83C-84C8-4DE1-A076-EB7A8B35B29E}"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{50FE8FE5-91D9-1FB9-535C-20B7F14ECBED}"
+ }
+}

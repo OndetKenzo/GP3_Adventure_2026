@@ -1,0 +1,46 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "4055695767",
+    "Type": "Event",
+    "GUID": "{C06BBDA0-C74B-4910-A5EC-3B5A58D59A55}",
+    "Language": "SFX",
+    "Hash": "{7449CCF2-F5BA-57BE-213F-1BA6AD2CFF31}",
+    "ObjectPath": "Play_03_Behind_The_Mask",
+    "ShortName": "Play_03_Behind_The_Mask",
+    "Path": "Event/Play_03_Behind_The_Mask.bnk",
+    "Media": [
+     {
+      "Id": "59318327",
+      "Language": "SFX",
+      "Streaming": "true",
+      "Location": "Loose",
+      "ShortName": "03_Behind_The_Mask.wav",
+      "Path": "Media/59318327.wem",
+      "CachePath": "C3/{C383ED90-4AA0-B91D-C25A-F7D11DC08042}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "4055695767",
+      "Name": "Play_03_Behind_The_Mask",
+      "ObjectPath": "\\Events\\Default Work Unit\\PLACEHOLDERS\\Play_03_Behind_The_Mask",
+      "GUID": "{C06BBDA0-C74B-4910-A5EC-3B5A58D59A55}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "59318327"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{922AB3D5-11D4-EA99-6432-DA75C9569E53}"
+ }
+}

@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{76F2A169-9C2B-451C-907D-B0559A20ECC0}" SchemaVersion="123">
+	<AudioObjects>
+		<WorkUnit Name="PLACEHOLDERS" ID="{76F2A169-9C2B-451C-907D-B0559A20ECC0}" PersistMode="Standalone">
+			<ChildrenList>
+				<ActorMixer Name="Attack" ID="{76323017-7D7E-4064-B3F8-AD822D5F2AF0}" ShortID="426313167">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+						<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="85"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="AT_CHARA" ID="{E6F4D40D-624B-447C-B073-61986D964DC3}" WorkUnitID="{A34F677D-20B9-4317-B352-55BBA82FAA17}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="PLAYER" ID="{575DD763-A648-44F3-8C88-5A35187DC211}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="PH_Attack-1" ID="{F1FA76BB-E573-408F-8E62-7A30B1869617}" ShortID="453157233">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="85"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>2</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="AT_CHARA" ID="{E6F4D40D-624B-447C-B073-61986D964DC3}" WorkUnitID="{A34F677D-20B9-4317-B352-55BBA82FAA17}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="PLAYER" ID="{575DD763-A648-44F3-8C88-5A35187DC211}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="PH_Attack-001" ID="{B9BF7DA4-F923-4C1A-8B67-F37CCB9B83A3}">
+									<Language>SFX</Language>
+									<AudioFile>PH_Attack-001.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="333103177"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="PH_Attack-001" ID="{B9BF7DA4-F923-4C1A-8B67-F37CCB9B83A3}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="PH_Attack-2" ID="{6C12BF08-932E-4CF2-9457-492185712D77}" ShortID="800136837">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>48</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>-2400</Value>
+									</ValueList>
+								</Property>
+								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="85"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>9</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="AT_CHARA" ID="{E6F4D40D-624B-447C-B073-61986D964DC3}" WorkUnitID="{A34F677D-20B9-4317-B352-55BBA82FAA17}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="PLAYER" ID="{575DD763-A648-44F3-8C88-5A35187DC211}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="PH_Attack-003" ID="{98D643BC-584E-4E1B-B957-21EE8ED05066}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.116788327258869"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.123925377794716"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>PH_Attack-003.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1043407881"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="PH_Attack-003" ID="{98D643BC-584E-4E1B-B957-21EE8ED05066}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="PH_Attack-3" ID="{96D2ACE9-1D57-46F5-BDBD-527E223B0DC9}" ShortID="1046886221">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>500</Value>
+									</ValueList>
+								</Property>
+								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="85"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="AT_CHARA" ID="{E6F4D40D-624B-447C-B073-61986D964DC3}" WorkUnitID="{A34F677D-20B9-4317-B352-55BBA82FAA17}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="PLAYER" ID="{575DD763-A648-44F3-8C88-5A35187DC211}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="PH_Attack-002" ID="{983EECD3-4BAF-4E19-9822-42B84AA79248}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.180048677898091"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.253041385154074"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>PH_Attack-002.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="66851679"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="PH_Attack-002" ID="{983EECD3-4BAF-4E19-9822-42B84AA79248}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="PH_Attack-4" ID="{9E66772C-5F61-40E1-8E1A-1B1D43835B36}" ShortID="778129716">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>-820</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{31B5262C-19B9-43A2-8B97-1291AAEA1B87}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="85"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="AT_CHARA" ID="{E6F4D40D-624B-447C-B073-61986D964DC3}" WorkUnitID="{A34F677D-20B9-4317-B352-55BBA82FAA17}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="PLAYER" ID="{575DD763-A648-44F3-8C88-5A35187DC211}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="PH_Attack-002" ID="{E7E19FB6-3B4B-4BC6-93EB-05EFD5BD5ABC}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.180048677898091"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.313382023152353"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>PH_Attack-002.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="682069865"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="PH_Attack-002" ID="{E7E19FB6-3B4B-4BC6-93EB-05EFD5BD5ABC}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</ActorMixer>
+				<Sound Name="PH_Amb1" ID="{8BDCFF53-B81F-45DB-A4E1-D9F3129AE5FD}" ShortID="145971095">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="IsStreamingEnabled" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-15</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="AMB" ID="{6417B775-A8AB-422D-AC46-99AFC2EA021D}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="PH_Amb1" ID="{8491C1DE-44AB-46E5-B324-7C896A053AF6}">
+							<Language>SFX</Language>
+							<AudioFile>PH_Amb1.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="685597891"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="PH_Amb1" ID="{8491C1DE-44AB-46E5-B324-7C896A053AF6}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<RandomSequenceContainer Name="SQ_Water" ID="{6BD3B064-78D3-4211-BD68-F1B16FAD9837}" ShortID="659354583">
+					<PropertyList>
+						<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+						<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+						<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
+						<Property Name="UseMaxSoundPerInstance" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="SILENCE_8s" ID="{1FC22A00-B7BE-4FE9-8355-0A577AD6773C}" ShortID="182575315">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SILENCE_8s" ID="{246F87E8-FD74-414F-AF61-8FB666333F5C}">
+									<Language>SFX</Language>
+									<AudioFile>SILENCE_8s.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="805679486"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SILENCE_8s" ID="{246F87E8-FD74-414F-AF61-8FB666333F5C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX_WATER_SPLASHS_01" ID="{923E29A8-B93F-416E-9397-B22548304B28}" ShortID="21422401">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Water, Movement, Hand Movements In Water, Slaps 01 SND67145" ID="{3EC3C565-F3F2-4775-8D81-311CC63CF8D9}">
+									<Language>SFX</Language>
+									<AudioFile>Water, Movement, Hand Movements In Water, Slaps 01 SND67145.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="628374936"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Water, Movement, Hand Movements In Water, Slaps 01 SND67145" ID="{3EC3C565-F3F2-4775-8D81-311CC63CF8D9}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX_WATER_SPLASHS_02" ID="{EC01D94E-9792-420C-9191-2A773D6F2B70}" ShortID="330727200">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Water, Movement, Hand Movements In Water, Slaps 01 SND67145 1" ID="{ACF8153E-F4D4-490A-9EC1-6E99A8F664F0}">
+									<Language>SFX</Language>
+									<AudioFile>Water, Movement, Hand Movements In Water, Slaps 01 SND67145 1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="130221592"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Water, Movement, Hand Movements In Water, Slaps 01 SND67145 1" ID="{ACF8153E-F4D4-490A-9EC1-6E99A8F664F0}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX_WATER_SPLASHS_03" ID="{09E69DE2-8ED9-409C-94C9-8EE43C789604}" ShortID="381565247">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Water, Movement, Hand Movements In Water, Slaps 01 SND67145 2" ID="{0380DE77-3494-4FCF-9AC2-1BA7359AAEA5}">
+									<Language>SFX</Language>
+									<AudioFile>Water, Movement, Hand Movements In Water, Slaps 01 SND67145 2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="51906490"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Water, Movement, Hand Movements In Water, Slaps 01 SND67145 2" ID="{0380DE77-3494-4FCF-9AC2-1BA7359AAEA5}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="Playlist">
+							<Reference>
+								<ObjectRef Name="SFX_WATER_SPLASHS_01" ID="{923E29A8-B93F-416E-9397-B22548304B28}" WorkUnitID="{76F2A169-9C2B-451C-907D-B0559A20ECC0}"/>
+							</Reference>
+							<Reference>
+								<ObjectRef Name="SFX_WATER_SPLASHS_02" ID="{EC01D94E-9792-420C-9191-2A773D6F2B70}" WorkUnitID="{76F2A169-9C2B-451C-907D-B0559A20ECC0}"/>
+							</Reference>
+							<Reference>
+								<ObjectRef Name="SFX_WATER_SPLASHS_03" ID="{09E69DE2-8ED9-409C-94C9-8EE43C789604}" WorkUnitID="{76F2A169-9C2B-451C-907D-B0559A20ECC0}"/>
+							</Reference>
+							<Reference>
+								<ObjectRef Name="SILENCE_8s" ID="{1FC22A00-B7BE-4FE9-8355-0A577AD6773C}" WorkUnitID="{76F2A169-9C2B-451C-907D-B0559A20ECC0}"/>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+				</RandomSequenceContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

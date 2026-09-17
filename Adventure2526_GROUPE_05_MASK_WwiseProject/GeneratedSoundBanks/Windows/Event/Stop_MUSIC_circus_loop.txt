@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3716242838	Stop_MUSIC_circus_loop			\Default Work Unit\MUSIC\Stop_MUSIC_circus_loop	
+

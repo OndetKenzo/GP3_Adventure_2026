@@ -1,0 +1,49 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "1819680957",
+    "Type": "Event",
+    "GUID": "{B8CFC8F6-D728-4B9D-B1B7-747DD0746E22}",
+    "Language": "SFX",
+    "Hash": "{B9B541B9-9D61-F123-06BB-9C35091B63D0}",
+    "ObjectPath": "Play_PH_Attack_1",
+    "ShortName": "Play_PH_Attack_1",
+    "Path": "Event/Play_PH_Attack_1.bnk",
+    "Media": [
+     {
+      "Id": "333103177",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "PH_Attack-001.wav",
+      "Path": "Media/333103177.wem",
+      "CachePath": "F9/{F95439E8-FFDB-D907-5325-BE1EF18DFA84}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1819680957",
+      "Name": "Play_PH_Attack_1",
+      "ObjectPath": "\\Events\\Default Work Unit\\PLACEHOLDERS\\Play_PH_Attack_1",
+      "GUID": "{B8CFC8F6-D728-4B9D-B1B7-747DD0746E22}",
+      "MaxAttenuation": "3000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.6333333",
+      "DurationMax": "0.6333333",
+      "MediaRefs": [
+       {
+        "Id": "333103177"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{F6B55B89-9BFF-36F8-6D4F-3590B3A569F9}"
+ }
+}

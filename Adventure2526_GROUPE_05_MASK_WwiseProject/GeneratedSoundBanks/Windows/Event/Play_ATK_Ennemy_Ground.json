@@ -1,0 +1,50 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "2326928215",
+    "Type": "Event",
+    "GUID": "{4CAD325C-B1E2-4A87-9CC9-211AD361AD51}",
+    "Language": "SFX",
+    "Hash": "{D321C482-9D7A-AFE3-7A89-8B28E0923D26}",
+    "ObjectPath": "Play_ATK_Ennemy_Ground",
+    "ShortName": "Play_ATK_Ennemy_Ground",
+    "Path": "Event/Play_ATK_Ennemy_Ground.bnk",
+    "Media": [
+     {
+      "Id": "112147763",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "ATK_Ennemy_Ground.wav",
+      "Path": "Media/112147763.wem",
+      "CachePath": "57/{57E1B98D-FBD7-C0F2-7983-B1E11D4EECFD}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2326928215",
+      "Name": "Play_ATK_Ennemy_Ground",
+      "ObjectPath": "\\Events\\Default Work Unit\\ENNEMIES\\Play_ATK_Ennemy_Ground",
+      "GUID": "{4CAD325C-B1E2-4A87-9CC9-211AD361AD51}",
+      "Color": "10",
+      "MaxAttenuation": "3000",
+      "DurationType": "OneShot",
+      "DurationMin": "2.9666667",
+      "DurationMax": "2.9666667",
+      "MediaRefs": [
+       {
+        "Id": "112147763"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{68746966-F72D-56F3-4265-502C1FA887A8}"
+ }
+}

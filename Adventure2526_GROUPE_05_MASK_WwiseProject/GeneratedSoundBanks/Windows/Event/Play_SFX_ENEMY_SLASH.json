@@ -1,0 +1,50 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "1237308044",
+    "Type": "Event",
+    "GUID": "{792660CF-B5EA-4BC0-8AE5-A90412B352CF}",
+    "Language": "SFX",
+    "Hash": "{95B9ACAC-BBBB-6772-5821-DDB2831B5357}",
+    "ObjectPath": "Play_SFX_ENEMY_SLASH",
+    "ShortName": "Play_SFX_ENEMY_SLASH",
+    "Path": "Event/Play_SFX_ENEMY_SLASH.bnk",
+    "Media": [
+     {
+      "Id": "768902727",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_ENEMY_SLASH.wav",
+      "Path": "Media/768902727.wem",
+      "CachePath": "A8/{A897E880-D994-6D62-E0C4-CF061519E972}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1237308044",
+      "Name": "Play_SFX_ENEMY_SLASH",
+      "ObjectPath": "\\Events\\Default Work Unit\\ENNEMIES\\Play_SFX_ENEMY_SLASH",
+      "GUID": "{792660CF-B5EA-4BC0-8AE5-A90412B352CF}",
+      "Color": "10",
+      "MaxAttenuation": "3000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.38372916",
+      "DurationMax": "0.38372916",
+      "MediaRefs": [
+       {
+        "Id": "768902727"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{7D30CF74-13A0-7ED1-8490-DEE668604BA7}"
+ }
+}

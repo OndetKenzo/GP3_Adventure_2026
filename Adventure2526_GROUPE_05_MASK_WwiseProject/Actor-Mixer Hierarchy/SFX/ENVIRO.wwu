@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E4768CDE-B8F7-434C-AD36-D9C18D172E93}" SchemaVersion="123">
+	<AudioObjects>
+		<WorkUnit Name="ENVIRO" ID="{E4768CDE-B8F7-434C-AD36-D9C18D172E93}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="13"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<ActorMixer Name="Amb_Water" ID="{426BBD0C-8E1A-4316-B0DD-C0B6A55E2995}" ShortID="62523910">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+						<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="95"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="AT_AMB" ID="{68C95B8B-3129-4E5A-9A33-4429AAF6C177}" WorkUnitID="{A34F677D-20B9-4317-B352-55BBA82FAA17}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="AMB" ID="{6417B775-A8AB-422D-AC46-99AFC2EA021D}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="AMB_WATER_LOOP" ID="{47BB7B6A-D9FE-4191-881F-E2FFE5B1C843}" ShortID="926852274">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="IsStreamingEnabled" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-14</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Water, Movement, Small River, Continuous, Calm, Happy, Steady Stream 02 Schoeps (MS) SND130184" ID="{4EB65618-4EC9-4C06-8515-CAE7CA6F9D69}">
+									<Language>SFX</Language>
+									<AudioFile>Water, Movement, Small River, Continuous, Calm, Happy, Steady Stream 02 Schoeps (MS) SND130184.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="815274519"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Water, Movement, Small River, Continuous, Calm, Happy, Steady Stream 02 Schoeps (MS) SND130184" ID="{4EB65618-4EC9-4C06-8515-CAE7CA6F9D69}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</ActorMixer>
+				<Sound Name="FX_Projo_Off" ID="{15281BAC-B0CA-4FFD-B6CB-3C17A62E227E}" ShortID="785614498">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="MUSIC" ID="{7525EA30-8A60-4CB1-9564-376EE2792A61}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="FX_Projo_Off" ID="{7B0541F0-D619-40BC-A0D3-D74D39A47CBC}">
+							<Language>SFX</Language>
+							<AudioFile>FX_Projo_Off.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="625147117"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="FX_Projo_Off" ID="{7B0541F0-D619-40BC-A0D3-D74D39A47CBC}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="FX_Projo_On" ID="{90FCA8C6-BE5E-444D-80A9-AB9983F719F7}" ShortID="382000692">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{33E49BDF-7142-4E43-80AC-15DC08AEDC75}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="MUSIC" ID="{7525EA30-8A60-4CB1-9564-376EE2792A61}" WorkUnitID="{7D2ED172-DC59-4CB7-AC41-598E6C00668D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="FX_Projo_On" ID="{36F06F29-A784-4216-9F78-EB70C91E0FC7}">
+							<Language>SFX</Language>
+							<AudioFile>FX_Projo_On.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="659344043"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="FX_Projo_On" ID="{36F06F29-A784-4216-9F78-EB70C91E0FC7}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

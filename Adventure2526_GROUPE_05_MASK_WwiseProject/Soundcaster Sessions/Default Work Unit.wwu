@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{8E4A981C-6CEF-4FE1-BCDD-A04ABCE03D6C}" SchemaVersion="123">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{8E4A981C-6CEF-4FE1-BCDD-A04ABCE03D6C}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="Test" ID="{1DC94804-0733-4426-A2C2-9F069FCCBFDD}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="MUSIC_menu_loop" ID="{A68B940D-36FE-4F8F-8A2E-E15AA1F9905B}" WorkUnitID="{26B6BBC4-592D-4ED8-A539-78C684CD023F}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Barks1" ID="{EEBB00E2-0DEE-499B-AF28-6F4856512E37}" WorkUnitID="{76EE331D-661B-4380-BF4F-0A20860152BF}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="SC_VoiceOnMusic" ID="{52122D29-8C7B-4353-9D96-2AE6612AF028}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SC_DoubleSic" ID="{A2F756B7-C553-4424-9C3A-6810527542BA}"/>
+							<Value>0</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="None" ID="{E0F5D113-813A-40D0-9B98-7C74CD5F45A6}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

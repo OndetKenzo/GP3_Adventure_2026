@@ -1,0 +1,47 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "3303856128",
+    "Type": "Event",
+    "GUID": "{B94D1584-5A1B-4119-8708-845F7818A50E}",
+    "Language": "SFX",
+    "Hash": "{612FB92F-3090-EF00-4232-165BB4398666}",
+    "ObjectPath": "Play_MUSIC_menu_loop",
+    "ShortName": "Play_MUSIC_menu_loop",
+    "Path": "Event/Play_MUSIC_menu_loop.bnk",
+    "Media": [
+     {
+      "Id": "633549176",
+      "Language": "SFX",
+      "Streaming": "true",
+      "Location": "Loose",
+      "ShortName": "MUSIC_menu_loop.wav",
+      "Path": "Media/633549176.wem",
+      "CachePath": "90/{90E55DF8-E89F-CD53-5646-ADB897356370}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3303856128",
+      "Name": "Play_MUSIC_menu_loop",
+      "ObjectPath": "\\Events\\Default Work Unit\\MUSIC\\Play_MUSIC_menu_loop",
+      "GUID": "{B94D1584-5A1B-4119-8708-845F7818A50E}",
+      "Color": "2",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "633549176"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{8D5127CF-52C8-AD64-6758-9D53FBA34A17}"
+ }
+}

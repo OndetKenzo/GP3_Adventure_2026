@@ -1,0 +1,50 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "2718718253",
+    "Type": "Event",
+    "GUID": "{B44EBD01-F9AD-41CC-878E-374B5A54931E}",
+    "Language": "SFX",
+    "Hash": "{EF8EC286-9853-9450-73D8-96D73D680638}",
+    "ObjectPath": "Play_SFX_PLAYER_LANDING",
+    "ShortName": "Play_SFX_PLAYER_LANDING",
+    "Path": "Event/Play_SFX_PLAYER_LANDING.bnk",
+    "Media": [
+     {
+      "Id": "591932422",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_PLAYER_LANDING.wav",
+      "Path": "Media/591932422.wem",
+      "CachePath": "C7/{C7483978-6588-C544-16E3-CF1CE5C366EE}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2718718253",
+      "Name": "Play_SFX_PLAYER_LANDING",
+      "ObjectPath": "\\Events\\Default Work Unit\\PLAYER\\Play_SFX_PLAYER_LANDING",
+      "GUID": "{B44EBD01-F9AD-41CC-878E-374B5A54931E}",
+      "Color": "6",
+      "MaxAttenuation": "3000",
+      "DurationType": "OneShot",
+      "DurationMin": "1.4445208",
+      "DurationMax": "1.4445208",
+      "MediaRefs": [
+       {
+        "Id": "591932422"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{89599F38-147D-954B-999D-C54EE8063985}"
+ }
+}

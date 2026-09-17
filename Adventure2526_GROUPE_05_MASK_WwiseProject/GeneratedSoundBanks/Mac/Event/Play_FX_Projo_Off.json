@@ -1,0 +1,49 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "177851147",
+    "Type": "Event",
+    "GUID": "{9EF4A3B7-A10F-4777-A3C1-39E80643810D}",
+    "Language": "SFX",
+    "Hash": "{010B12D3-F752-3129-E043-68CF32C35372}",
+    "ObjectPath": "Play_FX_Projo_Off",
+    "ShortName": "Play_FX_Projo_Off",
+    "Path": "Event/Play_FX_Projo_Off.bnk",
+    "Media": [
+     {
+      "Id": "625147117",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "FX_Projo_Off.wav",
+      "Path": "Media/625147117.wem",
+      "CachePath": "B3/{B39C6AA6-1E19-900B-24EB-09D96E5BC10C}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "177851147",
+      "Name": "Play_FX_Projo_Off",
+      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Play_FX_Projo_Off",
+      "GUID": "{9EF4A3B7-A10F-4777-A3C1-39E80643810D}",
+      "Color": "4",
+      "DurationType": "OneShot",
+      "DurationMin": "2.0333333",
+      "DurationMax": "2.0333333",
+      "MediaRefs": [
+       {
+        "Id": "625147117"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{D1C179A3-10D1-D167-67BA-225EBCBCDF27}"
+ }
+}

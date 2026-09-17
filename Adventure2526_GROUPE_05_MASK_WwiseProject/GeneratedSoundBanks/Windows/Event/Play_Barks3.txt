@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1975264830	Play_Barks3			\Default Work Unit\VOICES\Play_Barks3	
+
+Effect plug-ins	ID	Name	Type				Notes
+	48620415	Have_U_Ever_Been_Outside	Wwise RoomVerb			
+

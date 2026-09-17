@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3265680632	Play_ATK_Ennemy_DoubleSlash			\Default Work Unit\ENNEMIES\Play_ATK_Ennemy_DoubleSlash	
+

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{0DD13C3A-93DC-4E4F-A0A7-4FBA7780E489}" SchemaVersion="123">
+	<States>
+		<WorkUnit Name="Default Work Unit" ID="{0DD13C3A-93DC-4E4F-A0A7-4FBA7780E489}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="NarrativePickUp" ID="{BFC32E02-040F-474C-89F5-EC7DFBA0FC46}">
+					<ChildrenList>
+						<State Name="None" ID="{E0F5D113-813A-40D0-9B98-7C74CD5F45A6}"/>
+						<State Name="Jewelery" ID="{04072FB1-FE22-4756-9C4A-673513E71E6C}"/>
+						<State Name="Mask" ID="{1D39DD5B-C56E-430A-8D80-8AE609A3A495}"/>
+						<State Name="Alchemist" ID="{0B8A9017-3D74-4823-8E77-34ECA6A45048}"/>
+						<State Name="Mirror" ID="{5AD64EDC-4816-49B4-B005-375EE22901A9}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

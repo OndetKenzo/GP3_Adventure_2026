@@ -1,0 +1,7 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3408041958	Play_CLEAN_VOX_you_will_serve			\Default Work Unit\VOICES\Play_CLEAN_VOX_you_will_serve	
+
+Effect plug-ins	ID	Name	Type				Notes
+	2652646462	Dialog_Leveler_Soft	Wwise Compressor			
+	3604890626	High_Pass_60Hz	Wwise Parametric EQ			
+
